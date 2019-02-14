@@ -1,0 +1,6 @@
+framework module BluetoothMessageProtocol {
+  umbrella header "BluetoothMessageProtocol-umbrella.h"
+
+  export *
+  module * { export * }
+}

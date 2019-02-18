@@ -1,6 +1,6 @@
 {
   "name": "ScoscheSDK24",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "summary": "Scosche 24 SDK",
   "description": "Framework for comunicating with Scosche Rythmn 24",
   "homepage": "https://www.scosche.com",
@@ -16,10 +16,8 @@
   },
   "swift_version": "4.2",
   "source_files": [
-    "SDK24/FIT_SDK/*.{h,m}",
-    "SDK24/*.swift",
-    "SDK24/Scosche/*.swift",
-    "SDK24/Utility/*.swift"
+    "ScoscheSDK24/FIT_SDK/*.{h,m}",
+    "ScoscheSDK24/*.swift"
   ],
   "dependencies": {
     "BluetoothMessageProtocol": [

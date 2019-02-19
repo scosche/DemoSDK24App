@@ -43,6 +43,14 @@ class scanViewController: SchoscheViewController, UITableViewDelegate, UITableVi
         tableview.reloadData()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "gotoData" {
+            if let destinationVC = segue.destination as? dataViewController {
+                destinationVC.monitor = monitor
+            }
+        }
+    }
+    
     //MARK:- IB Actions
     @IBAction func scanButton() {
         ScoscheDeviceScan(UIview: self)
@@ -57,21 +65,33 @@ class scanViewController: SchoscheViewController, UITableViewDelegate, UITableVi
             return 1
         }
     }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        switch row {
+        case .device:
+            return 150
+        case .blank:
+            return 57
+        }
+    }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch row {
         case .device:
             let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath as IndexPath) as! scanTableViewCell
             let monitor: ScoscheMonitor = discoveredMonitors[indexPath.row]
-            let connectString = "Scan View: Monitor Table Cell - Connect Message"
-            cell.header.text = monitor.deviceName ?? ""
-            cell.status.text = connectString
+            cell.header.text = "Device Name: \(monitor.deviceName ?? "Unnamed")"
             return cell
         case .blank:
             let cell = tableView.dequeueReusableCell(withIdentifier: "blankcell", for: indexPath as IndexPath)
             return cell
         }
        
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        monitor = discoveredMonitors[indexPath.row]
+        ConnectToDevice(monitor: monitor)
+        self.performSegue(withIdentifier: "gotoData", sender: nil)
     }
 }
 

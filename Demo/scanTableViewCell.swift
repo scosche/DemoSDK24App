@@ -12,7 +12,6 @@ import UIKit
 
 class scanTableViewCell: UITableViewCell {
     @IBOutlet var header: UILabel!
-    @IBOutlet var status: UILabel!
     
     
     override func awakeFromNib() {

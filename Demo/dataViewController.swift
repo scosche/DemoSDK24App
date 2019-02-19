@@ -17,11 +17,12 @@ class dataViewController: SchoscheViewController {
     
     //MARK:- Local Vars
     
-    
     //MARK:- Functions
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print("signal quaility: \(String(describing: monitor.signalQuality))")
+        print("heartrate: \(String(describing: monitor.heartRateInformation))")
     }
     
     

@@ -15,6 +15,7 @@
 		984A1DED221601A100FDCCC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984A1DEB221601A100FDCCC8 /* LaunchScreen.storyboard */; };
 		984A1DF522172ED600FDCCC8 /* dataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984A1DF422172ED600FDCCC8 /* dataViewController.swift */; };
 		984A1DF722172F1700FDCCC8 /* workoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984A1DF622172F1700FDCCC8 /* workoutViewController.swift */; };
+		98C1C408221C8A650025E53F /* scanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C1C407221C8A650025E53F /* scanTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		984A1DEE221601A100FDCCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		984A1DF422172ED600FDCCC8 /* dataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataViewController.swift; sourceTree = "<group>"; };
 		984A1DF622172F1700FDCCC8 /* workoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutViewController.swift; sourceTree = "<group>"; };
+		98C1C407221C8A650025E53F /* scanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scanTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				984A1DF422172ED600FDCCC8 /* dataViewController.swift */,
 				984A1DF622172F1700FDCCC8 /* workoutViewController.swift */,
 				984A1DE6221601A000FDCCC8 /* Main.storyboard */,
+				98C1C407221C8A650025E53F /* scanTableViewCell.swift */,
 				984A1DE9221601A100FDCCC8 /* Assets.xcassets */,
 				984A1DEB221601A100FDCCC8 /* LaunchScreen.storyboard */,
 				984A1DEE221601A100FDCCC8 /* Info.plist */,
@@ -228,6 +231,7 @@
 				984A1DF522172ED600FDCCC8 /* dataViewController.swift in Sources */,
 				984A1DE5221601A000FDCCC8 /* scanViewController.swift in Sources */,
 				984A1DE3221601A000FDCCC8 /* AppDelegate.swift in Sources */,
+				98C1C408221C8A650025E53F /* scanTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,15 +378,16 @@
 			baseConfigurationReference = 5AB8C1A3FE68736664AB1C1F /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = K82A2U6DU4;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.npe-inc.Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.npe-inc.DemoSdk24";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "SDK24 Demo DEV";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -393,15 +398,16 @@
 			baseConfigurationReference = 81CECC740D08C119DDC030FE /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = K82A2U6DU4;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.npe-inc.Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.npe-inc.DemoSdk24";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "SDK24 Demo DEV";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

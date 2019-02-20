@@ -8,6 +8,7 @@
 
 import Foundation
 import ScoscheSDK24
+import CoreBluetooth
 
 
 class dataViewController: SchoscheViewController {
@@ -21,9 +22,17 @@ class dataViewController: SchoscheViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("signal quaility: \(String(describing: monitor.signalQuality))")
-        print("heartrate: \(String(describing: monitor.heartRateInformation))")
+        ConnectToDevice(monitor: monitor, UIview: self)
+        poll()
     }
     
-    
+    func poll(){
+        print("hr: \(heartRate)")
+        print("signal: \(signalQuality)")
+        print("batt: \(batteryLevel)")
+        print("user age: \(String(describing: monitor.r24UserData?.ageInMonths))")
+        delay(2) {
+            self.poll()
+        }
+    }
 }

@@ -30,8 +30,8 @@ class dataViewController: SchoscheViewController {
         print("hr: \(heartRate)")
         print("signal: \(signalQuality)")
         print("batt: \(batteryLevel)")
-        print("user age: \(String(describing: monitor.r24UserData?.ageInMonths))")
-        delay(2) {
+        print("user age: \(ageInMonths)")
+        delay(10) {
             self.poll()
         }
     }

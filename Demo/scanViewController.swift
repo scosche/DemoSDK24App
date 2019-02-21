@@ -65,14 +65,6 @@ class scanViewController: SchoscheViewController, UITableViewDelegate, UITableVi
             return 1
         }
     }
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        switch row {
-        case .device:
-            return 150
-        case .blank:
-            return 57
-        }
-    }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch row {

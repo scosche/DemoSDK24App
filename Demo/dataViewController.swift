@@ -37,21 +37,30 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
         listData.append("Resting Heart Rate: \(restingHeartRate)")
         listData.append("Signal Quality: \(signalQuality)")
         listData.append("Battery Level: \(batteryLevel)")
-        listData.append("Gender: \(gender)")
-        listData.append("Age: \(ageInMonths)")
-        listData.append("Weight: \(weight)")
-        listData.append("Height: \(height)")
-
+        listData.append("User Name: \(userInfo.name)")
+        listData.append("Gender: \(userInfo.gender)")
+        listData.append("Age: \(userInfo.age)")
+        listData.append("Weight: \(userInfo.weight)")
+        listData.append("Height: \(userInfo.height)")
+        listData.append("FitFile Count: \(fitFileList.count)")
         tableview.reloadData()
 
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "gotoWorkout" {
-            if let destinationVC = segue.destination as? dataViewController {
+            if let destinationVC = segue.destination as? workoutViewController {
                 destinationVC.monitor = monitor
             }
         }
+        if segue.identifier == "gotoUser" {
+            if let destinationVC = segue.destination as? userViewController {
+                destinationVC.monitor = monitor
+            }
+        }
+    }
+    @IBAction func unwindToData(_ unwindSegue: UIStoryboardSegue) {
+        // do the thing
     }
     
     //MARK:- Table

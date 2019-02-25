@@ -28,48 +28,47 @@ class modeViewController: UIViewController {
         if segue.identifier == "unwind" {
             if let destinationVC = segue.destination as? dataViewController {
                 destinationVC.sportMode = tempMode
+                destinationVC.returnState = .mode
             }
         }
     }
+    func back(){
+        self.performSegue(withIdentifier: "unwind", sender: nil)
+    }
     
     @IBAction func cancel() {
-        self.performSegue(withIdentifier: "unwind", sender: nil)
-        
+        back()
     }
     
     @IBAction func hr() {
         tempMode = CharacteristicScoscheRhythm24SportMode.SportModeType.heartRate
-        self.performSegue(withIdentifier: "unwind", sender: nil)
+        back()
     }
     
     @IBAction func run() {
         tempMode = CharacteristicScoscheRhythm24SportMode.SportModeType.running
-        self.performSegue(withIdentifier: "unwind", sender: nil)
+        back()
     }
     
     @IBAction func cycle() {
         tempMode = CharacteristicScoscheRhythm24SportMode.SportModeType.cycling
-        self.performSegue(withIdentifier: "unwind", sender: nil)
+        back()
     }
     
     @IBAction func swim() {
         tempMode = CharacteristicScoscheRhythm24SportMode.SportModeType.swimming
-        self.performSegue(withIdentifier: "unwind", sender: nil)
+        back()
     }
     
     @IBAction func dua() {
         tempMode = CharacteristicScoscheRhythm24SportMode.SportModeType.duathlon
-        self.performSegue(withIdentifier: "unwind", sender: nil)
+        back()
     }
     
     @IBAction func tri() {
         tempMode = CharacteristicScoscheRhythm24SportMode.SportModeType.triathlon
-        self.performSegue(withIdentifier: "unwind", sender: nil)
+        back()
     }
-    
-    
-    
-    
     
     
 }

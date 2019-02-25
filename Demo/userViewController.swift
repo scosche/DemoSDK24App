@@ -22,6 +22,7 @@ class userViewController: UIViewController {
     
     //MARK:- Local Vars
     var tempUserInfo: UserInfo!
+    var saveInfo = false
     
     //MARK:- Functions
     override func viewDidLoad() {
@@ -29,11 +30,29 @@ class userViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "unwind" {
+            if let destinationVC = segue.destination as? dataViewController {
+                if saveInfo {
+                    destinationVC.returnState = .user
+                    destinationVC.userInfo = tempUserInfo
+                } else {
+                    destinationVC.returnState = .normal
+                }
+            }
+        }
+    }
+    
+    func back(){
+        self.performSegue(withIdentifier: "unwind", sender: nil)
+    }
+    
     @IBAction func save() {
-        
+        back()
     }
     
     @IBAction func cancel() {
+        back()
     }
     
 }

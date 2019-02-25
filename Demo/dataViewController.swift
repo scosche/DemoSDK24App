@@ -48,10 +48,11 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
         }
         listData.append(cellRow(type: .normal, value: "Connection Status: \(connected)"))
         listData.append(cellRow(type: .normal, value: "Heart Rate: \(heartRate)"))
-        listData.append(cellRow(type: .normal, value: "Resting Heart Rate: \(restingHeartRate)"))
+        
         listData.append(cellRow(type: .normal, value: "Signal Quality: \(signalQuality)"))
         listData.append(cellRow(type: .normal, value: "Battery Level: \(batteryLevel)"))
         listData.append(cellRow(type: .user, value: "User Name: \(userInfo.name)"))
+        listData.append(cellRow(type: .user, value: "Resting Heart Rate: \(userInfo.restinghr)"))
         listData.append(cellRow(type: .user, value: "Gender: \(userInfo.gender)"))
         listData.append(cellRow(type: .user, value: "Age: \(userInfo.age)"))
         listData.append(cellRow(type: .user, value: "Weight: \(userInfo.weight)"))
@@ -83,7 +84,7 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
         print("Unwind to data view")
         
         if returnState == .user {
-            //update user files on device
+            ScoscheDeviceUpdateInfo(monitor: monitor, userInfo: userInfo)
         }
         if returnState == .mode {
             self.onModeChangeAction?(sportMode)

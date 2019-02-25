@@ -18,16 +18,24 @@ class userViewController: UIViewController {
     @IBOutlet var gender: UISegmentedControl!
     @IBOutlet var weight: UITextField!
     @IBOutlet var height: UITextField!
+    @IBOutlet var unit: UISegmentedControl!
     
     
     //MARK:- Local Vars
-    var tempUserInfo: UserInfo!
+    var tempUserInfo: ScoscheUserInfo!
     var saveInfo = false
     
     //MARK:- Functions
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        name.text  = tempUserInfo.name
+        dob.text = tempUserInfo.dob
+        gender.selectedSegmentIndex = tempUserInfo.gender
+        unit.selectedSegmentIndex = tempUserInfo.unit
+        weight.text = String(tempUserInfo.weight)
+        height.text = String(tempUserInfo.height)
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -48,11 +56,26 @@ class userViewController: UIViewController {
     }
     
     @IBAction func save() {
+        saveInfo = true
+        tempUserInfo.name = name.text ?? "Unknown"
+        tempUserInfo.dob = name.text ?? "1/1/1970"
+        tempUserInfo.age = ScoscheGetAgeInMonths(date: tempUserInfo.dob)
+        tempUserInfo.gender = gender.selectedSegmentIndex
+        tempUserInfo.unit = unit.selectedSegmentIndex
+        if unit.selectedSegmentIndex == 1 {
+            tempUserInfo.weight = Double(weight.text!) ?? 81.6
+            tempUserInfo.height = Double(height.text!) ?? 178.0
+        } else {
+            tempUserInfo.weight = Double(weight.text!) ?? 180
+            tempUserInfo.height = Double(height.text!) ?? 70
+        }
         back()
     }
     
     @IBAction func cancel() {
         back()
     }
+
+   
     
 }

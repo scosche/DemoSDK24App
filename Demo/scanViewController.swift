@@ -72,6 +72,7 @@ class scanViewController: SchoscheViewController, UITableViewDelegate, UITableVi
             let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath as IndexPath) as! scanTableViewCell
             let monitor: ScoscheMonitor = discoveredMonitors[indexPath.row]
             cell.header.text = "Device Name: \(monitor.deviceName ?? "Unnamed")"
+            cell.accessoryType = .disclosureIndicator
             return cell
         case .blank:
             let cell = tableView.dequeueReusableCell(withIdentifier: "blankcell", for: indexPath as IndexPath)

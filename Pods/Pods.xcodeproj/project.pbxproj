@@ -292,7 +292,6 @@
 		95956992DE13ECB8593FADBB348B142F /* Nibble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894799C87EA7AB11F89A2AF4CD7245F0 /* Nibble.swift */; };
 		966E6DDC823DE2365727FF2FD7A6B66D /* CharacteristicAnaerobicThreshold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E7D2B416EA94C609715EC7FAD8B5E /* CharacteristicAnaerobicThreshold.swift */; };
 		96D723DDD49B9F58C96CC836D1B0425F /* ServiceHapSecuritySystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108648E8C3F3F4E599ACABBE04C97945 /* ServiceHapSecuritySystem.swift */; };
-		96D7CABD230812D8EAB98555D7E5049D /* EventLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841052E37EFE715A415077F303ED831 /* EventLogger.swift */; };
 		96E1A1580C64E60B6640F7D5A438BE90 /* CharacteristicIndoorBikeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D97424F74BAD57DC55070FC5E2E3AD /* CharacteristicIndoorBikeData.swift */; };
 		978556E3A765464EFE4BFAA7DCB19E0F /* UnitSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2D0CCBCCEC3441E8A4A7AB00460A5E /* UnitSpeed.swift */; };
 		980EE5ED221F337D008DC83F /* FitFileMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980EE5EC221F337D008DC83F /* FitFileMetaData.swift */; };
@@ -980,7 +979,6 @@
 		B713D0531852D9AC01F3D3E18B5647CF /* ScoscheSDK24.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScoscheSDK24.modulemap; sourceTree = "<group>"; };
 		B77CBAE9B932C7E3D61270120EB7E2EE /* CharacteristicRingerSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicRingerSetting.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicRingerSetting.swift; sourceTree = "<group>"; };
 		B835633A332FC0C23CBFF40A0A459BAB /* FitnessMachineControlCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FitnessMachineControlCode.swift; path = Sources/BluetoothMessageProtocol/Types/FitnessMachineControl/FitnessMachineControlCode.swift; sourceTree = "<group>"; };
-		B841052E37EFE715A415077F303ED831 /* EventLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventLogger.swift; path = ScoscheSDK24/EventLogger.swift; sourceTree = "<group>"; };
 		B8614315E08D97CE986BA0181B74E34D /* CharacteristicTreadmillData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicTreadmillData.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicTreadmillData.swift; sourceTree = "<group>"; };
 		B8C3B3DF3DE3CD7E534945E2D7AB7227 /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
 		B993CA92CE2FC7EBF93EAD1EF56D8441 /* ServiceBodyComposition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceBodyComposition.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceBodyComposition.swift; sourceTree = "<group>"; };
@@ -1761,7 +1759,6 @@
 				67E8FBE595BA3A8B0E228DE0BFF257D9 /* DataExtention.swift */,
 				FE163AD48A1F53511C09486C87A163EB /* DateExtension.swift */,
 				75F375675D3A88573C01B1E9D388502D /* Diagnostics.swift */,
-				B841052E37EFE715A415077F303ED831 /* EventLogger.swift */,
 				623C2172DF741375E6443B1D08904012 /* FirmwareBundle.swift */,
 				9C1FE430400D10198875E1644B9CB5D9 /* FitDirectory.swift */,
 				0DA922287CF4F725350AE722FE925CD3 /* HeartRateZone.swift */,
@@ -2678,7 +2675,6 @@
 				F2C25DDBDDE79725A31A10E297B51A3E /* DataExtention.swift in Sources */,
 				A51331F2ACE14E1691F7F3658450841F /* DateExtension.swift in Sources */,
 				ED5AE9A724DC3D165F4ED9FD4D222CF0 /* Diagnostics.swift in Sources */,
-				96D7CABD230812D8EAB98555D7E5049D /* EventLogger.swift in Sources */,
 				EC470560AA33BC403D3A0A8AEA54960D /* FirmwareBundle.swift in Sources */,
 				239788255DD52A86790F775D8630718D /* FitDirectory.swift in Sources */,
 				FEA1157BF6369786540B2AFE89026695 /* HeartRateZone.swift in Sources */,

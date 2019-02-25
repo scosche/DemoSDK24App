@@ -16,33 +16,47 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
     
     @IBOutlet var tableview: UITableView!
     
+    enum cellType {
+        case normal
+        case user
+        case mode
+        case fit
+    }
+    struct cellRow {
+        let type: cellType
+        let value: String
+    }
     
     //MARK:- Local Vars
-    var listData: [String] = []
+    var listData: [cellRow] = []
+    var returnState: cellType = .normal
     
     //MARK:- Functions
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         ConnectToDevice(monitor: monitor, UIview: self)
-        listData.append("Start Up: \(monitor.deviceName ?? "Unknown")")
+        listData.append(cellRow(type: .normal, value: "Start Up: \(monitor.deviceName ?? "Unknown")"))
        // reloadTableData()
     }
     
     override func reloadTableData(){
         listData = []
-        listData.append("Sensor Name: \(monitor.deviceName ?? "Unknown")")
-        listData.append("Connection Status: \(connected)")
-        listData.append("Heart Rate: \(heartRate)")
-        listData.append("Resting Heart Rate: \(restingHeartRate)")
-        listData.append("Signal Quality: \(signalQuality)")
-        listData.append("Battery Level: \(batteryLevel)")
-        listData.append("User Name: \(userInfo.name)")
-        listData.append("Gender: \(userInfo.gender)")
-        listData.append("Age: \(userInfo.age)")
-        listData.append("Weight: \(userInfo.weight)")
-        listData.append("Height: \(userInfo.height)")
-        listData.append("FitFile Count: \(fitFileList.count)")
+        listData.append(cellRow(type: .normal, value: "Sensor Name: \(monitor.deviceName ?? "Unknown")"))
+        if monitor.r24SportMode != nil {
+         listData.append(cellRow(type: .mode, value: "Sport Mode: \(sportMode.stringValue)"))
+        }
+        listData.append(cellRow(type: .normal, value: "Connection Status: \(connected)"))
+        listData.append(cellRow(type: .normal, value: "Heart Rate: \(heartRate)"))
+        listData.append(cellRow(type: .normal, value: "Resting Heart Rate: \(restingHeartRate)"))
+        listData.append(cellRow(type: .normal, value: "Signal Quality: \(signalQuality)"))
+        listData.append(cellRow(type: .normal, value: "Battery Level: \(batteryLevel)"))
+        listData.append(cellRow(type: .user, value: "User Name: \(userInfo.name)"))
+        listData.append(cellRow(type: .user, value: "Gender: \(userInfo.gender)"))
+        listData.append(cellRow(type: .user, value: "Age: \(userInfo.age)"))
+        listData.append(cellRow(type: .user, value: "Weight: \(userInfo.weight)"))
+        listData.append(cellRow(type: .user, value: "Height: \(userInfo.height)"))
+        listData.append(cellRow(type: .fit, value: "FitFile Count: \(fitFileList.count)"))
         tableview.reloadData()
 
     }
@@ -50,17 +64,31 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "gotoWorkout" {
             if let destinationVC = segue.destination as? workoutViewController {
-                destinationVC.monitor = monitor
+                destinationVC.fitFileList = fitFileList
             }
         }
         if segue.identifier == "gotoUser" {
             if let destinationVC = segue.destination as? userViewController {
-                destinationVC.monitor = monitor
+                destinationVC.tempUserInfo = userInfo
+                
+            }
+        }
+        if segue.identifier == "gotoMode" {
+            if let destinationVC = segue.destination as? modeViewController {
+                destinationVC.tempMode = sportMode
             }
         }
     }
     @IBAction func unwindToData(_ unwindSegue: UIStoryboardSegue) {
-        // do the thing
+        print("Unwind to data view")
+        
+        if returnState == .user {
+            //update user files on device
+        }
+        if returnState == .mode {
+            self.onModeChangeAction?(sportMode)
+        }
+        reloadTableData()
     }
     
     //MARK:- Table
@@ -69,12 +97,28 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
+        let row = listData[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath as IndexPath) as! dataTableViewCell
-        cell.header.text = listData[indexPath.row]
+        cell.header.text = row.value
+        if row.type == .normal {
+            cell.accessoryType = .none
+        } else {
+            cell.accessoryType = .disclosureIndicator
+        }
         return cell
-      
-        
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let row = listData[indexPath.row]
+        if row.type == .fit {
+           self.performSegue(withIdentifier: "gotoWorkout", sender: nil)
+        }
+        if row.type == .user {
+            self.performSegue(withIdentifier: "gotoUser", sender: nil)
+        }
+        if row.type == .mode {
+            self.performSegue(withIdentifier: "gotoMode", sender: nil)
+        }
     }
     
 }

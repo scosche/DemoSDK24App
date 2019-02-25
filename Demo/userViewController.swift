@@ -10,7 +10,7 @@ import Foundation
 import ScoscheSDK24
 
 
-class userViewController: SchoscheViewController {
+class userViewController: UIViewController {
     //MARK:- IB Refs
     
     @IBOutlet var name: UITextField!
@@ -21,6 +21,7 @@ class userViewController: SchoscheViewController {
     
     
     //MARK:- Local Vars
+    var tempUserInfo: UserInfo!
     
     //MARK:- Functions
     override func viewDidLoad() {
@@ -30,6 +31,9 @@ class userViewController: SchoscheViewController {
     
     @IBAction func save() {
         
+    }
+    
+    @IBAction func cancel() {
     }
     
 }

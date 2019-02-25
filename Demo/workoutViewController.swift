@@ -10,13 +10,13 @@ import Foundation
 import ScoscheSDK24
 
 
-class workoutViewController: SchoscheViewController {
+class workoutViewController: UIViewController {
     //MARK:- IB Refs
     
     
     
     //MARK:- Local Vars
-    
+    var fitFileList: [FitFileMetaData] = []
     
     //MARK:- Functions
     override func viewDidLoad() {

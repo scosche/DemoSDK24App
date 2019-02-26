@@ -16,12 +16,14 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
     
     @IBOutlet var tableview: UITableView!
     
+    // set cell type
     enum cellType {
         case normal
         case user
         case mode
         case fit
     }
+    // combine cell type with string for display
     struct cellRow {
         let type: cellType
         let value: String
@@ -35,7 +37,7 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        ConnectToDevice(monitor: monitor, monitorView: self)
+        ScoscheDeviceConnect(monitor: monitor, monitorView: self)
         listData.append(cellRow(type: .normal, value: "Start Up: \(monitor.deviceName ?? "Unknown")"))
     }
     
@@ -61,7 +63,12 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
         listData.append(cellRow(type: .normal, value: "Zone Two: \(userInfo.hrZoneTwo)"))
         listData.append(cellRow(type: .normal, value: "Zone Three: \(userInfo.hrZoneThree)"))
         listData.append(cellRow(type: .normal, value: "Zone Four: \(userInfo.hrZoneFour)"))
-        listData.append(cellRow(type: .fit, value: "FitFile Count: \(fitFileList.count)"))
+        if fitFileList.count == 0 {
+            listData.append(cellRow(type: .normal, value: "FitFile Count: \(fitFileList.count)"))
+        } else {
+            listData.append(cellRow(type: .fit, value: "FitFile Count: \(fitFileList.count)"))
+        }
+        
         tableview.reloadData()
 
     }

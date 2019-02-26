@@ -186,7 +186,7 @@
         <!--Workouts-->
         <scene sceneID="3Ye-zD-Op2">
             <objects>
-                <viewController title="Workouts" id="HHD-lq-SMS" sceneMemberID="viewController">
+                <viewController title="Workouts" id="HHD-lq-SMS" customClass="workoutViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XqT-6C-iKe" customClass="wo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -241,6 +241,7 @@
                         <viewLayoutGuide key="safeArea" id="ASj-V6-oYJ"/>
                     </view>
                     <connections>
+                        <outlet property="tableview" destination="S6H-vC-WdN" id="3iN-lD-vA4"/>
                         <segue destination="oVQ-F7-z9w" kind="unwind" identifier="unwind" unwindAction="unwindToData:" id="EB3-Pt-dZY"/>
                     </connections>
                 </viewController>

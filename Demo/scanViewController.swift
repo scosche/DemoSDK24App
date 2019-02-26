@@ -30,7 +30,7 @@ class scanViewController: SchoscheViewController, UITableViewDelegate, UITableVi
         //Lets make sure we nil things out
         discoveredMonitors.removeAll()
         ScoscheDeviceReset()
-        ScoscheDeviceScan(UIview: self)
+        ScoscheDeviceScan(monitorView: self)
         
     }
     override func reloadTableData(){
@@ -53,7 +53,7 @@ class scanViewController: SchoscheViewController, UITableViewDelegate, UITableVi
     
     //MARK:- IB Actions
     @IBAction func scanButton() {
-        ScoscheDeviceScan(UIview: self)
+        ScoscheDeviceScan(monitorView: self)
     }
     
     //MARK:- Table
@@ -83,7 +83,7 @@ class scanViewController: SchoscheViewController, UITableViewDelegate, UITableVi
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         monitor = discoveredMonitors[indexPath.row]
-        ScoscheDeviceStopScan(UIview:self)
+        ScoscheDeviceStopScan(monitorView: self)
         self.performSegue(withIdentifier: "gotoData", sender: nil)
     }
 }

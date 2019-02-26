@@ -35,7 +35,7 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        ConnectToDevice(monitor: monitor, UIview: self)
+        ConnectToDevice(monitor: monitor, monitorView: self)
         listData.append(cellRow(type: .normal, value: "Start Up: \(monitor.deviceName ?? "Unknown")"))
     }
     
@@ -54,13 +54,13 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
         listData.append(cellRow(type: .user, value: "Resting Heart Rate: \(userInfo.restinghr)"))
         listData.append(cellRow(type: .user, value: "Maximum Heart Rate: \(userInfo.maxhr)"))
         listData.append(cellRow(type: .user, value: "Gender: \(userInfo.gender)"))
-        listData.append(cellRow(type: .user, value: "Age: \(userInfo.age)"))
+        listData.append(cellRow(type: .user, value: "Age in Months: \(userInfo.age)"))
         listData.append(cellRow(type: .user, value: "Weight: \(userInfo.weight)"))
         listData.append(cellRow(type: .user, value: "Height: \(userInfo.height)"))
         listData.append(cellRow(type: .normal, value: "Zone One: \(userInfo.hrZoneOne)"))
-        listData.append(cellRow(type: .normal, value: "Zone Two: \(userInfo.hrZoneOne)"))
-        listData.append(cellRow(type: .normal, value: "Zone Three: \(userInfo.hrZoneOne)"))
-        listData.append(cellRow(type: .normal, value: "Zone Four: \(userInfo.hrZoneOne)"))
+        listData.append(cellRow(type: .normal, value: "Zone Two: \(userInfo.hrZoneTwo)"))
+        listData.append(cellRow(type: .normal, value: "Zone Three: \(userInfo.hrZoneThree)"))
+        listData.append(cellRow(type: .normal, value: "Zone Four: \(userInfo.hrZoneFour)"))
         listData.append(cellRow(type: .fit, value: "FitFile Count: \(fitFileList.count)"))
         tableview.reloadData()
 
@@ -89,6 +89,7 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
         
         if returnState == .user {
             ScoscheDeviceUpdateInfo(monitor: monitor, userInfo: userInfo)
+            ScoscheUserInfoWrite(userInfo: userInfo)
         }
         if returnState == .mode {
             self.onModeChangeAction?(sportMode)

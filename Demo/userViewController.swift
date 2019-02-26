@@ -20,6 +20,7 @@ class userViewController: UIViewController {
     @IBOutlet var height: UITextField!
     @IBOutlet var unit: UISegmentedControl!
     @IBOutlet var rhr: UITextField!
+    @IBOutlet var mhr: UITextField!
     
     
     //MARK:- Local Vars
@@ -37,6 +38,7 @@ class userViewController: UIViewController {
         weight.text = String(tempUserInfo.weight)
         height.text = String(tempUserInfo.height)
         rhr.text = String(tempUserInfo.restinghr)
+        mhr.text = String(tempUserInfo.maxhr)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -58,26 +60,91 @@ class userViewController: UIViewController {
     
     @IBAction func save() {
         saveInfo = true
-        tempUserInfo.name = name.text ?? "Unknown"
-        tempUserInfo.dob = name.text ?? "1/1/1970"
-        tempUserInfo.age = ScoscheGetAgeInMonths(date: tempUserInfo.dob)
+        
+        // Validate Inputs
+        if name.text != ""{
+            tempUserInfo.name = name.text!
+            name.backgroundColor = UIColor.white
+        } else {
+            name.backgroundColor = UIColor.red
+            saveInfo = false
+        }
+        
+        if dob.text != ""{
+            // validate that data can be read
+            let dateFormatterGet = DateFormatter()
+            dateFormatterGet.dateFormat = "MM/dd/yyyy"
+            let testDate = dob.text
+            
+            if dateFormatterGet.date(from: testDate!) != nil {
+                tempUserInfo.dob = dob.text!
+                tempUserInfo.age = ScoscheGetAgeInMonths(date: tempUserInfo.dob)
+                dob.backgroundColor = UIColor.white
+            } else {
+                dob.backgroundColor = UIColor.red
+                saveInfo = false
+            }
+            
+        } else {
+            dob.backgroundColor = UIColor.red
+            saveInfo = false
+        }
+        
+        
+        
         tempUserInfo.gender = gender.selectedSegmentIndex
         tempUserInfo.unit = unit.selectedSegmentIndex
-        if unit.selectedSegmentIndex == 1 {
-            tempUserInfo.weight = Double(weight.text!) ?? 81.6
-            tempUserInfo.height = Double(height.text!) ?? 178.0
+        
+        if weight.text != "" && Double(weight.text!) !=  nil {
+            tempUserInfo.weight = Double(weight.text!)!
+            weight.backgroundColor = UIColor.white
         } else {
-            tempUserInfo.weight = Double(weight.text!) ?? 180
-            tempUserInfo.height = Double(height.text!) ?? 70
+            weight.backgroundColor = UIColor.red
+            saveInfo = false
         }
-        tempUserInfo.restinghr = Int(rhr.text!) ?? 70
-        back()
+        
+        if height.text != "" && Double(height.text!) !=  nil {
+            tempUserInfo.height = Double(height.text!)!
+            height.backgroundColor = UIColor.white
+        } else {
+            height.backgroundColor = UIColor.red
+            saveInfo = false
+        }
+        
+        if rhr.text != "" && Int(rhr.text!) !=  nil {
+            tempUserInfo.restinghr = Int(rhr.text!)!
+            rhr.backgroundColor = UIColor.white
+        } else {
+            rhr.backgroundColor = UIColor.red
+            saveInfo = false
+        }
+        
+        if mhr.text != "" && Int(mhr.text!) !=  nil {
+            let max = Int(mhr.text!)!
+            if max > 100 {
+                tempUserInfo.maxhr = max
+                tempUserInfo.hrZoneOne = Int(Double(max) * 0.6)
+                tempUserInfo.hrZoneTwo = Int(Double(max) * 0.7)
+                tempUserInfo.hrZoneThree = Int(Double(max) * 0.8)
+                tempUserInfo.hrZoneFour = Int(Double(max) * 0.9)
+                mhr.backgroundColor = UIColor.white
+            } else {
+                mhr.backgroundColor = UIColor.red
+                saveInfo = false
+            }
+        } else {
+            mhr.backgroundColor = UIColor.red
+            saveInfo = false
+        }
+        
+        if saveInfo {
+           back()
+        }
+        
     }
     
     @IBAction func cancel() {
         back()
     }
-
-   
     
 }

@@ -1737,6 +1737,7 @@
 			children = (
 				984A1DF82217474A00FDCCC8 /* ScoscheSDK24.swift */,
 				984A1DFF221B270900FDCCC8 /* ScoscheViewController.swift */,
+				F2138F426D5BA592AD3DBCB5C604DD49 /* ScoscheMonitor.swift */,
 				914BFA51CC68902635F647944A5DED4A /* ArrayExtension.swift */,
 				4B3EAB8BA0F2CBD6F4E47CB5557DB5E2 /* BluetoothServices.swift */,
 				09D352F21AEFC242D2356E66924E6054 /* CentralManager.swift */,
@@ -1764,7 +1765,6 @@
 				0DA922287CF4F725350AE722FE925CD3 /* HeartRateZone.swift */,
 				C11E58D0151FF01F3AC1277C9CB5326E /* PermissionsManager.swift */,
 				C2A87725E720E019B08BE0AE88FB4342 /* RemoteConfig.swift */,
-				F2138F426D5BA592AD3DBCB5C604DD49 /* ScoscheMonitor.swift */,
 				980EE5EC221F337D008DC83F /* FitFileMetaData.swift */,
 				980EE5F0221F56B2008DC83F /* FITFileMetaDataExtension.swift */,
 				81910FC25E5FFCB5D53CEE6D9A37B5D1 /* ServiceScoscheRhythm24FitFile.swift */,

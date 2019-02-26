@@ -37,14 +37,13 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
         // Do any additional setup after loading the view, typically from a nib.
         ConnectToDevice(monitor: monitor, UIview: self)
         listData.append(cellRow(type: .normal, value: "Start Up: \(monitor.deviceName ?? "Unknown")"))
-       // reloadTableData()
     }
     
     override func reloadTableData(){
         listData = []
         listData.append(cellRow(type: .normal, value: "Sensor Name: \(monitor.deviceName ?? "Unknown")"))
         if monitor.r24SportMode != nil {
-         listData.append(cellRow(type: .mode, value: "Sport Mode: \(sportMode.stringValue)"))
+            listData.append(cellRow(type: .mode, value: "Sport Mode: \(sportMode.stringValue)"))
         }
         listData.append(cellRow(type: .normal, value: "Connection Status: \(connected)"))
         listData.append(cellRow(type: .normal, value: "Heart Rate: \(heartRate)"))
@@ -53,10 +52,15 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
         listData.append(cellRow(type: .normal, value: "Battery Level: \(batteryLevel)"))
         listData.append(cellRow(type: .user, value: "User Name: \(userInfo.name)"))
         listData.append(cellRow(type: .user, value: "Resting Heart Rate: \(userInfo.restinghr)"))
+        listData.append(cellRow(type: .user, value: "Maximum Heart Rate: \(userInfo.maxhr)"))
         listData.append(cellRow(type: .user, value: "Gender: \(userInfo.gender)"))
         listData.append(cellRow(type: .user, value: "Age: \(userInfo.age)"))
         listData.append(cellRow(type: .user, value: "Weight: \(userInfo.weight)"))
         listData.append(cellRow(type: .user, value: "Height: \(userInfo.height)"))
+        listData.append(cellRow(type: .normal, value: "Zone One: \(userInfo.hrZoneOne)"))
+        listData.append(cellRow(type: .normal, value: "Zone Two: \(userInfo.hrZoneOne)"))
+        listData.append(cellRow(type: .normal, value: "Zone Three: \(userInfo.hrZoneOne)"))
+        listData.append(cellRow(type: .normal, value: "Zone Four: \(userInfo.hrZoneOne)"))
         listData.append(cellRow(type: .fit, value: "FitFile Count: \(fitFileList.count)"))
         tableview.reloadData()
 

@@ -19,6 +19,7 @@ class userViewController: UIViewController {
     @IBOutlet var weight: UITextField!
     @IBOutlet var height: UITextField!
     @IBOutlet var unit: UISegmentedControl!
+    @IBOutlet var rhr: UITextField!
     
     
     //MARK:- Local Vars
@@ -35,7 +36,7 @@ class userViewController: UIViewController {
         unit.selectedSegmentIndex = tempUserInfo.unit
         weight.text = String(tempUserInfo.weight)
         height.text = String(tempUserInfo.height)
-        
+        rhr.text = String(tempUserInfo.restinghr)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -69,6 +70,7 @@ class userViewController: UIViewController {
             tempUserInfo.weight = Double(weight.text!) ?? 180
             tempUserInfo.height = Double(height.text!) ?? 70
         }
+        tempUserInfo.restinghr = Int(rhr.text!) ?? 70
         back()
     }
     

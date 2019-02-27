@@ -10,7 +10,9 @@ import Foundation
 import ScoscheSDK24
 import CoreBluetooth
 
-
+/// dataViewController: Demo of connecting to a Scosche devices with BLE interface. View uses ScoscheViewController to extend a standard UIViewController with services that report monitor activity.
+///
+/// - Parameter monitor: ScoscheMonitor
 class dataViewController: SchoscheViewController, UITableViewDelegate, UITableViewDataSource  {
     //MARK:- IB Refs
     

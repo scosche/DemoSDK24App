@@ -9,7 +9,9 @@
 import UIKit
 import ScoscheSDK24
 
-
+/// scanViewController: Demo of scanning for known Scosche devices with BLE interface. View uses ScoscheViewController to extend a standard UIViewController with services that report monitor activity.
+///
+/// - Parameter monitor: ScoscheMonitor
 class scanViewController: SchoscheViewController, UITableViewDelegate, UITableViewDataSource {
     
     enum Row{

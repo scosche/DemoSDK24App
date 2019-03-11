@@ -10,6 +10,7 @@
 #endif
 #endif
 
+
 FOUNDATION_EXPORT double ScoscheSDK24VersionNumber;
 FOUNDATION_EXPORT const unsigned char ScoscheSDK24VersionString[];
 

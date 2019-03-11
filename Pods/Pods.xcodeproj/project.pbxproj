@@ -10,7 +10,6 @@
 		0148C13769C50946C2F22DDEC885EA36 /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2CF4AE679E3E7F0E637A35BABBEC29 /* SHA2.swift */; };
 		0182A543EBF1680FC14A43B8491D3AD7 /* ChaCha20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AB7617B543A0315EFF301C8CA9A59 /* ChaCha20.swift */; };
 		01FF23022FF18CDBFA0A7E862D14A0E5 /* ServiceHapLightSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18EE5F3F74F9F8728E26115B5F84A9 /* ServiceHapLightSensor.swift */; };
-		020A5D74F27E9F6C2BED379D03C8F0E6 /* UserConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC6028D25F76B0BD703914E08174CE /* UserConfigurable.swift */; };
 		0218DF136043A54BE22F1BD31711AAF6 /* ServiceNorthPoleAweHeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEF006C9A81F53A02C514B0DCFE846B /* ServiceNorthPoleAweHeartRate.swift */; };
 		02329AA9C2BB247E3C50B7AC8E033491 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7525336E2658293F3F251E2A4ECDE67 /* Collection+Extension.swift */; };
 		03A63DBA9DDDB693EFC29985ECAC412D /* ServiceNordicLegacyDeviceFirmwareUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A10ED56BCA1461410C7F4886E27AA89 /* ServiceNordicLegacyDeviceFirmwareUpdate.swift */; };
@@ -19,18 +18,15 @@
 		0606E2536F3F12903E0C44559DBB34EA /* ServiceHapMicrophone.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D4E877F81DC2C3A85BF8AFA0F44EA5 /* ServiceHapMicrophone.swift */; };
 		06DBDC9B870A9EE79641369808F948B9 /* FitnessMachineControlResponseTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445FA2502D99A85A6ABAFED37F123BBD /* FitnessMachineControlResponseTypes.swift */; };
 		073AEF31739E2B6F4F04EA0A11F10582 /* MeshMessageGenericLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADB5E872C7AB24825C26400C138806 /* MeshMessageGenericLevel.swift */; };
-		07C65CB6B8E49825030C516CFDA3DAB1 /* CharacteristicScoscheRhythmPlusSignalQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D23120A4929FD5880D63405066B4E75 /* CharacteristicScoscheRhythmPlusSignalQuality.swift */; };
 		085114B592F970A54B0089FD9DC40B9D /* ServiceDropcam.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCCCB7238A05C37011A4A5E40CD711A /* ServiceDropcam.swift */; };
 		088F2879BF74E0DCFEA177BF9FE36AE9 /* ServiceHapIrrigationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291A54C88BE853C138154FF1BEDE4C4 /* ServiceHapIrrigationSystem.swift */; };
 		08A2CA3ED6AA887FBA692C56CCBF08F6 /* FitnessMachineTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBE4684309015763C82D50732E1B3E4 /* FitnessMachineTypes.swift */; };
 		08DF4657B4CAB7074971C08DA1C34170 /* ServiceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0703FB037A570F9A5C3B199497C8D14 /* ServiceExtension.swift */; };
 		09CFE6F9FF53880B844600A0BB4EE8AC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91C62B2E215F34D6BC0A04ACEF2271 /* Utils.swift */; };
-		0A11B18469A86D9B2BDC5A05DF8EEA86 /* ServiceScoscheRhythmPlusSerialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265EC500FD6EFD9EED8AFA3A8E8D76E0 /* ServiceScoscheRhythmPlusSerialData.swift */; };
+		0B63514D275E1EDC48EB4E8E02A7AD01 /* ScoscheMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500E4B713DD4B7963880E5241F774ADB /* ScoscheMonitor.swift */; };
 		0BE78689A3967C251B7F5C353074E7F7 /* CharacteristicTimeUpdateControlPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB661CDF5EDF5DCEC9757E438057267 /* CharacteristicTimeUpdateControlPoint.swift */; };
-		0C4FC458E7FE5B25A8FFE1284CFB2462 /* ScoscheMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2138F426D5BA592AD3DBCB5C604DD49 /* ScoscheMonitor.swift */; };
 		0C526A2F886481C3DFD566259BFFD9BE /* CharacteristicNetworkAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC009A3C30E14C81542BE6EE38A8807E /* CharacteristicNetworkAvailability.swift */; };
 		0CC1B59B13CD70D24858D4D81503C0B6 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9C3B0C153D8BD963763824A3A6E225 /* Errors.swift */; };
-		0D7235823C9DCB52F2CE3BBB5600D187 /* ServiceScoscheRhythmPlusArmband.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7888344B9F333023CDAA1914FC0B233A /* ServiceScoscheRhythmPlusArmband.swift */; };
 		0DC23C60C1292E5E9339F0AFBCA45564 /* SecureBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB681AD591A9021B773292B957A930A /* SecureBytes.swift */; };
 		0F63FCA1C997C653892B203567939D2C /* AEAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C203BCBD659D7EDD04374D383B0437 /* AEAD.swift */; };
 		10974B42F00A5D7F55AA43CF14AE35B9 /* Resolutionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5361C92889756A1D59BA9BB23A05FE1 /* Resolutionable.swift */; };
@@ -38,9 +34,7 @@
 		1301743AE915B5266EE00CB095ECD8DF /* ChaCha20+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490050BE1AB5E1FBF0020F3094C2B540 /* ChaCha20+Foundation.swift */; };
 		135AF9F28CC1EB6D36966EC93465733C /* ServiceMyoControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9017ADDC76BE8A31449C35739731FC8 /* ServiceMyoControl.swift */; };
 		13623C7A7473380230DBA5735B7A95E2 /* ServiceFitnessMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B21C881AFEB168795877ECC07EE60F /* ServiceFitnessMachine.swift */; };
-		1399766A4A58CA8F16AD8383B4781060 /* BluetoothServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EAB8BA0F2CBD6F4E47CB5557DB5E2 /* BluetoothServices.swift */; };
 		13E771648904C56694BF0D285722B181 /* ServiceGymConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CEC6A49E0B1A59B977132C3AA4A49 /* ServiceGymConnect.swift */; };
-		13EBAE90CF4A969366D58D24994D9584 /* CharacteristicScoscheRhythm24SportMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C208EFA2E2AFF08721B0A3CFDABDB30 /* CharacteristicScoscheRhythm24SportMode.swift */; };
 		142CA543718A6A47AE8F1AC4F0FF951F /* CharacteristicAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9E9EDBEB75E54EA4BDC7B1B7C83E0 /* CharacteristicAge.swift */; };
 		14B88EB4CDEB2972FB224B1ED45DA697 /* ServiceInsulinDelivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BA1FDC246C824D948E9F9BF24EE2E4 /* ServiceInsulinDelivery.swift */; };
 		154BBCA4335910BCF394569BBFFA0D3B /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E44C6262073296D6595C39E27E617 /* Generics.swift */; };
@@ -53,24 +47,21 @@
 		18856B59AA89CE7B34590E0ACA8C3999 /* BlockModeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB04BB411982382E82FCC3B20A60FD8 /* BlockModeOptions.swift */; };
 		18F983B08FF76D160D50DAF501D6409C /* CharacteristicTwoZoneHeartRateLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0D4C5521A1D5EC6071C1586D298D6 /* CharacteristicTwoZoneHeartRateLimit.swift */; };
 		191D572D2D66C7A8EE60153EC9B3758D /* ServiceHealthThermometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6A30DE9182D3355FD4761060BB493 /* ServiceHealthThermometer.swift */; };
+		193D7A2A510AB8563E6D37D53CB4C5C0 /* ScoscheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084F4E262556824426569A6EBEB8126 /* ScoscheViewController.swift */; };
 		1A7E8246BD04EAF05033440882D014C4 /* FitnessMachineStatusValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934852134778C0ACCC434556A7C1AFEB /* FitnessMachineStatusValue.swift */; };
 		1A83A4A828A505715DD362C70C46D9F3 /* CharacteristicSoftwareRevisionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44C0C4DC5A5012505BD6A1CD3B0CA69 /* CharacteristicSoftwareRevisionString.swift */; };
 		1A9C83E84A5E405582DC8870E0EBBA5D /* BluetoothSensorLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDA5D56AF0CF2E9D0F866AC8A78B182 /* BluetoothSensorLocations.swift */; };
 		1AD0EC5A179BA38AC8627ED397B948D2 /* CharacteristicTimeZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E5ACC005DE6B7309425DA723834A9 /* CharacteristicTimeZone.swift */; };
-		1B3107405E68801C72DA1C58506A7C91 /* CharacteristicScoscheRhythmPlusKiloCalories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F229FFC65142EF94875838D30AAAE8 /* CharacteristicScoscheRhythmPlusKiloCalories.swift */; };
 		1CDC9A089532FE30BB12E61A7592A4A4 /* CharacteristicLongitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF371BC1C19289CED6B986ACFB61FA /* CharacteristicLongitude.swift */; };
 		1CF2F5D7E6F26422CDA9B51CC3C482C4 /* ServiceGoogleGlass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A158EB75E31513955924331F30A1DC /* ServiceGoogleGlass.swift */; };
 		1CF589F71D6FEECABBBE807A74683169 /* ServiceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E1A90CE9B69D99F2A064402B5A6FE /* ServiceData.swift */; };
 		1D15E989B8B79D7A2E57ED9C5A85F057 /* ServiceTexasInstrumentsSensorTagGyroscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953A796AECAD97913873D691195EDFB6 /* ServiceTexasInstrumentsSensorTagGyroscope.swift */; };
 		1DC3E70016B67E28C254804AA3045252 /* CharacteristicSupportedPowerRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C2B6598A01D74A3F2399B8818356DB /* CharacteristicSupportedPowerRange.swift */; };
 		1E049BFA2AB9BCBE2E4FB1F1B46A876B /* AES+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F700A5C9017430E6E3A1025FBF5386C8 /* AES+Foundation.swift */; };
-		1F1A41D19ACF41FFE23B781A5B5BC569 /* SystemState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD6F01F4CCC0387037EB61FB94BC243 /* SystemState.swift */; };
-		1F74E5A45E4B61FDA745CD8A204F07C5 /* CharacteristicScoscheRhythm24FitDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C54719667D9217C5316EAF040A3A4 /* CharacteristicScoscheRhythm24FitDirectory.swift */; };
 		1FC5ED5D20DA96F83CA8DB73534CC945 /* ProvisioningDataUnitInvite.swift in Sources */ = {isa = PBXBuildFile; fileRef = A535D7019F3073A65235CCC8815030AD /* ProvisioningDataUnitInvite.swift */; };
 		1FCAF9C71C6E65BF051E24A84F234A52 /* ServiceHapAirQualitySensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D36E354E6283CA9193069AFE0E32039 /* ServiceHapAirQualitySensor.swift */; };
 		20D9498079E5527984EE455562B2DC8F /* CharacteristicMeshProxyDataOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470F532201865BF8F653C2DF4761E9D /* CharacteristicMeshProxyDataOut.swift */; };
 		229026DB987631FC4A801CECBBD5037F /* Blowfish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200E3E50E93E1B7F7BF915AED186AF30 /* Blowfish.swift */; };
-		239788255DD52A86790F775D8630718D /* FitDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1FE430400D10198875E1644B9CB5D9 /* FitDirectory.swift */; };
 		258763332BADEC93170900D1BD20373C /* ProvisioningAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DEBF3AA8F572A43BDC978B5A4FBB20 /* ProvisioningAuthentication.swift */; };
 		272BBA356E64269EA66669DE41B6210E /* BlockDecryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B87D77C51CD2388F7F4118AE3352DB5 /* BlockDecryptor.swift */; };
 		27BD254EC3461BBCE2DC27EE0E7D95AE /* MeshMessageGenericDelta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE9208D20B66F1B97C9C1EA0C33DAA /* MeshMessageGenericDelta.swift */; };
@@ -83,14 +74,12 @@
 		2B6C7A94E6279D4BA86FDD35CA52857B /* UInt128.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAB461B16969C4E982A6B17764D583D /* UInt128.swift */; };
 		2B85733E6F82A92FB4150E28CE12AC57 /* CharacteristicBatteryLevelState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFB389E60046682941909EB3C1D0D7 /* CharacteristicBatteryLevelState.swift */; };
 		2D7911A6838D9BF828C68A05F76F97A5 /* ProvisioningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB845BE670D69433CF495C1847119ACE /* ProvisioningData.swift */; };
-		2DC1B36C0CC57E492B1F79E85D50792A /* ScoscheSDK24-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3152E6621E53993DCE6DEEBFBE7A5D /* ScoscheSDK24-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DDBE17EABA8B2B16A54E9C304B0630D /* CharacteristicMeshProvisioningDataOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC36DA2F8277B829D42DCF5E05B3E5A /* CharacteristicMeshProvisioningDataOut.swift */; };
 		2E05C7F00ACD7C459FED5DC348396088 /* CharacteristicRestingHeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0B94A07DA166A8115DDD169E35DBAE /* CharacteristicRestingHeartRate.swift */; };
 		2E3ED907599B82DB27CC5998FEE0FB1C /* CharacteristicTemperatureFahrenheit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D40DBA72F4331E977A33AC4E6EA46B /* CharacteristicTemperatureFahrenheit.swift */; };
 		2E7F7C7F1BEAD6B1F21362ECA0F23611 /* GapDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873B3804F6BD68657C35850CA62933C2 /* GapDataType.swift */; };
 		2EA6201560F44DF1A85E1996168C91E5 /* ServiceAppleMidi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B67D37EE2023F1AACA58014FBCEEC3 /* ServiceAppleMidi.swift */; };
 		2F5CA74E96A9A835B5CCAEF023B4050E /* CharacteristicHardwareRevisionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CC77502E9026CAA89231DAF839553 /* CharacteristicHardwareRevisionString.swift */; };
-		3016A4E0AC9D43C4A81D6CB16E8D8E33 /* ScoscheSDK24-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 389E4F1FB660119FF8442F6D6C0FC4C1 /* ScoscheSDK24-dummy.m */; };
 		30EF4CFCA66599249E02B3BDF80A36A5 /* MeshMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594EE317136C4FA77AF81FFABFA601C3 /* MeshMessage.swift */; };
 		313CFDF647489D18688922B91BD6F553 /* DataDecoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0AE6D11B3D95C7299E2125ACBDC2A0 /* DataDecoder.framework */; };
 		31527FF57108331EF6F9BD4E02C32F04 /* CharacteristicHeartRateMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB04AD9BD47C7FC6E8110C8144CE0F6 /* CharacteristicHeartRateMax.swift */; };
@@ -102,7 +91,6 @@
 		3468623EF3FDCC270FB0964A0123EED8 /* PBKDF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F04C2661E067C62B6A92983574D16C9 /* PBKDF1.swift */; };
 		34AF69BB4804A6AF4B1A86E6147BDD9D /* PairingTlvType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4523480220A5479639CF500F4CC39E9 /* PairingTlvType.swift */; };
 		35799C07BB51EAA02249F2785BF070D6 /* CharacteristicFitnessMachineStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690776F7B29FD711697ABBAEC3393030 /* CharacteristicFitnessMachineStatus.swift */; };
-		35FE4D247EB852FD379350CE5832545E /* SportModeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF49BF521E2D5DA54DD64357D8FB53 /* SportModeExtension.swift */; };
 		36B1C935228AD2FD64D24085AB49D73E /* CompactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FDD09E1E0677565E6C5194102CB90D /* CompactMap.swift */; };
 		36F4C9C30EDB5647748E12D497A9BD82 /* CharacteristicAnalogOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73DDA24C8B08A50A6BE5F4F130EA90 /* CharacteristicAnalogOutput.swift */; };
 		36F9D40C18087979AED3765DF14602EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203FEFEC700D110E5F314978869E850A /* Foundation.framework */; };
@@ -113,7 +101,6 @@
 		38231C32DF4DF4F56C906DE68B9C59EA /* ServiceContinuousGlucoseMonitoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839124F6212D2FADA94B748A32D9125D /* ServiceContinuousGlucoseMonitoring.swift */; };
 		38FD3354C6DC2F329902C72E02A3DD8C /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C3B3DF3DE3CD7E534945E2D7AB7227 /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3962ADE35BF60E560B36EE5C6D4178CA /* DateTimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FDB5E2E1E27557FA6EFD53F82C026A /* DateTimeType.swift */; };
-		3A552ED070C2889DACD7C59B6E2F9852 /* CharacteristicScoscheRhythm24UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E50E65728F83D0C464FFB4C6B0D005 /* CharacteristicScoscheRhythm24UserSettings.swift */; };
 		3AEAEF3FD0FF869FE8B589BC411CB880 /* HeartRateTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE43F5D83D7759302CA9C5E0B3EC0D /* HeartRateTypes.swift */; };
 		3B42564918941EAEE3F47F0F06DCA9C4 /* CharacteristicElevation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29860ADC71F8D089BCDF778346202902 /* CharacteristicElevation.swift */; };
 		3BCD00EA1BC560DB51B13BF1F81C453E /* DataDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC92C5B33BEFE07BC9290F7A017889C /* DataDecoder.swift */; };
@@ -140,7 +127,6 @@
 		465047087334F68A157CE8CE2EC7FBBD /* Characteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004B5579A3F3010B41477E2B1BD01FC9 /* Characteristic.swift */; };
 		46568BE2E3710A02459D0BA2DCCD153B /* CharacteristicGymConnectEquipmentState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CC0C643E71070AB8EB06122D37FDA /* CharacteristicGymConnectEquipmentState.swift */; };
 		473AF04F24AD6EB3E3986A243086D4D2 /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739D522E92A0A42D52DB6A64617A9A7D /* Rabbit.swift */; };
-		480277D2AABB50B00172829EF9500CAB /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914BFA51CC68902635F647944A5DED4A /* ArrayExtension.swift */; };
 		49AFCE53237B86DA58DF0FC3F467714C /* MeasurementZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787857CF02BF94F964832A6980BE435E /* MeasurementZone.swift */; };
 		49BA40E5DBE1FED3388F74BB7A6318DC /* CharacteristicFatBurnHeartRateLowerLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF156AE75B5F5D4D0BFE900CAC246BA /* CharacteristicFatBurnHeartRateLowerLimit.swift */; };
 		4A3A11D93DFD2BEA27F3E5DFB8D9859C /* HomeKitPairingErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10D57F7A6D2028DECBB5CEF33A0F06 /* HomeKitPairingErrors.swift */; };
@@ -148,7 +134,6 @@
 		4B45C2AA51810973E18ABC639C220FFD /* TemperatureTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AAD9299DE58DE84B8C30BD7BBD7A5D /* TemperatureTypes.swift */; };
 		4B77B2E8DCB2ADDDAA6A3F0909B15310 /* ProvisioningDataUnitCapabilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F14A7DB15D4A6CB542155819C084D3 /* ProvisioningDataUnitCapabilities.swift */; };
 		4BB440C0EEE157BF930D5ECB1E111B6B /* ServiceDataFitnessMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6AE4572EA26BDEEEB4A1B2EA2F9CC6 /* ServiceDataFitnessMachine.swift */; };
-		4C1278EB52482153A4FD71016A15B041 /* ServiceScoscheRhythm24ValencellFirmware.swift in Sources */ = {isa = PBXBuildFile; fileRef = B560BE044A7E797C9C1F57A1C888389E /* ServiceScoscheRhythm24ValencellFirmware.swift */; };
 		4C9DF7152483424B9E173861D56E68F9 /* CharacteristicWeightMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06722FFD4DE673002F84216318943E03 /* CharacteristicWeightMeasurement.swift */; };
 		4D2BAD6A92FC136BFC216AA6BCFC8F47 /* UnitConcentrationMass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A67635559E57E86B9288F741A56356A /* UnitConcentrationMass.swift */; };
 		4D88B352DE83D70CF35DD533FD0819E2 /* CharacteristicLocationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB699774D983D91FB7479723C1DE664C /* CharacteristicLocationName.swift */; };
@@ -156,7 +141,6 @@
 		4E7480D16CFC143E64E8FAF054E00999 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F4B5DD3C797EAFB894A9E49894FC29 /* Pods-Demo-dummy.m */; };
 		4E78E4ABE6B84DC3DA6051C17AC72515 /* CharacteristicAnaerobicHeartRateLowerLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAABF29374B6491A7963339C6B59C9F5 /* CharacteristicAnaerobicHeartRateLowerLimit.swift */; };
 		4F2BBBABCA980A6155638FE71A906A62 /* CharacteristicAlertStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D61CC32C223055E0FECBC7C2BF17C91 /* CharacteristicAlertStatus.swift */; };
-		4F4A0751FC3D2D39C484F7E37DC880BF /* PermissionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11E58D0151FF01F3AC1277C9CB5326E /* PermissionsManager.swift */; };
 		4F783118D1F0D58F14DDB375DEF52E09 /* BatchedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659D207CC151DE964FFFBEF683190683 /* BatchedCollection.swift */; };
 		4FBBC03006C31DC7497205F25BEBBC3C /* OFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A8C22DA694FE3A83D102B466BF4963 /* OFB.swift */; };
 		4FE24D059345028CD42E18AE88F5D532 /* CharacteristicAltitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68604E2F6FABB5B41A47D9453AD353A /* CharacteristicAltitude.swift */; };
@@ -174,7 +158,6 @@
 		546597B123ED120232E73EF62B67FA10 /* ServiceBattery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDDF8E0B2E6E1DE47C449CC552881B4 /* ServiceBattery.swift */; };
 		54E9533F71AB377288B37DDF9998F5F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203FEFEC700D110E5F314978869E850A /* Foundation.framework */; };
 		55301C2B2A361AC995A43D34E5E3D60A /* BluetoothMessageProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0D663C2CDA559479A9DBEC382C5493 /* BluetoothMessageProtocol.framework */; };
-		55F1F2EEC0238B5CFBD9E862F6B06846 /* CharacteristicScoscheRhythmPlusBurnRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DA9C610C56456842F6D9365BA49E3A /* CharacteristicScoscheRhythmPlusBurnRate.swift */; };
 		562DC1B8D15663C35BB894AB5872A6A1 /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B79B945DD14052E48C46AFBF94CCA9 /* Updatable.swift */; };
 		5675DF5B21B1031048C9C3B103147755 /* ServiceTransportDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BC787AF9DE59FC1D9F22012EDE4FD5 /* ServiceTransportDiscovery.swift */; };
 		568F0B424F34E9ACB13E00DB1718A093 /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388504B7690708CB511AF512B00CCF63 /* Authenticator.swift */; };
@@ -226,8 +209,9 @@
 		6CCBE516FCC9A3AC4495BEE9688F76BB /* UnitRadioactivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771017E6F5B455BFCFC048DB7DDA8083 /* UnitRadioactivity.swift */; };
 		6CD9817E76ED69EC1D3E30845C5A45BC /* CharacteristicHTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6213592A035901AFE5C5450BA863DC /* CharacteristicHTTPHeaders.swift */; };
 		6D568A2BDF7EAFF1B1F13E3F0C483728 /* ValidatedBinaryInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D795AC59E7FFF573E9B5B0BBA2830AE2 /* ValidatedBinaryInteger.swift */; };
+		6E2A43756FC1EF12F5C8A48517943FEA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7DAAEB41191BDC1106548D3D5E303D /* Constants.swift */; };
 		6EC076D226459A73125AAC4BE27F5DB5 /* PeerAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833918763DBB4999C177ABF1442E2ED4 /* PeerAddress.swift */; };
-		705698D5CD4DBAB156F0CD5EF72AC2E3 /* CharacteristicScoscheRhythmPlusTotalDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74495B61FB0ADAC8FD6899232C6AF9AB /* CharacteristicScoscheRhythmPlusTotalDistance.swift */; };
+		70D53E4C5D01A452DBF30EFF84DF9B0F /* ScoscheSDK24-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC38D87C6F62387D642F26EB032E11B /* ScoscheSDK24-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72AB84B0B7C0A321544319810E88D031 /* ServiceNordicSecureDeviceFirmwareUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9A44225E2937C331B4534CB0646F51 /* ServiceNordicSecureDeviceFirmwareUpdate.swift */; };
 		72D032ACB24DF228283CA30DB0EFBE91 /* ServiceHapGarageDoorOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B2DD58B3492CF9D4F3C8BABFE8F1AA /* ServiceHapGarageDoorOpener.swift */; };
 		72F386FE994D6A69A3592AFC8C3687BC /* GCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C23B586DCA3A6659AC11D9D8B749EDA /* GCM.swift */; };
@@ -239,14 +223,12 @@
 		762C3F7640BC941BD0565EEC8352CE1F /* CharacteristicHeartRateControlPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83157811B5B5A76153796383E8A474F /* CharacteristicHeartRateControlPoint.swift */; };
 		768919FC9EE9A73D748B0602027C8855 /* CharacteristicBondManagementFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779D503C87B3DC0954634A7E672F071 /* CharacteristicBondManagementFeatures.swift */; };
 		774AF533930C6A262EDAF3F0EB8D89BA /* ANTToggleByte.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE947E44175D274D477F75481B3D4C36 /* ANTToggleByte.swift */; };
-		77EB2C31E28E0EC69313A83DCF1E1FF2 /* TimeIntervalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96396BF1704DC8B6AC8DBEAEE3F067D9 /* TimeIntervalExtension.swift */; };
 		77F788D2C064662B3FF26B59AD78CA16 /* CharacteristicFloorNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F9891CCBBFEB46375448985F4AAA7 /* CharacteristicFloorNumber.swift */; };
 		783BE3DD1B65350E3EEEB077C8E7F580 /* CharacteristicLastName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD19C7C5A27E062F17A0DC5987B97FA /* CharacteristicLastName.swift */; };
 		78EDDD9D5996EF58A6DC6E1044904BDE /* CharacteristicCurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CFB04306941C53C2D02D0A10CD101 /* CharacteristicCurrentTime.swift */; };
 		7B4DDC34ED95C3CA6EB452D87DC9252D /* ServiceHapCarbonDioxideSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DA8D3F826BE4C62724CD942DFDD9EE /* ServiceHapCarbonDioxideSensor.swift */; };
 		7B9DCA8F31F955C1C4BC639E19275458 /* CharacteristicHumidity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2306DE267AFD1D041EF01C99DD45BA30 /* CharacteristicHumidity.swift */; };
 		7BD8F675C6CD41492D09B5644BE56F5A /* CharacteristicObjectSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBAFA105D3BF2C4CCFFA665D692D896 /* CharacteristicObjectSize.swift */; };
-		7CAACC1B19FC2747895191AA91CE4C60 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF1F02B891A3833D40F16651A7542D /* StringExtension.swift */; };
 		7E02380F97F393F683457D2A2375CB7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203FEFEC700D110E5F314978869E850A /* Foundation.framework */; };
 		7EAE480A5F793F895D95E9FA00974298 /* ServiceAlertNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FA905839F7CFBB73B665826959BCE /* ServiceAlertNotification.swift */; };
 		7F6FAD9BF038B16E4247DBE1617DE921 /* UInt32+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AEE489C5B6EDCA75680950B3C4DC1A /* UInt32+Extension.swift */; };
@@ -275,8 +257,6 @@
 		8A4EF408D05ADB5A79571F7FCADDE783 /* ServiceHapWindowCovering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F11712AFCBE402C02DC3AB997B573 /* ServiceHapWindowCovering.swift */; };
 		8A62DFF99EF2CAE8F8669673B6D7FE59 /* ServiceHapLeakSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6906B158EF435427657A628057F68ED /* ServiceHapLeakSensor.swift */; };
 		8B3848A543FA2C9C404524FBB32356D1 /* ServiceWeightScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4E0A7B2A5F79B29151377E92951B2 /* ServiceWeightScale.swift */; };
-		8C058B80C39EF81CB17A15EE1DAD3F74 /* ServiceScoscheRhythm24FitFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81910FC25E5FFCB5D53CEE6D9A37B5D1 /* ServiceScoscheRhythm24FitFile.swift */; };
-		8C71B4BA609DA9FEFD1A3EB09EA08DD8 /* CharacteristicScoscheRhythm24FiveZoneHr.swift in Sources */ = {isa = PBXBuildFile; fileRef = A531EB684DDE99373334D2DBF07D8D20 /* CharacteristicScoscheRhythm24FiveZoneHr.swift */; };
 		8E084693268A100A62F1A7022D5AAFC2 /* CharacteristicHeartRateMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39177C977C530C66FD53CBD92912E2A3 /* CharacteristicHeartRateMeasurement.swift */; };
 		8EA73233EC4713F71A71EB3425BEFAC4 /* UnitAngle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5703FE9574FC1C1D957F4B39532A64 /* UnitAngle.swift */; };
 		8ED10349D2A491CA59E11E3BE643533F /* UInt8+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC765E504BB372C85B8ABB6F24D299 /* UInt8+Extension.swift */; };
@@ -294,12 +274,11 @@
 		96D723DDD49B9F58C96CC836D1B0425F /* ServiceHapSecuritySystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108648E8C3F3F4E599ACABBE04C97945 /* ServiceHapSecuritySystem.swift */; };
 		96E1A1580C64E60B6640F7D5A438BE90 /* CharacteristicIndoorBikeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D97424F74BAD57DC55070FC5E2E3AD /* CharacteristicIndoorBikeData.swift */; };
 		978556E3A765464EFE4BFAA7DCB19E0F /* UnitSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2D0CCBCCEC3441E8A4A7AB00460A5E /* UnitSpeed.swift */; };
-		980EE5ED221F337D008DC83F /* FitFileMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980EE5EC221F337D008DC83F /* FitFileMetaData.swift */; };
-		980EE5F1221F56B2008DC83F /* FITFileMetaDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980EE5F0221F56B2008DC83F /* FITFileMetaDataExtension.swift */; };
 		98172E9ABDE9574742CEF02D3D03911E /* CharacteristicUnreadAlertStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDC427D7A408B5F090AC077672DBD8B /* CharacteristicUnreadAlertStatus.swift */; };
 		983336E25AB6CB271A1BB7A052358B4B /* CharacteristicFirstName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D152109BF4BD77CDB8BA2350422E6227 /* CharacteristicFirstName.swift */; };
-		984A1DF92217474A00FDCCC8 /* ScoscheSDK24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984A1DF82217474A00FDCCC8 /* ScoscheSDK24.swift */; };
-		984A1E00221B270900FDCCC8 /* ScoscheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984A1DFF221B270900FDCCC8 /* ScoscheViewController.swift */; };
+		9847EEF02236B86900698004 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9847EEEF2236B86900698004 /* Base.swift */; };
+		9847EEF22236B9DF00698004 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9847EEF12236B9DF00698004 /* Service.swift */; };
+		9847EEF42236B9F600698004 /* Characteristics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9847EEF32236B9F600698004 /* Characteristics.swift */; };
 		993FF92D68550908B3D60E0EA0A082A6 /* MeshTransitionTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7AD47D62F6C018B5F0B5B0E96330E /* MeshTransitionTime.swift */; };
 		9A442414FC5C8549F160E561D654C2AB /* UnitGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1616A52603CACC8C22338DF970009C /* UnitGender.swift */; };
 		9B2C814875C8A24CE65A777E2D1F2A97 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C0591D725E849A2A7D234EDD226953 /* Padding.swift */; };
@@ -312,24 +291,22 @@
 		9DA9508C67F9C7EB2F2A2F236E657200 /* CharacteristicUserIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77408A9363AEB99690CCA8364E3B76C7 /* CharacteristicUserIndex.swift */; };
 		9EFF2ACEA3921AA8943DD06CAE9711D9 /* UnitForce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728D6EDBA507D781A7087FDAEE17DBDD /* UnitForce.swift */; };
 		9F02AA5C2D640AD849DB135DEEFF3896 /* CharacteristicGymConnectEquipmentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBFD0DDEE9E95BA7FF5014BDBFB819E /* CharacteristicGymConnectEquipmentType.swift */; };
+		A00B1715E712D354CE86BD753823A90F /* ScoscheSDK24.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AD5CFD5CE533A3025C992A2367ADDC /* ScoscheSDK24.swift */; };
 		A0D4D2D715461E3C04A8BD26DB9AEAD0 /* PKCS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9ABFA744699DB5E15D9DC46D6F9E7 /* PKCS5.swift */; };
 		A0DC5DAF119E9136636940C7FF95AA88 /* AppleDeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F3CCFDD015ECF87583E96D97C2BF9C /* AppleDeviceType.swift */; };
 		A10CDE816D1E536A4DA5F491D947824C /* CharacteristicUniformResourceIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F845CC97B42353DE2AFAB528431C548 /* CharacteristicUniformResourceIdentifier.swift */; };
 		A15F46BCF2BBF72261CE2EE3715B1E5D /* ServiceImmediateAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021E56F0772B1BBAA5C5070001565C7E /* ServiceImmediateAlert.swift */; };
 		A1BA027089991FA43BDF33BC037EA7A7 /* CharacteristicAlertLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB580F9C11952CA9FF33B6970FD10269 /* CharacteristicAlertLevel.swift */; };
 		A38AD8B06D4950F9E04916012F509C77 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38A10BEE04912444776663572725F15 /* DataExtension.swift */; };
-		A51331F2ACE14E1691F7F3658450841F /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE163AD48A1F53511C09486C87A163EB /* DateExtension.swift */; };
 		A529E535BE3564D3947F528302CE9EC8 /* CharacteristicHipCircumference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8F70A418E342473C677690B87A93D9 /* CharacteristicHipCircumference.swift */; };
 		A6ED37294270B49243929D8C8D1D51CB /* ServiceCyclingPower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5932DCEE7368C6774184C792B3EAD489 /* ServiceCyclingPower.swift */; };
 		A7CDF583A7510DFC058475F44802C4D0 /* ServiceHapPairing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936F4330E2179BBEFBDA555B5B6DA0B /* ServiceHapPairing.swift */; };
-		A833471A751A2FF19DBFA65C0191B52F /* CharacteristicScoscheRhythmPlusParametricData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505D718B0B7407D6D552E296B48F740 /* CharacteristicScoscheRhythmPlusParametricData.swift */; };
 		A86A2E7CFB9DEB73618C52C95929FB76 /* ServiceLocationAndNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E1DCB4CC933DA6837600EA0DB96FA0 /* ServiceLocationAndNavigation.swift */; };
 		A8D4424F00463EEA5309AFF4984DD4BE /* ServiceReferenceTimeUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C829FE0AF3440E66F5C94B92A94415 /* ServiceReferenceTimeUpdate.swift */; };
 		A8D5C9309A8256051A7A2AE22ACCC79D /* ServiceHapStatelessProgrammableSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB7E5C4F61FB8B7189545CE6723688 /* ServiceHapStatelessProgrammableSwitch.swift */; };
 		A9603FA97E5CB8F7CAD1034D2C1D2BE6 /* UnitAngularVelocity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EC76DBD5FA63D4261AD20420EF6B9B /* UnitAngularVelocity.swift */; };
 		A9B8B76640F43088CD079EE4C35B6928 /* CharacteristicFirmwareRevisionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ABD0418821AAB5667B41A5D770962D /* CharacteristicFirmwareRevisionString.swift */; };
 		AA3DD4D849E8161A314BAF96B1057AF1 /* StreamDecryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9AD1750DA7A9308CD318A3767BB19A /* StreamDecryptor.swift */; };
-		AA62A760C51185CAA8D2303398FC9B59 /* UInt8Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAB507E2C16774462D7854C25EAAB5 /* UInt8Extension.swift */; };
 		AA9F628B2417FAE9043711558B956CBC /* Cryptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F418E5817248192C053D9923A1191D11 /* Cryptors.swift */; };
 		AB102409A9BD0D1F059B9AAE2FCD8842 /* ServiceHapWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99FCA822EABE1F0C0A3DC1C1AF0BEB2 /* ServiceHapWindow.swift */; };
 		AB2A20C790FEA9ADB17C48DFEB2C5CD7 /* ServiceCustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85E9F376122F45BD02DD8B03FAED59D /* ServiceCustomExtension.swift */; };
@@ -343,8 +320,6 @@
 		B07C39FAA4816DCCC5A8868A98F08AAE /* CharacteristicDeviceName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDDBF1D8B89591521B0EDABA06360D3 /* CharacteristicDeviceName.swift */; };
 		B137F300AA203C7D11B9DA4A472F56E9 /* CharacteristicPnPID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F788CE8723AA8941366E9677FBA0F9 /* CharacteristicPnPID.swift */; };
 		B1D67B62B5A2C6D0DF58AD407F4E2A7B /* ManufacturerDataGymConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E716FC488DB8E538DBE9D6D7311866 /* ManufacturerDataGymConnect.swift */; };
-		B1D75DC518B5D2B9048C38D278426082 /* ServiceScoscheRhythmPlusData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA83297A35A56F1240E73488BF9829 /* ServiceScoscheRhythmPlusData.swift */; };
-		B22259CCEA1C2AE51137799925C84158 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743FA89435A533B25CAF1645B1D49E0 /* UIColorExtension.swift */; };
 		B22CB08F35E824F9A01BF4632D536EBF /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3EC558920D34154426AFD27EC1743B /* PBKDF2.swift */; };
 		B2FC2AFD15646A02EFCD112643E054DB /* CharacteristicWindChill.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA44DB7AA0C7CB0942A8CEB7D9768C8 /* CharacteristicWindChill.swift */; };
 		B32DE334788B7405DC4C9963CFF7A851 /* ServiceTacxAntFec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8C0ABDD90F9C250655A501150E20E /* ServiceTacxAntFec.swift */; };
@@ -352,16 +327,17 @@
 		B43BA312319089683A979F42897E3AB8 /* GBVersionTracking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD3CA040157029A188441D72AE9B6A6 /* GBVersionTracking.framework */; };
 		B47BFDEAFD6987FD8B8F915D77BC27DF /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1339BB6C99F5D1EBA48E2B6DB7FF102A /* DataExtension.swift */; };
 		B520E1C8FADCF69E9387BA41D11B2D65 /* FitnessUnits-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3B479C57EBA18458DFA993CB137B0A /* FitnessUnits-dummy.m */; };
-		B52D851E79E1718B76BF53D668ED060C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4245F9406197811939365580B1442F4 /* Constants.swift */; };
 		B5EA8D9FA9F1F9429FF9E4938515DFA7 /* FitnessMachineTargetTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1661A6FFAB9ADDEF0D001C46D0CFA9FF /* FitnessMachineTargetTypes.swift */; };
 		B5EE0B1AFC87A7DE8AA59A403378C7D9 /* CharacteristicBatteryPowerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D4AE3A819D26E403F67640EABD45E /* CharacteristicBatteryPowerState.swift */; };
 		B6850E514D1BC10816667873C6B987BF /* ServiceEnvironmentalSensing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECEFBC1B45A5FACE627393A95EDDCD2 /* ServiceEnvironmentalSensing.swift */; };
 		B73D19B566804B5290877597366906A8 /* CharacteristicMagneticDeclination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897C1AB68E65B62D7EACB704E522F833 /* CharacteristicMagneticDeclination.swift */; };
 		B77333B8534DFA4427506A461B265D85 /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFF22CAD63D9D66571EBA76BC501CD0 /* Bit.swift */; };
 		B817A7F2B52927BEAE9DFE2F116A9C81 /* ManufacturerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4F96F62F372A54997BB4B406933462 /* ManufacturerData.swift */; };
+		B8BC8033A5516882E19546C68AF2D62D /* ScoscheSDK24-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21710F0E6BB590F035DB73302AAFD441 /* ScoscheSDK24-dummy.m */; };
 		B8F4A7C45A7267C1B9D654953CCC0B53 /* ProvisioningDataUnitStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AB10EE56ACAD21BD29B02B32F33DC4 /* ProvisioningDataUnitStart.swift */; };
 		B8FCC3853E8A35DAEC2A871F49D14C14 /* GymConnectEquipmentState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47915AC7D55294FA29F4A133653F0217 /* GymConnectEquipmentState.swift */; };
 		B94122B2A426E9B6AABF93BE98E51047 /* ServiceHapOccupancySensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A2B6F49A5F6E192ACF219ACCF9B782 /* ServiceHapOccupancySensor.swift */; };
+		B98CC60F732BD1E439BF5BC031AAAA87 /* BluetoothServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F4D6C6C8E88D08DD41C2AA1B762C8F /* BluetoothServices.swift */; };
 		B9CC65BF4D3807360CFF718F0CAC48FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203FEFEC700D110E5F314978869E850A /* Foundation.framework */; };
 		B9E3CF9C26691EB5B0A8E372B3AED326 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CBD511337D90E1FDDA0B0898ADCA3E /* HMAC.swift */; };
 		B9EA8A7CCC74BF768B01D75EFE087261 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11D74F401E7CBCDB201C41CED2AA065 /* AES.swift */; };
@@ -377,9 +353,7 @@
 		BD7B6109071C226C7A4DF876CFC4C448 /* CipherModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7854E14C24E90E645E324AEE2C98E5 /* CipherModeWorker.swift */; };
 		BD8AA121E339F80D112D45BAA768DAA0 /* CharacteristicManufacturerNameString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B13CB1321F1A3AF4A506CF088B7BEA /* CharacteristicManufacturerNameString.swift */; };
 		BE51BF7CB49EA8E5C74876A07BCD6816 /* CharacteristicTemperatureCelsius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F852AF7024DEBEE6C0E3EA103C83EC /* CharacteristicTemperatureCelsius.swift */; };
-		BEA4EC42B52EC7C1ECB37CAD5F01D66F /* CharacteristicScoscheRhythmPlusThreeZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C2C104FA0BB9B334154109D66F01C /* CharacteristicScoscheRhythmPlusThreeZone.swift */; };
 		BEE525BA1347FC471118D5655B667A0A /* FitnessMachineStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD43D2C60ADC227EDCD5C92B85B9435 /* FitnessMachineStatusCode.swift */; };
-		BF15A33A13BD5B628A8B50945B0AE179 /* CharacteristicScoscheRhythmPlusHeartRateFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09749C2BC4D31DA9B8F823FB85FA1054 /* CharacteristicScoscheRhythmPlusHeartRateFilter.swift */; };
 		BF39110ABC4BBD4C36E752865AA9A7C7 /* ServiceScanParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB295BBA02C0AD2487D33D59323F197 /* ServiceScanParameters.swift */; };
 		BF7452182B170F7609C2AB3ED5B0D31D /* StringMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF7B9030D7F2F68632F2A57804AC70F /* StringMeasurement.swift */; };
 		C012C9A8AA4063F19B4F31016CD5EA4F /* MeshBeaconUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6934EDEF4FFFE0135AB1125AAEE4ABA /* MeshBeaconUnit.swift */; };
@@ -403,12 +377,10 @@
 		CC11153DC66A3892230B8E9030F273F2 /* Array+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121F9D2157426A9260C223A0710D4A67 /* Array+Foundation.swift */; };
 		CC3A100827097AA6BD73111F258C3517 /* CharacteristicAnaerobicHeartRateUpperLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C382D443359B687A8617697AFF4E23 /* CharacteristicAnaerobicHeartRateUpperLimit.swift */; };
 		CC92EB8C9FF760A01D34ECA2188657D3 /* ServiceTexasInstrumentsSensorTagControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A769DEC00C5DAC505AD566DD42B959C9 /* ServiceTexasInstrumentsSensorTagControl.swift */; };
-		CCC3DA56CC5B29DD4D9FB4E7F370C380 /* CharacteristicScoscheRhythmPlusSerialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FA22EE59B48B1FCA3285734195A125 /* CharacteristicScoscheRhythmPlusSerialData.swift */; };
 		CD3D9CF805B6551928F06B0EECF9B394 /* ServiceHttpProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186D35F41A34E038CFB2803AE71DD92 /* ServiceHttpProxy.swift */; };
 		CDCBB28724B80D610B11BD6554E9DFC5 /* ServiceHapSlat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE4E3740A50BF422FB3E80EA385A5CE /* ServiceHapSlat.swift */; };
 		CE2C0031DB60CB1D4AFBC3B42D63665F /* CharacteristicTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346846CD6E30B63EC9E79885E4B621B5 /* CharacteristicTemperature.swift */; };
 		CE2D953881C17182F8C20A41999F55C3 /* TlvFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E90B8DD0A167EE6265D8B4A394ED8 /* TlvFormat.swift */; };
-		CE5B76B32343C6BF6E51767774C51D4A /* CharacteristicScoscheRhythmPlusLegacyDfuCtrlPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E86150C6C9F0BD0AA56F542DA9512D1 /* CharacteristicScoscheRhythmPlusLegacyDfuCtrlPoint.swift */; };
 		CE7E69E56EEB28402862C038C6C50CEC /* ServiceMyoRawEMGData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22F5830063F200BEE2AE81265F5AFAC /* ServiceMyoRawEMGData.swift */; };
 		CF4A72679383EBEB0065D452E7CF1C8D /* ServiceHapProtocolInformationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005600CF3FC5FF3775127A9874D71459 /* ServiceHapProtocolInformationService.swift */; };
 		CF91AD3640ED39BF81EA8A3E92F43103 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203FEFEC700D110E5F314978869E850A /* Foundation.framework */; };
@@ -434,15 +406,12 @@
 		DABC7E0E580BD0CF709FF09E92554277 /* CharacteristicSupportedSpeedRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8907823E0522B65AB234D7D30D1F24F /* CharacteristicSupportedSpeedRange.swift */; };
 		DAE66B8FA464C6B7ACD2E78E386BC6F2 /* CharacteristicTreadmillData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8614315E08D97CE986BA0181B74E34D /* CharacteristicTreadmillData.swift */; };
 		DB16DFE702E8FC70C58803D803B9F227 /* ServiceTexasInstrumentsSensorTagHumidity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED4E43C6DB7E8251B2C625905521DBE /* ServiceTexasInstrumentsSensorTagHumidity.swift */; };
-		DBBAFAA10065A54922525F91A5742473 /* CharacteristicScoscheRhythmPlusStepRateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5A49C183CA001EE583A0DCCFEB7463 /* CharacteristicScoscheRhythmPlusStepRateData.swift */; };
 		DC7555332D542F6F070E06FD93DA3739 /* ZeroPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57796CCB9A1C792AA498452C4CE50F1 /* ZeroPadding.swift */; };
 		DC8291EBC1E81D69301166DF8A533D03 /* CharacteristicApparentWindSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73740D8716707DFCDF89CD3558E6AC63 /* CharacteristicApparentWindSpeed.swift */; };
 		DC9E1CB685FEFC79989957C8D9B91004 /* HomeKitSoftwareAuthenticationTlvType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3544392CAF2D663AA2EB850429C0292D /* HomeKitSoftwareAuthenticationTlvType.swift */; };
 		DCA77B9ED6E8DB9DC68FF37EA59E5B88 /* ServiceMyoClassifierEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A194633A4E38FAFFA8833747F0812C /* ServiceMyoClassifierEvent.swift */; };
 		DE052DC2F323BB9F79EB9812E75A55BB /* ServiceHapLockManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D10CF4D2C18806C977DE4E986E333 /* ServiceHapLockManagement.swift */; };
 		DEBCB6A2E0384EEDAF231927EFD92F42 /* UnitLinearDensity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39B898D6DEC6F82A0D44BC56804F2B6 /* UnitLinearDensity.swift */; };
-		DEE7A71979D348AF64B14931B95B74A8 /* CentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D352F21AEFC242D2356E66924E6054 /* CentralManager.swift */; };
-		DF445176D385E3E57C1134D445577991 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E11135CEC6D0504F529196DA376C61 /* Types.swift */; };
 		DF53954BED06AF111D697E36E9D42D77 /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474030C242DBD306D42AFA4C607F3BB4 /* Cryptor.swift */; };
 		DF7952EB6355B1C0943280A0FDDBA412 /* MACAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C670993739521F46F5AE276EF77BECF /* MACAddress.swift */; };
 		E0903FD498D9BD3A9DBC2953AFA0EC75 /* CompanyIdentifierExtensionMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130701F5EFA7542501914470978B7116 /* CompanyIdentifierExtensionMore.swift */; };
@@ -455,7 +424,6 @@
 		E5F4079025B28537208A979E1D00AB72 /* CharacteristicHeatIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2502D5F335AC3E9F220A4FEEE5B73D72 /* CharacteristicHeatIndex.swift */; };
 		E5F5196991BBBA70CEB0A8525E17F939 /* MemberIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B756DD802D727B491DCB217A9ACBE64 /* MemberIdentifier.swift */; };
 		E5F53742C5B55FDFFD89DCD7D11EEB2A /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBCC93702D98DDCDECEC1863CDA93FB /* Digest.swift */; };
-		E831880B342856174F03784E93703975 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B99ADF83D393C450764B5E93ED501D2 /* Timer.swift */; };
 		E8BF323FC6196ACF70C2C7649A3C1A29 /* ServiceHapCarbonMonoxideSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB76AEDDFFF2B959F1F6F2257EE344 /* ServiceHapCarbonMonoxideSensor.swift */; };
 		E8E7252F369996DAEE4AB70DAE8C46CD /* CharacteristicTrueWindDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC81C0270816A7586C335136EA1E8478 /* CharacteristicTrueWindDirection.swift */; };
 		E9BFD35CBDEEB7500F034FB87AC4CBAB /* ServiceReconnectionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4383E2A1AACE27C80C85C924DFA1AD /* ServiceReconnectionConfiguration.swift */; };
@@ -464,18 +432,13 @@
 		EA30C1E0D0CD2AD87E0FB6694FF37B0C /* CBCMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9949A90DFA0BAA1B2271F7BB5F40CC28 /* CBCMAC.swift */; };
 		EA952CF100EF00460148657CEBF64B42 /* GBVersionTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B92DA7ECA537C7A5C6744F5C0C7B76E /* GBVersionTracking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB13F35338EF236C8603E96E8DEA64DE /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804FB5CA3D3D9478EB1E47E46C99B69C /* Data+Extension.swift */; };
-		EB25FFA73F66CD36860CE6B570684E76 /* ServiceScoscheRhythm24UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31041F448853B0DE22FB6E105774DB77 /* ServiceScoscheRhythm24UserData.swift */; };
 		EB835751E67AED83E445E7E1B3532EE7 /* ServiceWahooFitnessGEMModuleFirmwareUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A9A756E568DC9300436E431B87F7F9 /* ServiceWahooFitnessGEMModuleFirmwareUpdate.swift */; };
-		EC470560AA33BC403D3A0A8AEA54960D /* FirmwareBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623C2172DF741375E6443B1D08904012 /* FirmwareBundle.swift */; };
 		ECCB78E6015C6BE78BD87DCA387C3D72 /* CharacteristicEmailAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11BA56D09E99BEC53B3675658105259 /* CharacteristicEmailAddress.swift */; };
-		ED5AE9A724DC3D165F4ED9FD4D222CF0 /* Diagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F375675D3A88573C01B1E9D388502D /* Diagnostics.swift */; };
 		EECDC75F7481FA40EE6C6C3C0FD7158B /* MeshModelIdentifierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFBCC2627BA820D377021D922665E77 /* MeshModelIdentifierExtension.swift */; };
 		EEFB6D8B848769ED24311A81C00D7D6E /* ServiceHapDoorbell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A6FB1B12F7DA6A8F63055520C8F33 /* ServiceHapDoorbell.swift */; };
 		F0CEF44A08F53361286D2F1F4C313869 /* BatteryTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140944C9BF2A35FAF7D97D1745986D4F /* BatteryTypes.swift */; };
 		F0FA50318D664C6A2381556113A36870 /* CryptoSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B259A7221E0B914C5F2B288457776301 /* CryptoSwift-dummy.m */; };
 		F120629B0608C043FE22607A14F29B81 /* UnitMagneticField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD317C31DFAA584122EE43C000D4966 /* UnitMagneticField.swift */; };
-		F23D60730B47A30247B3DE1404C7BEC0 /* UserConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45AA990262A5FF97B87507939D05C35 /* UserConfig.swift */; };
-		F2C25DDBDDE79725A31A10E297B51A3E /* DataExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8FBE595BA3A8B0E228DE0BFF257D9 /* DataExtention.swift */; };
 		F35324ED96484509B5915E65A694E2F9 /* CharacteristicTacxAntFecReceive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908CCF8A1EF9D2FDE04AF4C892FB0D86 /* CharacteristicTacxAntFecReceive.swift */; };
 		F3A4DFBBB6BB4E7396831D986AADD31E /* ManufacturerDataAppleHomeKitEncryptedNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95EC4ED7E9FFCE37554E80E0704FFFF /* ManufacturerDataAppleHomeKitEncryptedNotification.swift */; };
 		F4B714F61204081422F42E03C7011912 /* CharacteristicLocalNorthCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915C2D45009ABAB24DF882BF3693E364 /* CharacteristicLocalNorthCoordinate.swift */; };
@@ -489,23 +452,21 @@
 		F7BC8E92B663BC553A68F7C1ADBE4C00 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E44F4B4CDA286230F181E8DB7F5F0B4 /* Decoder.swift */; };
 		F87B8F770681F8C197EC687116DD0E8F /* AccessoryCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4DA7EB90AACC8682BED6F20A556F34 /* AccessoryCategory.swift */; };
 		F90628073D8E12E4C9631CB120AC1C12 /* UnitPercent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE0E2AFF8E15A698FC0C028A2D55F46 /* UnitPercent.swift */; };
-		F93006D5F3B79B3FEB3A94B6A9593F54 /* RemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A87725E720E019B08BE0AE88FB4342 /* RemoteConfig.swift */; };
 		F9F4F5E043D9810E6CEF421CB73ABA87 /* Utils+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA62B4281985A5BE3F192E0B72C800F /* Utils+Foundation.swift */; };
 		FA0F2135C8D970CB96F48653CAB46589 /* BluetoothTimeZones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B45F7B859E77D4D3C553D52FEE9D929 /* BluetoothTimeZones.swift */; };
 		FA19746CDB83B36DA9665C4BABAE77E8 /* CompanyIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03BB53544AFCBF3A9C03DF238BC657D /* CompanyIdentifier.swift */; };
 		FA32CC9767AE804D5E32A55169944CF3 /* ServiceUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2C116AAE06007FD02AEB72B9EB7757 /* ServiceUserData.swift */; };
 		FA3B71A9F16E2308BFBFEF5A67DFAE07 /* MeshModelIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCFB6D52E7AB7AE250F368F7CC7205B /* MeshModelIdentifier.swift */; };
+		FA43343AE91224F75DCFDD539BE8D937 /* CentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8AB5B4DA76E1A7CEE09F8D1197C281 /* CentralManager.swift */; };
 		FA48646E62A32D822440B937C970F40D /* CharacteristicCrossTrainerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036149114EF9E61D4D7910660E814482 /* CharacteristicCrossTrainerData.swift */; };
 		FB180605E5926FDE7E327923DC118F3F /* CharacteristicMaximumRecommendedHeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C302D82C851C9E1FA9FC50D2E857A0 /* CharacteristicMaximumRecommendedHeartRate.swift */; };
 		FB64F7AC80092BFC0473841B3D748455 /* CharacteristicRainfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ED74EAA38842E85346524730B91153 /* CharacteristicRainfall.swift */; };
 		FBAEFCA9DB134884F8567BF9C07BBFE0 /* CharacteristicGymConnectMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169B5B02F09EDE53D98D519B1F00C6C /* CharacteristicGymConnectMeasurement.swift */; };
 		FBB3178140D428716F5A0436D5AE3163 /* CFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878FB26F674F9E1D96D18DABA6979BC /* CFB.swift */; };
 		FC8373F6ECE60AC1D9765A22FEE08F31 /* ServiceObjectTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBFF2A8E0F09ACA36362AE09C3BEAA /* ServiceObjectTransfer.swift */; };
-		FCD68589E5EE6DA08B76A4257B8863DD /* CharacteristicScoscheRhythm24FitFileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F216B79A82DD5EBA0A2D8B1FEE854 /* CharacteristicScoscheRhythm24FitFileInfo.swift */; };
 		FD8CA149B39C06D1E00618B66CCDE362 /* CharacteristicTemperatureMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC67A9B8BE977A48DDDD684C12619F29 /* CharacteristicTemperatureMeasurement.swift */; };
 		FDD8BD58F679FBC061B1C5F5DD95B2F8 /* ServiceHapFaucet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1ABE6CFB1F119DA048B5B762EA9D3 /* ServiceHapFaucet.swift */; };
 		FE84DB24C2A9137347438B7FBF22463E /* CharacteristicFitnessMachineFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD6A1F3E586D3AD0BD6BB4A81E72A4E /* CharacteristicFitnessMachineFeature.swift */; };
-		FEA1157BF6369786540B2AFE89026695 /* HeartRateZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA922287CF4F725350AE722FE925CD3 /* HeartRateZone.swift */; };
 		FF815552B268867C568F6EC71BF5564B /* ServiceMeshProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAAD4385B07A9768A7D37AD5563FE4C /* ServiceMeshProxy.swift */; };
 		FFA1E27823308EAF0FD3C54D6ADFCB3B /* CharacteristicBloodPressureMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF8324628DDFA878F45656027937FFA /* CharacteristicBloodPressureMeasurement.swift */; };
 /* End PBXBuildFile section */
@@ -600,11 +561,9 @@
 		021E56F0772B1BBAA5C5070001565C7E /* ServiceImmediateAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceImmediateAlert.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceImmediateAlert.swift; sourceTree = "<group>"; };
 		0221BAFF0F91F9B825639B80067ABCAF /* ServiceBondManagement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceBondManagement.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceBondManagement.swift; sourceTree = "<group>"; };
 		036149114EF9E61D4D7910660E814482 /* CharacteristicCrossTrainerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicCrossTrainerData.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicCrossTrainerData.swift; sourceTree = "<group>"; };
+		03F4D6C6C8E88D08DD41C2AA1B762C8F /* BluetoothServices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BluetoothServices.swift; path = ../ScoscheSDK24/BluetoothServices.swift; sourceTree = "<group>"; };
 		03FE2BD43777B93F8CC5613B45877C5A /* MemberIdentifierSupportedExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemberIdentifierSupportedExtension.swift; path = Sources/BluetoothMessageProtocol/MemberIdentifier/MemberIdentifierSupportedExtension.swift; sourceTree = "<group>"; };
 		06722FFD4DE673002F84216318943E03 /* CharacteristicWeightMeasurement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicWeightMeasurement.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicWeightMeasurement.swift; sourceTree = "<group>"; };
-		08F229FFC65142EF94875838D30AAAE8 /* CharacteristicScoscheRhythmPlusKiloCalories.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicScoscheRhythmPlusKiloCalories.swift; path = ScoscheSDK24/CharacteristicScoscheRhythmPlusKiloCalories.swift; sourceTree = "<group>"; };
-		09749C2BC4D31DA9B8F823FB85FA1054 /* CharacteristicScoscheRhythmPlusHeartRateFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicScoscheRhythmPlusHeartRateFilter.swift; path = ScoscheSDK24/CharacteristicScoscheRhythmPlusHeartRateFilter.swift; sourceTree = "<group>"; };
-		09D352F21AEFC242D2356E66924E6054 /* CentralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CentralManager.swift; path = ScoscheSDK24/CentralManager.swift; sourceTree = "<group>"; };
 		09EC76DBD5FA63D4261AD20420EF6B9B /* UnitAngularVelocity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnitAngularVelocity.swift; path = Sources/FitnessUnits/Dimensional/UnitAngularVelocity.swift; sourceTree = "<group>"; };
 		0BDDF8E0B2E6E1DE47C449CC552881B4 /* ServiceBattery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceBattery.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceBattery.swift; sourceTree = "<group>"; };
 		0CDA5D56AF0CF2E9D0F866AC8A78B182 /* BluetoothSensorLocations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BluetoothSensorLocations.swift; path = Sources/BluetoothMessageProtocol/Types/BluetoothSensorLocations.swift; sourceTree = "<group>"; };
@@ -612,15 +571,12 @@
 		0D4383E2A1AACE27C80C85C924DFA1AD /* ServiceReconnectionConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceReconnectionConfiguration.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceReconnectionConfiguration.swift; sourceTree = "<group>"; };
 		0D8F70A418E342473C677690B87A93D9 /* CharacteristicHipCircumference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicHipCircumference.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicHipCircumference.swift; sourceTree = "<group>"; };
 		0D99ACFBB0D348B2110D649F41B2DA21 /* CryptoSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-prefix.pch"; sourceTree = "<group>"; };
-		0DA922287CF4F725350AE722FE925CD3 /* HeartRateZone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeartRateZone.swift; path = ScoscheSDK24/HeartRateZone.swift; sourceTree = "<group>"; };
 		0DAD9250C603D67ED833E3E0CB0CCFCA /* GapAdvertisingType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GapAdvertisingType.swift; path = Sources/BluetoothMessageProtocol/GAP/GapAdvertisingType.swift; sourceTree = "<group>"; };
-		0E86150C6C9F0BD0AA56F542DA9512D1 /* CharacteristicScoscheRhythmPlusLegacyDfuCtrlPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicScoscheRhythmPlusLegacyDfuCtrlPoint.swift; path = ScoscheSDK24/CharacteristicScoscheRhythmPlusLegacyDfuCtrlPoint.swift; sourceTree = "<group>"; };
 		0F9A104F8AF1E0F0A2446A3C74F0CC56 /* UnitAcceleration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnitAcceleration.swift; path = Sources/FitnessUnits/Dimensional/UnitAcceleration.swift; sourceTree = "<group>"; };
 		0FC4E0A7B2A5F79B29151377E92951B2 /* ServiceWeightScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceWeightScale.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceWeightScale.swift; sourceTree = "<group>"; };
 		0FD43D2C60ADC227EDCD5C92B85B9435 /* FitnessMachineStatusCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FitnessMachineStatusCode.swift; path = Sources/BluetoothMessageProtocol/Types/FitnessMachineStatus/FitnessMachineStatusCode.swift; sourceTree = "<group>"; };
 		108648E8C3F3F4E599ACABBE04C97945 /* ServiceHapSecuritySystem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapSecuritySystem.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapSecuritySystem.swift; sourceTree = "<group>"; };
 		10E48BA0A9B34FCC3C8E1DA9D163AF5B /* FitnessUnits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FitnessUnits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		10E50E65728F83D0C464FFB4C6B0D005 /* CharacteristicScoscheRhythm24UserSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicScoscheRhythm24UserSettings.swift; path = ScoscheSDK24/CharacteristicScoscheRhythm24UserSettings.swift; sourceTree = "<group>"; };
 		111C6A71CB935527845C9026078C14F5 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1147CC88EF7D0D1EE354912FFCF1C9C8 /* Cipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cipher.swift; path = Sources/CryptoSwift/Cipher.swift; sourceTree = "<group>"; };
 		11D6D890C8663849A7075FE107C13E6D /* CharacteristicSupportedResistanceLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicSupportedResistanceLevel.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicSupportedResistanceLevel.swift; sourceTree = "<group>"; };
@@ -633,6 +589,7 @@
 		137ABEE8777F99E93C3BCF2FB1589425 /* CharacteristicAerobicHeartRateUpperLimit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicAerobicHeartRateUpperLimit.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicAerobicHeartRateUpperLimit.swift; sourceTree = "<group>"; };
 		13C382D443359B687A8617697AFF4E23 /* CharacteristicAnaerobicHeartRateUpperLimit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicAnaerobicHeartRateUpperLimit.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicAnaerobicHeartRateUpperLimit.swift; sourceTree = "<group>"; };
 		140944C9BF2A35FAF7D97D1745986D4F /* BatteryTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BatteryTypes.swift; path = Sources/BluetoothMessageProtocol/Types/BatteryTypes.swift; sourceTree = "<group>"; };
+		15504FE491B6206CE040EC2BC0C9CB8B /* ScoscheSDK24.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScoscheSDK24.xcconfig; sourceTree = "<group>"; };
 		15542E2C837139E92437EC1024CC2DBE /* BlockCipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockCipher.swift; path = Sources/CryptoSwift/BlockCipher.swift; sourceTree = "<group>"; };
 		1570CA123E20C759841CBD7728DE2CE5 /* CharacteristicTemperatureType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicTemperatureType.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicTemperatureType.swift; sourceTree = "<group>"; };
 		15C2B6598A01D74A3F2399B8818356DB /* CharacteristicSupportedPowerRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicSupportedPowerRange.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicSupportedPowerRange.swift; sourceTree = "<group>"; };
@@ -649,7 +606,7 @@
 		1C2CF4AE679E3E7F0E637A35BABBEC29 /* SHA2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA2.swift; path = Sources/CryptoSwift/SHA2.swift; sourceTree = "<group>"; };
 		1C3257763E6D49E2B1B52616C36F537B /* ServiceCurrentTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceCurrentTime.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceCurrentTime.swift; sourceTree = "<group>"; };
 		1C670993739521F46F5AE276EF77BECF /* MACAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MACAddress.swift; path = Sources/DataDecoder/Types/MACAddress.swift; sourceTree = "<group>"; };
-		1D23120A4929FD5880D63405066B4E75 /* CharacteristicScoscheRhythmPlusSignalQuality.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicScoscheRhythmPlusSignalQuality.swift; path = ScoscheSDK24/CharacteristicScoscheRhythmPlusSignalQuality.swift; sourceTree = "<group>"; };
+		1C8708882F58AD937134DBB215001926 /* ScoscheSDK24-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScoscheSDK24-prefix.pch"; sourceTree = "<group>"; };
 		1DFF22CAD63D9D66571EBA76BC501CD0 /* Bit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bit.swift; path = Sources/CryptoSwift/Bit.swift; sourceTree = "<group>"; };
 		1E16ABADE6B393780585084949552FAE /* NoPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoPadding.swift; path = Sources/CryptoSwift/NoPadding.swift; sourceTree = "<group>"; };
 		1E99664B853DA37D961E426D0FEC9097 /* ServiceHapContactSensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapContactSensor.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapContactSensor.swift; sourceTree = "<group>"; };
@@ -661,6 +618,7 @@
 		1FD33473FE5AC2AE77EDDB83246D0C0F /* CharacteristicDatabaseChangeIncrement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicDatabaseChangeIncrement.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicDatabaseChangeIncrement.swift; sourceTree = "<group>"; };
 		200E3E50E93E1B7F7BF915AED186AF30 /* Blowfish.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blowfish.swift; path = Sources/CryptoSwift/Blowfish.swift; sourceTree = "<group>"; };
 		203FEFEC700D110E5F314978869E850A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		21710F0E6BB590F035DB73302AAFD441 /* ScoscheSDK24-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScoscheSDK24-dummy.m"; sourceTree = "<group>"; };
 		218D1D323BBABE89513798C684AB1A26 /* UnitEnergy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnitEnergy.swift; path = Sources/FitnessUnits/Dimensional/UnitEnergy.swift; sourceTree = "<group>"; };
 		21AAD9299DE58DE84B8C30BD7BBD7A5D /* TemperatureTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TemperatureTypes.swift; path = Sources/BluetoothMessageProtocol/Types/TemperatureTypes.swift; sourceTree = "<group>"; };
 		2306DE267AFD1D041EF01C99DD45BA30 /* CharacteristicHumidity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicHumidity.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicHumidity.swift; sourceTree = "<group>"; };
@@ -672,24 +630,19 @@
 		24D0D4C5521A1D5EC6071C1586D298D6 /* CharacteristicTwoZoneHeartRateLimit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicTwoZoneHeartRateLimit.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicTwoZoneHeartRateLimit.swift; sourceTree = "<group>"; };
 		2502D5F335AC3E9F220A4FEEE5B73D72 /* CharacteristicHeatIndex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicHeatIndex.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicHeatIndex.swift; sourceTree = "<group>"; };
 		25E364AFBF81CF5F003BEE1609BFCEA2 /* BluetoothMessageProtocol-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BluetoothMessageProtocol-umbrella.h"; sourceTree = "<group>"; };
-		265EC500FD6EFD9EED8AFA3A8E8D76E0 /* ServiceScoscheRhythmPlusSerialData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceScoscheRhythmPlusSerialData.swift; path = ScoscheSDK24/ServiceScoscheRhythmPlusSerialData.swift; sourceTree = "<group>"; };
-		2743FA89435A533B25CAF1645B1D49E0 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = ScoscheSDK24/UIColorExtension.swift; sourceTree = "<group>"; };
 		282FA905839F7CFBB73B665826959BCE /* ServiceAlertNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceAlertNotification.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceAlertNotification.swift; sourceTree = "<group>"; };
 		28322CEE0F5811A8C1E510AB8724889B /* DataDecoder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DataDecoder.modulemap; sourceTree = "<group>"; };
 		287E7D2B416EA94C609715EC7FAD8B5E /* CharacteristicAnaerobicThreshold.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicAnaerobicThreshold.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicAnaerobicThreshold.swift; sourceTree = "<group>"; };
-		28DA9C610C56456842F6D9365BA49E3A /* CharacteristicScoscheRhythmPlusBurnRate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicScoscheRhythmPlusBurnRate.swift; path = ScoscheSDK24/CharacteristicScoscheRhythmPlusBurnRate.swift; sourceTree = "<group>"; };
 		294AB7D2E4BFD1E500ED27BC7E716E3A /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
 		29860ADC71F8D089BCDF778346202902 /* CharacteristicElevation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicElevation.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicElevation.swift; sourceTree = "<group>"; };
 		2A91C62B2E215F34D6BC0A04ACEF2271 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/CryptoSwift/Utils.swift; sourceTree = "<group>"; };
 		2AAEEEE46D0BCAB6B0C2A3035BFA0F3C /* ServicePhoneAlertStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServicePhoneAlertStatus.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServicePhoneAlertStatus.swift; sourceTree = "<group>"; };
 		2ADF3EAA27C34B7178D4AEC82D3067FC /* ServiceHapAccessoryInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapAccessoryInformation.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapAccessoryInformation.swift; sourceTree = "<group>"; };
 		2B3C9C87D91F5B7DC448F5BF23CE249A /* RandomBytesSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomBytesSequence.swift; path = Sources/CryptoSwift/RandomBytesSequence.swift; sourceTree = "<group>"; };
-		2B99ADF83D393C450764B5E93ED501D2 /* Timer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timer.swift; path = ScoscheSDK24/Timer.swift; sourceTree = "<group>"; };
 		2DC36DA2F8277B829D42DCF5E05B3E5A /* CharacteristicMeshProvisioningDataOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicMeshProvisioningDataOut.swift; path = Sources/BluetoothMessageProtocol/Mesh/Characteristic/CharacteristicMeshProvisioningDataOut.swift; sourceTree = "<group>"; };
 		2EAEA546B439891CF2D3D293330ACB3A /* Array+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extension.swift"; path = "Sources/CryptoSwift/Array+Extension.swift"; sourceTree = "<group>"; };
 		3034899ACAD04D575867F0C89B06F7D4 /* ServiceHapSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapSwitch.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapSwitch.swift; sourceTree = "<group>"; };
 		3035A11E13A83A3024F644F31D20E49E /* ServiceHapThermostat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapThermostat.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapThermostat.swift; sourceTree = "<group>"; };
-		31041F448853B0DE22FB6E105774DB77 /* ServiceScoscheRhythm24UserData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceScoscheRhythm24UserData.swift; path = ScoscheSDK24/ServiceScoscheRhythm24UserData.swift; sourceTree = "<group>"; };
 		319B97BC20AC35F8F2B49E44CAE25946 /* CharacteristicTxPowerLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicTxPowerLevel.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicTxPowerLevel.swift; sourceTree = "<group>"; };
 		323AB035EFE30FF947423A1CB7417EB6 /* CharacteristicGender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicGender.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicGender.swift; sourceTree = "<group>"; };
 		32B9ABFA744699DB5E15D9DC46D6F9E7 /* PKCS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS5.swift; path = Sources/CryptoSwift/PKCS/PKCS5.swift; sourceTree = "<group>"; };
@@ -706,7 +659,6 @@
 		370C254BFCE44178B6D3E50D1DA31C51 /* DataDecoder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DataDecoder-Info.plist"; sourceTree = "<group>"; };
 		387D10CF4D2C18806C977DE4E986E333 /* ServiceHapLockManagement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapLockManagement.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapLockManagement.swift; sourceTree = "<group>"; };
 		388504B7690708CB511AF512B00CCF63 /* Authenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authenticator.swift; path = Sources/CryptoSwift/Authenticator.swift; sourceTree = "<group>"; };
-		389E4F1FB660119FF8442F6D6C0FC4C1 /* ScoscheSDK24-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScoscheSDK24-dummy.m"; sourceTree = "<group>"; };
 		39177C977C530C66FD53CBD92912E2A3 /* CharacteristicHeartRateMeasurement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicHeartRateMeasurement.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicHeartRateMeasurement.swift; sourceTree = "<group>"; };
 		39BEA899D5EAD8DDEDF91D8973BF3A0E /* ServiceHumanInterfaceDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHumanInterfaceDevice.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceHumanInterfaceDevice.swift; sourceTree = "<group>"; };
 		3A10ED56BCA1461410C7F4886E27AA89 /* ServiceNordicLegacyDeviceFirmwareUpdate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceNordicLegacyDeviceFirmwareUpdate.swift; path = Sources/BluetoothMessageProtocol/Service/Custom/ServiceNordicLegacyDeviceFirmwareUpdate.swift; sourceTree = "<group>"; };
@@ -714,6 +666,7 @@
 		3C9A7B5A6F2EE4D1ED3D7D5BA6F1259E /* CharacteristicTimeSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicTimeSource.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicTimeSource.swift; sourceTree = "<group>"; };
 		3CB04BB411982382E82FCC3B20A60FD8 /* BlockModeOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockModeOptions.swift; path = Sources/CryptoSwift/BlockMode/BlockModeOptions.swift; sourceTree = "<group>"; };
 		3DB681AD591A9021B773292B957A930A /* SecureBytes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureBytes.swift; path = Sources/CryptoSwift/SecureBytes.swift; sourceTree = "<group>"; };
+		3DC38D87C6F62387D642F26EB032E11B /* ScoscheSDK24-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScoscheSDK24-umbrella.h"; sourceTree = "<group>"; };
 		3DD19C7C5A27E062F17A0DC5987B97FA /* CharacteristicLastName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicLastName.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicLastName.swift; sourceTree = "<group>"; };
 		3E44F4B4CDA286230F181E8DB7F5F0B4 /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decoder.swift; path = Sources/DataDecoder/Decoder.swift; sourceTree = "<group>"; };
 		3EC4BFE1449301E7E7443D0239244C75 /* GBVersionTracking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBVersionTracking-umbrella.h"; sourceTree = "<group>"; };
@@ -731,27 +684,24 @@
 		445FA2502D99A85A6ABAFED37F123BBD /* FitnessMachineControlResponseTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FitnessMachineControlResponseTypes.swift; path = Sources/BluetoothMessageProtocol/Types/FitnessMachineControl/FitnessMachineControlResponseTypes.swift; sourceTree = "<group>"; };
 		44B25B3ADFB26E45733D9A37A8EAC3F3 /* BluetoothBounds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BluetoothBounds.swift; path = Sources/BluetoothMessageProtocol/BluetoothBounds.swift; sourceTree = "<group>"; };
 		45C12BDADB260D2CC3BA40920789FF03 /* GBVersionTracking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GBVersionTracking-Info.plist"; sourceTree = "<group>"; };
-		45FA22EE59B48B1FCA3285734195A125 /* CharacteristicScoscheRhythmPlusSerialData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicScoscheRhythmPlusSerialData.swift; path = ScoscheSDK24/CharacteristicScoscheRhythmPlusSerialData.swift; sourceTree = "<group>"; };
 		466D484EB8FAB48FA9A7AA19EF1F8130 /* ServiceHapSpeaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapSpeaker.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapSpeaker.swift; sourceTree = "<group>"; };
 		46D8D67279AC2D6D096F79620F288DDA /* ManufacturerDataAppleiBeacon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManufacturerDataAppleiBeacon.swift; path = Sources/BluetoothMessageProtocol/ManufacturerData/ManufacturerDataAppleiBeacon.swift; sourceTree = "<group>"; };
 		474030C242DBD306D42AFA4C607F3BB4 /* Cryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptor.swift; path = Sources/CryptoSwift/Cryptor.swift; sourceTree = "<group>"; };
 		47915AC7D55294FA29F4A133653F0217 /* GymConnectEquipmentState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GymConnectEquipmentState.swift; path = Sources/BluetoothMessageProtocol/Types/GymConnectEquipmentState.swift; sourceTree = "<group>"; };
 		490050BE1AB5E1FBF0020F3094C2B540 /* ChaCha20+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ChaCha20+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift"; sourceTree = "<group>"; };
 		491452E2322B6405173C4196C4D4D85C /* ServiceHapCameraRtpStreamManagement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapCameraRtpStreamManagement.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapCameraRtpStreamManagement.swift; sourceTree = "<group>"; };
-		492F216B79A82DD5EBA0A2D8B1FEE854 /* CharacteristicScoscheRhythm24FitFileInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicScoscheRhythm24FitFileInfo.swift; path = ScoscheSDK24/CharacteristicScoscheRhythm24FitFileInfo.swift; sourceTree = "<group>"; };
 		4A5CFB04306941C53C2D02D0A10CD101 /* CharacteristicCurrentTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicCurrentTime.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicCurrentTime.swift; sourceTree = "<group>"; };
 		4A9BEFDF0086F6D72B473B581616A63F /* CharacteristicAerobicHeartRateLowerLimit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicAerobicHeartRateLowerLimit.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicAerobicHeartRateLowerLimit.swift; sourceTree = "<group>"; };
 		4AB23A607B682885E9C38A1F778FFB97 /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/CryptoSwift/SHA1.swift; sourceTree = "<group>"; };
 		4AC92C5B33BEFE07BC9290F7A017889C /* DataDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataDecoder.swift; path = Sources/DataDecoder/DataDecoder.swift; sourceTree = "<group>"; };
 		4AD8025D4E1D9BB3BFD6AA3C82CC32C9 /* CharacteristicFatBurnHeartRateUpperLimit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicFatBurnHeartRateUpperLimit.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicFatBurnHeartRateUpperLimit.swift; sourceTree = "<group>"; };
 		4B0B94A07DA166A8115DDD169E35DBAE /* CharacteristicRestingHeartRate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicRestingHeartRate.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicRestingHeartRate.swift; sourceTree = "<group>"; };
-		4B3EAB8BA0F2CBD6F4E47CB5557DB5E2 /* BluetoothServices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BluetoothServices.swift; path = ScoscheSDK24/BluetoothServices.swift; sourceTree = "<group>"; };
 		4B85F6653E1FE1570EAFD60AA734CD1D /* Poly1305.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poly1305.swift; path = Sources/CryptoSwift/Poly1305.swift; sourceTree = "<group>"; };
 		4B92DA7ECA537C7A5C6744F5C0C7B76E /* GBVersionTracking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBVersionTracking.h; path = GBVersionTracking/GBVersionTracking.h; sourceTree = "<group>"; };
 		4C15969AD7CFCC62914229BF3852103A /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C307BE6F9F478221543D55B3B15C59B /* HomeKitPairingMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HomeKitPairingMethods.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Types/HomeKitPairingMethods.swift; sourceTree = "<group>"; };
-		4DFA83297A35A56F1240E73488BF9829 /* ServiceScoscheRhythmPlusData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceScoscheRhythmPlusData.swift; path = ScoscheSDK24/ServiceScoscheRhythmPlusData.swift; sourceTree = "<group>"; };
 		4FCB76AEDDFFF2B959F1F6F2257EE344 /* ServiceHapCarbonMonoxideSensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapCarbonMonoxideSensor.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapCarbonMonoxideSensor.swift; sourceTree = "<group>"; };
+		500E4B713DD4B7963880E5241F774ADB /* ScoscheMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScoscheMonitor.swift; path = ../ScoscheSDK24/ScoscheMonitor.swift; sourceTree = "<group>"; };
 		51F330490219477BDBE562E8C443E11F /* HMAC+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HMAC+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/HMAC+Foundation.swift"; sourceTree = "<group>"; };
 		521606DE94AFD98192D389007F3D7990 /* CharacteristicDewPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicDewPoint.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicDewPoint.swift; sourceTree = "<group>"; };
 		547D86BF68A0877358DEBE6B6C54E535 /* CharacteristicNorthPoleAweDiagnostics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicNorthPoleAweDiagnostics.swift; path = Sources/BluetoothMessageProtocol/Characteristic/Custom/CharacteristicNorthPoleAweDiagnostics.swift; sourceTree = "<group>"; };
@@ -777,7 +727,6 @@
 		5E6741E30F4541D2A5D9CB3EB40D821F /* ServiceHapDoor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapDoor.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapDoor.swift; sourceTree = "<group>"; };
 		5ECEFBC1B45A5FACE627393A95EDDCD2 /* ServiceEnvironmentalSensing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceEnvironmentalSensing.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceEnvironmentalSensing.swift; sourceTree = "<group>"; };
 		6133EAB793A53C730AFC5E071983A237 /* DataDecoder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DataDecoder-prefix.pch"; sourceTree = "<group>"; };
-		623C2172DF741375E6443B1D08904012 /* FirmwareBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FirmwareBundle.swift; path = ScoscheSDK24/FirmwareBundle.swift; sourceTree = "<group>"; };
 		626A3D67927CE3B90BC748BB17ABE969 /* CMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CMAC.swift; path = Sources/CryptoSwift/CMAC.swift; sourceTree = "<group>"; };
 		6291A54C88BE853C138154FF1BEDE4C4 /* ServiceHapIrrigationSystem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapIrrigationSystem.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapIrrigationSystem.swift; sourceTree = "<group>"; };
 		63EE1F9654159EF4CE78432ABFA40FC7 /* CCM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCM.swift; path = Sources/CryptoSwift/BlockMode/CCM.swift; sourceTree = "<group>"; };
@@ -793,7 +742,6 @@
 		66C958B49112081894AD278594B5823A /* ServiceGenericAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceGenericAttribute.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceGenericAttribute.swift; sourceTree = "<group>"; };
 		6763BBE622A7377053376336B77BA7D7 /* FitnessUnits-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FitnessUnits-umbrella.h"; sourceTree = "<group>"; };
 		6779D503C87B3DC0954634A7E672F071 /* CharacteristicBondManagementFeatures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicBondManagementFeatures.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicBondManagementFeatures.swift; sourceTree = "<group>"; };
-		67E8FBE595BA3A8B0E228DE0BFF257D9 /* DataExtention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataExtention.swift; path = ScoscheSDK24/DataExtention.swift; sourceTree = "<group>"; };
 		6878FB26F674F9E1D96D18DABA6979BC /* CFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CFB.swift; path = Sources/CryptoSwift/BlockMode/CFB.swift; sourceTree = "<group>"; };
 		689F8D617D9CDC53B0800C58C0C4E159 /* ServiceHapLightbulb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapLightbulb.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapLightbulb.swift; sourceTree = "<group>"; };
 		690776F7B29FD711697ABBAEC3393030 /* CharacteristicFitnessMachineStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicFitnessMachineStatus.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicFitnessMachineStatus.swift; sourceTree = "<group>"; };
@@ -807,6 +755,7 @@
 		6D4DA7EB90AACC8682BED6F20A556F34 /* AccessoryCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessoryCategory.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Types/AccessoryCategory.swift; sourceTree = "<group>"; };
 		6D6AE4572EA26BDEEEB4A1B2EA2F9CC6 /* ServiceDataFitnessMachine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceDataFitnessMachine.swift; path = Sources/BluetoothMessageProtocol/ServiceData/ServiceDataFitnessMachine.swift; sourceTree = "<group>"; };
 		6D7CC0C643E71070AB8EB06122D37FDA /* CharacteristicGymConnectEquipmentState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicGymConnectEquipmentState.swift; path = Sources/BluetoothMessageProtocol/Characteristic/Custom/CharacteristicGymConnectEquipmentState.swift; sourceTree = "<group>"; };
+		6E8AB5B4DA76E1A7CEE09F8D1197C281 /* CentralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CentralManager.swift; path = ../ScoscheSDK24/CentralManager.swift; sourceTree = "<group>"; };
 		6ED4E43C6DB7E8251B2C625905521DBE /* ServiceTexasInstrumentsSensorTagHumidity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceTexasInstrumentsSensorTagHumidity.swift; path = Sources/BluetoothMessageProtocol/Service/Custom/TexasInstruments/ServiceTexasInstrumentsSensorTagHumidity.swift; sourceTree = "<group>"; };
 		6F0AE6D11B3D95C7299E2125ACBDC2A0 /* DataDecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataDecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F62F3879B8F9728120C76F10252629A /* ServiceNorthPoleAweDiagnostics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceNorthPoleAweDiagnostics.swift; path = Sources/BluetoothMessageProtocol/Service/Custom/ServiceNorthPoleAweDiagnostics.swift; sourceTree = "<group>"; };
@@ -819,11 +768,9 @@
 		73D97424F74BAD57DC55070FC5E2E3AD /* CharacteristicIndoorBikeData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicIndoorBikeData.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicIndoorBikeData.swift; sourceTree = "<group>"; };
 		73E91456B17717BE35EE00473CAB7891 /* ServiceHapOutlet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapOutlet.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapOutlet.swift; sourceTree = "<group>"; };
 		73F3AF51584E33C378E1A13E08E5E2CB /* CharacteristicBloodPressureFeature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicBloodPressureFeature.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicBloodPressureFeature.swift; sourceTree = "<group>"; };
-		74495B61FB0ADAC8FD6899232C6AF9AB /* CharacteristicScoscheRhythmPlusTotalDistance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicScoscheRhythmPlusTotalDistance.swift; path = ScoscheSDK24/CharacteristicScoscheRhythmPlusTotalDistance.swift; sourceTree = "<group>"; };
 		74AB10EE56ACAD21BD29B02B32F33DC4 /* ProvisioningDataUnitStart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProvisioningDataUnitStart.swift; path = Sources/BluetoothMessageProtocol/Mesh/Provisioning/ProvisioningDataUnitStart.swift; sourceTree = "<group>"; };
 		75621C2FC8277EE196C1073D6472DBE6 /* ValidatedMeasurement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidatedMeasurement.swift; path = Sources/FitnessUnits/Measurements/ValidatedMeasurement.swift; sourceTree = "<group>"; };
 		75D16E5A45901FD84DC475AB6F9B657F /* ServiceHapLockMechanism.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapLockMechanism.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapLockMechanism.swift; sourceTree = "<group>"; };
-		75F375675D3A88573C01B1E9D388502D /* Diagnostics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Diagnostics.swift; path = ScoscheSDK24/Diagnostics.swift; sourceTree = "<group>"; };
 		76C883C30F8475F421ADAA7C90977459 /* ServiceEliteTrainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceEliteTrainer.swift; path = Sources/BluetoothMessageProtocol/Service/Custom/ServiceEliteTrainer.swift; sourceTree = "<group>"; };
 		76D9E9EDBEB75E54EA4BDC7B1B7C83E0 /* CharacteristicAge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicAge.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicAge.swift; sourceTree = "<group>"; };
 		771017E6F5B455BFCFC048DB7DDA8083 /* UnitRadioactivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnitRadioactivity.swift; path = Sources/FitnessUnits/Dimensional/UnitRadioactivity.swift; sourceTree = "<group>"; };
@@ -832,13 +779,11 @@
 		77F39D3DDD8632BBA345800CF55995B8 /* BluetoothMessageProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BluetoothMessageProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		782FAB80BF99EEE4E5D849FD8ED1B219 /* ProvisioningDataUnitType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProvisioningDataUnitType.swift; path = Sources/BluetoothMessageProtocol/Mesh/Provisioning/ProvisioningDataUnitType.swift; sourceTree = "<group>"; };
 		787857CF02BF94F964832A6980BE435E /* MeasurementZone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MeasurementZone.swift; path = Sources/FitnessUnits/MeasurementZone.swift; sourceTree = "<group>"; };
-		7888344B9F333023CDAA1914FC0B233A /* ServiceScoscheRhythmPlusArmband.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceScoscheRhythmPlusArmband.swift; path = ScoscheSDK24/ServiceScoscheRhythmPlusArmband.swift; sourceTree = "<group>"; };
 		78EE9208D20B66F1B97C9C1EA0C33DAA /* MeshMessageGenericDelta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MeshMessageGenericDelta.swift; path = Sources/BluetoothMessageProtocol/Mesh/Types/Message/MeshMessageGenericDelta.swift; sourceTree = "<group>"; };
 		7A7814F222BD3B0A0D18A56B10AA4AFC /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = Sources/BluetoothMessageProtocol/Service.swift; sourceTree = "<group>"; };
+		7AC750E919F4A07F72FD59E3F3DCC633 /* ScoscheSDK24.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ScoscheSDK24.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7AE569CBCE2257B9FA64D77D69C597FD /* CharacteristicObjectName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicObjectName.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicObjectName.swift; sourceTree = "<group>"; };
-		7C208EFA2E2AFF08721B0A3CFDABDB30 /* CharacteristicScoscheRhythm24SportMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicScoscheRhythm24SportMode.swift; path = ScoscheSDK24/CharacteristicScoscheRhythm24SportMode.swift; sourceTree = "<group>"; };
 		7CBFD0DDEE9E95BA7FF5014BDBFB819E /* CharacteristicGymConnectEquipmentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicGymConnectEquipmentType.swift; path = Sources/BluetoothMessageProtocol/Characteristic/Custom/CharacteristicGymConnectEquipmentType.swift; sourceTree = "<group>"; };
-		7CFC6028D25F76B0BD703914E08174CE /* UserConfigurable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserConfigurable.swift; path = ScoscheSDK24/UserConfigurable.swift; sourceTree = "<group>"; };
 		7DA7BF1755ABF259A32EEC921BA16FDE /* CharacteristicWaistCircumference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicWaistCircumference.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicWaistCircumference.swift; sourceTree = "<group>"; };
 		7E2C116AAE06007FD02AEB72B9EB7757 /* ServiceUserData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceUserData.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceUserData.swift; sourceTree = "<group>"; };
 		7E2D96F9F647997FDCC2FBCB605EBD1D /* GBVersionTracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBVersionTracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -846,15 +791,12 @@
 		7FE4E3740A50BF422FB3E80EA385A5CE /* ServiceHapSlat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapSlat.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapSlat.swift; sourceTree = "<group>"; };
 		804FB5CA3D3D9478EB1E47E46C99B69C /* Data+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "Sources/CryptoSwift/Foundation/Data+Extension.swift"; sourceTree = "<group>"; };
 		811E62040C576D3E9488C856526EAF74 /* CharacteristicLatitude.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicLatitude.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicLatitude.swift; sourceTree = "<group>"; };
-		81910FC25E5FFCB5D53CEE6D9A37B5D1 /* ServiceScoscheRhythm24FitFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceScoscheRhythm24FitFile.swift; path = ScoscheSDK24/ServiceScoscheRhythm24FitFile.swift; sourceTree = "<group>"; };
-		81E3B10C47D4275CD5CD854EC3058A1D /* ScoscheSDK24-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScoscheSDK24-prefix.pch"; sourceTree = "<group>"; };
 		833918763DBB4999C177ABF1442E2ED4 /* PeerAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeerAddress.swift; path = Sources/BluetoothMessageProtocol/GAP/PeerAddress.swift; sourceTree = "<group>"; };
 		838BA9F87B11D74E3E0A3EF1D1599D97 /* ServiceHomeKitProtocolExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHomeKitProtocolExtension.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHomeKitProtocolExtension.swift; sourceTree = "<group>"; };
 		839124F6212D2FADA94B748A32D9125D /* ServiceContinuousGlucoseMonitoring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceContinuousGlucoseMonitoring.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceContinuousGlucoseMonitoring.swift; sourceTree = "<group>"; };
 		8459ECA4607A307C1871EA590AC8FE11 /* ServiceDataMeshProvisioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceDataMeshProvisioning.swift; path = Sources/BluetoothMessageProtocol/ServiceData/ServiceDataMeshProvisioning.swift; sourceTree = "<group>"; };
 		846AB7617B543A0315EFF301C8CA9A59 /* ChaCha20.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChaCha20.swift; path = Sources/CryptoSwift/ChaCha20.swift; sourceTree = "<group>"; };
 		8602B76FF322D8FB73D75705C5F499C0 /* CharacteristicHeight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicHeight.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicHeight.swift; sourceTree = "<group>"; };
-		864C2C104FA0BB9B334154109D66F01C /* CharacteristicScoscheRhythmPlusThreeZone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicScoscheRhythmPlusThreeZone.swift; path = ScoscheSDK24/CharacteristicScoscheRhythmPlusThreeZone.swift; sourceTree = "<group>"; };
 		8686A961DCA1D27696B62984479B2641 /* CharacteristicWeightScaleFeature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicWeightScaleFeature.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicWeightScaleFeature.swift; sourceTree = "<group>"; };
 		86F14A7DB15D4A6CB542155819C084D3 /* ProvisioningDataUnitCapabilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProvisioningDataUnitCapabilities.swift; path = Sources/BluetoothMessageProtocol/Mesh/Provisioning/ProvisioningDataUnitCapabilities.swift; sourceTree = "<group>"; };
 		86FE319CDF1E8308AB897CFA2B5EAAAF /* CharacteristicGymConnectEquipmentStateName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicGymConnectEquipmentStateName.swift; path = Sources/BluetoothMessageProtocol/Characteristic/Custom/CharacteristicGymConnectEquipmentStateName.swift; sourceTree = "<group>"; };
@@ -872,16 +814,13 @@
 		8BD3CA040157029A188441D72AE9B6A6 /* GBVersionTracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBVersionTracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7854E14C24E90E645E324AEE2C98E5 /* CipherModeWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CipherModeWorker.swift; path = Sources/CryptoSwift/BlockMode/CipherModeWorker.swift; sourceTree = "<group>"; };
 		8C79171A215518F6DE1F565FC396B8E5 /* GBVersionTracking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBVersionTracking.xcconfig; sourceTree = "<group>"; };
-		8CD6F01F4CCC0387037EB61FB94BC243 /* SystemState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemState.swift; path = ScoscheSDK24/SystemState.swift; sourceTree = "<group>"; };
 		8D6213592A035901AFE5C5450BA863DC /* CharacteristicHTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicHTTPHeaders.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicHTTPHeaders.swift; sourceTree = "<group>"; };
 		8E29F683D79A701658E7F211F01D28AE /* DigestType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DigestType.swift; path = Sources/CryptoSwift/DigestType.swift; sourceTree = "<group>"; };
 		8E2D0CCBCCEC3441E8A4A7AB00460A5E /* UnitSpeed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnitSpeed.swift; path = Sources/FitnessUnits/Dimensional/UnitSpeed.swift; sourceTree = "<group>"; };
 		8EFCE9E87E3042965BF4366B529650AD /* CharacteristicSerialNumberString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicSerialNumberString.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicSerialNumberString.swift; sourceTree = "<group>"; };
-		8F6C54719667D9217C5316EAF040A3A4 /* CharacteristicScoscheRhythm24FitDirectory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicScoscheRhythm24FitDirectory.swift; path = ScoscheSDK24/CharacteristicScoscheRhythm24FitDirectory.swift; sourceTree = "<group>"; };
 		8FF7B9030D7F2F68632F2A57804AC70F /* StringMeasurement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringMeasurement.swift; path = Sources/FitnessUnits/Measurements/StringMeasurement.swift; sourceTree = "<group>"; };
 		9030CEA6B3102BFB41A70BEC53836A38 /* AppleBeaconExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppleBeaconExtension.swift; path = Sources/BluetoothMessageProtocol/ManufacturerData/AppleBeaconExtension.swift; sourceTree = "<group>"; };
 		908CCF8A1EF9D2FDE04AF4C892FB0D86 /* CharacteristicTacxAntFecReceive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicTacxAntFecReceive.swift; path = Sources/BluetoothMessageProtocol/Characteristic/Custom/CharacteristicTacxAntFecReceive.swift; sourceTree = "<group>"; };
-		914BFA51CC68902635F647944A5DED4A /* ArrayExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtension.swift; path = ScoscheSDK24/ArrayExtension.swift; sourceTree = "<group>"; };
 		915C2D45009ABAB24DF882BF3693E364 /* CharacteristicLocalNorthCoordinate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicLocalNorthCoordinate.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicLocalNorthCoordinate.swift; sourceTree = "<group>"; };
 		9186D35F41A34E038CFB2803AE71DD92 /* ServiceHttpProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHttpProxy.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceHttpProxy.swift; sourceTree = "<group>"; };
 		91CBD511337D90E1FDDA0B0898ADCA3E /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/CryptoSwift/HMAC.swift; sourceTree = "<group>"; };
@@ -896,15 +835,13 @@
 		955C28C320BE09D7113A43657111D55B /* Checksum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checksum.swift; path = Sources/CryptoSwift/Checksum.swift; sourceTree = "<group>"; };
 		957ED6D4CEB0905313D55C7455B3A19D /* CharacteristicAnalog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicAnalog.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicAnalog.swift; sourceTree = "<group>"; };
 		962F4F162E25ADA766EE2552D595FCB4 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
-		96396BF1704DC8B6AC8DBEAEE3F067D9 /* TimeIntervalExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeIntervalExtension.swift; path = ScoscheSDK24/TimeIntervalExtension.swift; sourceTree = "<group>"; };
 		963D3040F993405D948756EB0EA13807 /* BluetoothAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BluetoothAppearance.swift; path = Sources/BluetoothMessageProtocol/Types/BluetoothAppearance.swift; sourceTree = "<group>"; };
 		96E9A5F4E71AE304DCFDE60561AED049 /* FitnessUnits.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FitnessUnits.modulemap; sourceTree = "<group>"; };
 		9798C27FFD625F9DF05CF6071AE4462F /* CryptoSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CryptoSwift.modulemap; sourceTree = "<group>"; };
 		97DE43F5D83D7759302CA9C5E0B3EC0D /* HeartRateTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeartRateTypes.swift; path = Sources/BluetoothMessageProtocol/Types/HeartRateTypes.swift; sourceTree = "<group>"; };
-		980EE5EC221F337D008DC83F /* FitFileMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FitFileMetaData.swift; path = ScoscheSDK24/FitFileMetaData.swift; sourceTree = "<group>"; };
-		980EE5F0221F56B2008DC83F /* FITFileMetaDataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FITFileMetaDataExtension.swift; path = ScoscheSDK24/FITFileMetaDataExtension.swift; sourceTree = "<group>"; };
-		984A1DF82217474A00FDCCC8 /* ScoscheSDK24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScoscheSDK24.swift; path = ScoscheSDK24/ScoscheSDK24.swift; sourceTree = "<group>"; };
-		984A1DFF221B270900FDCCC8 /* ScoscheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScoscheViewController.swift; path = ScoscheSDK24/ScoscheViewController.swift; sourceTree = "<group>"; };
+		9847EEEF2236B86900698004 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base.swift; path = ../ScoscheSDK24/Base.swift; sourceTree = "<group>"; };
+		9847EEF12236B9DF00698004 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Service.swift; path = ../ScoscheSDK24/Service.swift; sourceTree = "<group>"; };
+		9847EEF32236B9F600698004 /* Characteristics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Characteristics.swift; path = ../Characteristics.swift; sourceTree = "<group>"; };
 		989404CD2E7D870A6B98AFE84CEC1671 /* CharacteristicHTTPEntityBody.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicHTTPEntityBody.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicHTTPEntityBody.swift; sourceTree = "<group>"; };
 		98C829FE0AF3440E66F5C94B92A94415 /* ServiceReferenceTimeUpdate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceReferenceTimeUpdate.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceReferenceTimeUpdate.swift; sourceTree = "<group>"; };
 		98E378A01971FF8DE6E4EB8D18249DA2 /* ServiceHapSmokeSensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapSmokeSensor.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapSmokeSensor.swift; sourceTree = "<group>"; };
@@ -916,7 +853,6 @@
 		9B27C743C4D66410C31CCF2BF88A700A /* ServiceBloodPressure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceBloodPressure.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceBloodPressure.swift; sourceTree = "<group>"; };
 		9BCDD41FFFB45077198EA821DA7CF592 /* UInt8Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UInt8Extension.swift; path = Sources/BluetoothMessageProtocol/Extensions/UInt8Extension.swift; sourceTree = "<group>"; };
 		9BFF371BC1C19289CED6B986ACFB61FA /* CharacteristicLongitude.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicLongitude.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicLongitude.swift; sourceTree = "<group>"; };
-		9C1FE430400D10198875E1644B9CB5D9 /* FitDirectory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FitDirectory.swift; path = ScoscheSDK24/FitDirectory.swift; sourceTree = "<group>"; };
 		9C9AD1750DA7A9308CD318A3767BB19A /* StreamDecryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamDecryptor.swift; path = Sources/CryptoSwift/StreamDecryptor.swift; sourceTree = "<group>"; };
 		9CA62B4281985A5BE3F192E0B72C800F /* Utils+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Utils+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Utils+Foundation.swift"; sourceTree = "<group>"; };
 		9CFADC0E3D1F923224DCF9C632336694 /* CharacteristicTrueWindSpeed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicTrueWindSpeed.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicTrueWindSpeed.swift; sourceTree = "<group>"; };
@@ -928,16 +864,13 @@
 		9FCC765E504BB372C85B8ABB6F24D299 /* UInt8+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt8+Extension.swift"; path = "Sources/CryptoSwift/UInt8+Extension.swift"; sourceTree = "<group>"; };
 		A084674939F2E66F60DF164B6132FDC4 /* FitnessUnits-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FitnessUnits-prefix.pch"; sourceTree = "<group>"; };
 		A0ABD0418821AAB5667B41A5D770962D /* CharacteristicFirmwareRevisionString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicFirmwareRevisionString.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicFirmwareRevisionString.swift; sourceTree = "<group>"; };
-		A0C8BF1FB12AAEB5E99B642C265289DA /* ScoscheSDK24.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScoscheSDK24.xcconfig; sourceTree = "<group>"; };
 		A0CB7205980EF573E98CADA2FD39AF6A /* ScoscheSDK24.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScoscheSDK24.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FC4B4B1CB911102D066E4448EF6601 /* CharacteristicSensorLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicSensorLocation.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicSensorLocation.swift; sourceTree = "<group>"; };
 		A2FC7EC027C8B2B29274EFD60E3C2260 /* CompanyIdentifierExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompanyIdentifierExtension.swift; path = Sources/BluetoothMessageProtocol/CompanyIdentifier/CompanyIdentifierExtension.swift; sourceTree = "<group>"; };
-		A4245F9406197811939365580B1442F4 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ScoscheSDK24/Constants.swift; sourceTree = "<group>"; };
 		A470F532201865BF8F653C2DF4761E9D /* CharacteristicMeshProxyDataOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicMeshProxyDataOut.swift; path = Sources/BluetoothMessageProtocol/Mesh/Characteristic/CharacteristicMeshProxyDataOut.swift; sourceTree = "<group>"; };
 		A4B21C881AFEB168795877ECC07EE60F /* ServiceFitnessMachine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceFitnessMachine.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceFitnessMachine.swift; sourceTree = "<group>"; };
 		A4C7C58DFEFD43175A360C569BA56259 /* ManufacturerDataAltBeacon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManufacturerDataAltBeacon.swift; path = Sources/BluetoothMessageProtocol/ManufacturerData/ManufacturerDataAltBeacon.swift; sourceTree = "<group>"; };
 		A4E48C09C7E09F1D63B06D285EE2486D /* UnitDuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnitDuration.swift; path = Sources/FitnessUnits/Dimensional/UnitDuration.swift; sourceTree = "<group>"; };
-		A531EB684DDE99373334D2DBF07D8D20 /* CharacteristicScoscheRhythm24FiveZoneHr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicScoscheRhythm24FiveZoneHr.swift; path = ScoscheSDK24/CharacteristicScoscheRhythm24FiveZoneHr.swift; sourceTree = "<group>"; };
 		A535D7019F3073A65235CCC8815030AD /* ProvisioningDataUnitInvite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProvisioningDataUnitInvite.swift; path = Sources/BluetoothMessageProtocol/Mesh/Provisioning/ProvisioningDataUnitInvite.swift; sourceTree = "<group>"; };
 		A54725CD9132D8011C647846EF282144 /* String+FoundationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+FoundationExtension.swift"; path = "Sources/CryptoSwift/Foundation/String+FoundationExtension.swift"; sourceTree = "<group>"; };
 		A5634813FF48ABDE78B8D0A65B2D5D58 /* CharacteristicApparentWindDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicApparentWindDirection.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicApparentWindDirection.swift; sourceTree = "<group>"; };
@@ -962,7 +895,6 @@
 		ADDF7295DDB844B30ABF5B1BDF58B187 /* ManufacturerDataPolarHeartRate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManufacturerDataPolarHeartRate.swift; path = Sources/BluetoothMessageProtocol/ManufacturerData/ManufacturerDataPolarHeartRate.swift; sourceTree = "<group>"; };
 		AFF156AE75B5F5D4D0BFE900CAC246BA /* CharacteristicFatBurnHeartRateLowerLimit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicFatBurnHeartRateLowerLimit.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicFatBurnHeartRateLowerLimit.swift; sourceTree = "<group>"; };
 		AFF8324628DDFA878F45656027937FFA /* CharacteristicBloodPressureMeasurement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicBloodPressureMeasurement.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicBloodPressureMeasurement.swift; sourceTree = "<group>"; };
-		B0FF1F02B891A3833D40F16651A7542D /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = ScoscheSDK24/StringExtension.swift; sourceTree = "<group>"; };
 		B11BA56D09E99BEC53B3675658105259 /* CharacteristicEmailAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicEmailAddress.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicEmailAddress.swift; sourceTree = "<group>"; };
 		B169B5B02F09EDE53D98D519B1F00C6C /* CharacteristicGymConnectMeasurement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicGymConnectMeasurement.swift; path = Sources/BluetoothMessageProtocol/Characteristic/Custom/CharacteristicGymConnectMeasurement.swift; sourceTree = "<group>"; };
 		B17E44C6262073296D6595C39E27E617 /* Generics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generics.swift; path = Sources/CryptoSwift/Generics.swift; sourceTree = "<group>"; };
@@ -973,17 +905,14 @@
 		B47A6FB1B12F7DA6A8F63055520C8F33 /* ServiceHapDoorbell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapDoorbell.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapDoorbell.swift; sourceTree = "<group>"; };
 		B5361C92889756A1D59BA9BB23A05FE1 /* Resolutionable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolutionable.swift; path = Sources/BluetoothMessageProtocol/Extensions/Resolutionable.swift; sourceTree = "<group>"; };
 		B55A31AFBBE4C4D6E4944F7B6776FC0A /* MeshOutOfBandInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MeshOutOfBandInformation.swift; path = Sources/BluetoothMessageProtocol/Mesh/Types/MeshOutOfBandInformation.swift; sourceTree = "<group>"; };
-		B560BE044A7E797C9C1F57A1C888389E /* ServiceScoscheRhythm24ValencellFirmware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceScoscheRhythm24ValencellFirmware.swift; path = ScoscheSDK24/ServiceScoscheRhythm24ValencellFirmware.swift; sourceTree = "<group>"; };
 		B6C2BC706C751BF8D18403063A346EA7 /* CharacteristicPressure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicPressure.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicPressure.swift; sourceTree = "<group>"; };
 		B6E2374003BE8F6F2D81D922D6953C69 /* PKCS7Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7Padding.swift; path = Sources/CryptoSwift/PKCS/PKCS7Padding.swift; sourceTree = "<group>"; };
-		B713D0531852D9AC01F3D3E18B5647CF /* ScoscheSDK24.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScoscheSDK24.modulemap; sourceTree = "<group>"; };
 		B77CBAE9B932C7E3D61270120EB7E2EE /* CharacteristicRingerSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicRingerSetting.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicRingerSetting.swift; sourceTree = "<group>"; };
 		B835633A332FC0C23CBFF40A0A459BAB /* FitnessMachineControlCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FitnessMachineControlCode.swift; path = Sources/BluetoothMessageProtocol/Types/FitnessMachineControl/FitnessMachineControlCode.swift; sourceTree = "<group>"; };
 		B8614315E08D97CE986BA0181B74E34D /* CharacteristicTreadmillData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicTreadmillData.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicTreadmillData.swift; sourceTree = "<group>"; };
 		B8C3B3DF3DE3CD7E534945E2D7AB7227 /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
 		B993CA92CE2FC7EBF93EAD1EF56D8441 /* ServiceBodyComposition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceBodyComposition.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceBodyComposition.swift; sourceTree = "<group>"; };
 		B9AEE489C5B6EDCA75680950B3C4DC1A /* UInt32+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt32+Extension.swift"; path = "Sources/CryptoSwift/UInt32+Extension.swift"; sourceTree = "<group>"; };
-		BB5A49C183CA001EE583A0DCCFEB7463 /* CharacteristicScoscheRhythmPlusStepRateData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicScoscheRhythmPlusStepRateData.swift; path = ScoscheSDK24/CharacteristicScoscheRhythmPlusStepRateData.swift; sourceTree = "<group>"; };
 		BB699774D983D91FB7479723C1DE664C /* CharacteristicLocationName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicLocationName.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicLocationName.swift; sourceTree = "<group>"; };
 		BBB04AD9BD47C7FC6E8110C8144CE0F6 /* CharacteristicHeartRateMax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicHeartRateMax.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicHeartRateMax.swift; sourceTree = "<group>"; };
 		BC009A3C30E14C81542BE6EE38A8807E /* CharacteristicNetworkAvailability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicNetworkAvailability.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicNetworkAvailability.swift; sourceTree = "<group>"; };
@@ -993,19 +922,15 @@
 		BEDC427D7A408B5F090AC077672DBD8B /* CharacteristicUnreadAlertStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicUnreadAlertStatus.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicUnreadAlertStatus.swift; sourceTree = "<group>"; };
 		BFB295BBA02C0AD2487D33D59323F197 /* ServiceScanParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceScanParameters.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceScanParameters.swift; sourceTree = "<group>"; };
 		BFCCCB7238A05C37011A4A5E40CD711A /* ServiceDropcam.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceDropcam.swift; path = Sources/BluetoothMessageProtocol/Service/Custom/ServiceDropcam.swift; sourceTree = "<group>"; };
-		C0015BB55205C61DB78A7F945DB33402 /* ScoscheSDK24.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ScoscheSDK24.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C03BB53544AFCBF3A9C03DF238BC657D /* CompanyIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompanyIdentifier.swift; path = Sources/BluetoothMessageProtocol/CompanyIdentifier/CompanyIdentifier.swift; sourceTree = "<group>"; };
 		C08456D61F93B4E05A7CD5B6D39A5CBA /* CharacteristicContinuousGlucoseMonitoringFeature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicContinuousGlucoseMonitoringFeature.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicContinuousGlucoseMonitoringFeature.swift; sourceTree = "<group>"; };
+		C084F4E262556824426569A6EBEB8126 /* ScoscheViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScoscheViewController.swift; path = ScoscheSDK24/ScoscheViewController.swift; sourceTree = "<group>"; };
 		C0B79B945DD14052E48C46AFBF94CCA9 /* Updatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Updatable.swift; path = Sources/CryptoSwift/Updatable.swift; sourceTree = "<group>"; };
-		C11E58D0151FF01F3AC1277C9CB5326E /* PermissionsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionsManager.swift; path = ScoscheSDK24/PermissionsManager.swift; sourceTree = "<group>"; };
 		C167BAC2C9E051E3746FD8EF6268DDE5 /* ProxyDataUnits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProxyDataUnits.swift; path = Sources/BluetoothMessageProtocol/Mesh/Proxy/ProxyDataUnits.swift; sourceTree = "<group>"; };
 		C1CBE6DB6E973C1D785F2EEA83DB54A3 /* FitnessUnits.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FitnessUnits.xcconfig; sourceTree = "<group>"; };
 		C28B7A1B849B2707CDA51C39127555F9 /* ServiceCycleOps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceCycleOps.swift; path = Sources/BluetoothMessageProtocol/Service/Custom/ServiceCycleOps.swift; sourceTree = "<group>"; };
-		C2A87725E720E019B08BE0AE88FB4342 /* RemoteConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteConfig.swift; path = ScoscheSDK24/RemoteConfig.swift; sourceTree = "<group>"; };
 		C4EBF2BEDDC23D2303D4588A72C59EF1 /* GBVersionTracking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBVersionTracking-dummy.m"; sourceTree = "<group>"; };
-		C505D718B0B7407D6D552E296B48F740 /* CharacteristicScoscheRhythmPlusParametricData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicScoscheRhythmPlusParametricData.swift; path = ScoscheSDK24/CharacteristicScoscheRhythmPlusParametricData.swift; sourceTree = "<group>"; };
 		C6ABF3D8650B5847E8BD381E44AE3686 /* CharacteristicMeshProvisioningDataIn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicMeshProvisioningDataIn.swift; path = Sources/BluetoothMessageProtocol/Mesh/Characteristic/CharacteristicMeshProvisioningDataIn.swift; sourceTree = "<group>"; };
-		C6E11135CEC6D0504F529196DA376C61 /* Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Types.swift; path = ScoscheSDK24/Types.swift; sourceTree = "<group>"; };
 		C7525336E2658293F3F251E2A4ECDE67 /* Collection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+Extension.swift"; path = "Sources/CryptoSwift/Collection+Extension.swift"; sourceTree = "<group>"; };
 		C764134E74D11B2102C8C3B069BF0777 /* DataDecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataDecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DEA2123196E3D0475ABC3CA6E4E5A2 /* UnitMass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnitMass.swift; path = Sources/FitnessUnits/Dimensional/UnitMass.swift; sourceTree = "<group>"; };
@@ -1031,6 +956,7 @@
 		D1BC787AF9DE59FC1D9F22012EDE4FD5 /* ServiceTransportDiscovery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceTransportDiscovery.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceTransportDiscovery.swift; sourceTree = "<group>"; };
 		D1E43AD3136E2D2E4F975E8FCD9560FD /* MeshModelIdentifierVendorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MeshModelIdentifierVendorExtension.swift; path = Sources/BluetoothMessageProtocol/Mesh/Types/MeshModelIdentifierVendorExtension.swift; sourceTree = "<group>"; };
 		D2A0EE8A034D7506AA42A630662D4332 /* GymConnectEquipmentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GymConnectEquipmentType.swift; path = Sources/BluetoothMessageProtocol/Types/GymConnectEquipmentType.swift; sourceTree = "<group>"; };
+		D2AD5CFD5CE533A3025C992A2367ADDC /* ScoscheSDK24.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScoscheSDK24.swift; path = ScoscheSDK24/ScoscheSDK24.swift; sourceTree = "<group>"; };
 		D3F8F9C233910C99295E131B6F158738 /* UnitCadence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnitCadence.swift; path = Sources/FitnessUnits/Dimensionless/UnitCadence.swift; sourceTree = "<group>"; };
 		D4FFB389E60046682941909EB3C1D0D7 /* CharacteristicBatteryLevelState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicBatteryLevelState.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicBatteryLevelState.swift; sourceTree = "<group>"; };
 		D50D4AE3A819D26E403F67640EABD45E /* CharacteristicBatteryPowerState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicBatteryPowerState.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicBatteryPowerState.swift; sourceTree = "<group>"; };
@@ -1046,12 +972,10 @@
 		D8DDB6B468CA6F1731CFC744F7002185 /* ServiceMeshProvisioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceMeshProvisioning.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceMeshProvisioning.swift; sourceTree = "<group>"; };
 		D904C39A5F3F6D938AF0564805398F8C /* ServiceLinkLoss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceLinkLoss.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceLinkLoss.swift; sourceTree = "<group>"; };
 		DAFBCC2627BA820D377021D922665E77 /* MeshModelIdentifierExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MeshModelIdentifierExtension.swift; path = Sources/BluetoothMessageProtocol/Mesh/Types/MeshModelIdentifierExtension.swift; sourceTree = "<group>"; };
-		DB3152E6621E53993DCE6DEEBFBE7A5D /* ScoscheSDK24-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScoscheSDK24-umbrella.h"; sourceTree = "<group>"; };
 		DCE1C844260AAB045380FD7EAA7FF0CB /* CharacteristicRowerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicRowerData.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicRowerData.swift; sourceTree = "<group>"; };
 		DDD85E711AC2A37BAF69F97DAC3632AA /* CharacteristicNorthPoleAweHeartRateMeasurement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicNorthPoleAweHeartRateMeasurement.swift; path = Sources/BluetoothMessageProtocol/Characteristic/Custom/CharacteristicNorthPoleAweHeartRateMeasurement.swift; sourceTree = "<group>"; };
 		DE92159CD40B3610500CCBE37407F7A8 /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
 		DEE16E94FA423BE47C99AB99A2E9A45D /* CharacteristicStairClimberData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicStairClimberData.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicStairClimberData.swift; sourceTree = "<group>"; };
-		DF6912A797F1EEAF4BC6DAEE628BAECC /* ScoscheSDK24-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScoscheSDK24-Info.plist"; sourceTree = "<group>"; };
 		DFB661CDF5EDF5DCEC9757E438057267 /* CharacteristicTimeUpdateControlPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicTimeUpdateControlPoint.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicTimeUpdateControlPoint.swift; sourceTree = "<group>"; };
 		DFDD0BAD84BC3F3602606476DEAD5A3D /* FitnessMachineControlProcedure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FitnessMachineControlProcedure.swift; path = Sources/BluetoothMessageProtocol/Types/FitnessMachineControl/FitnessMachineControlProcedure.swift; sourceTree = "<group>"; };
 		DFF8D0C083579CAC48A5B5FA86F09A31 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/CryptoSwift/Operators.swift; sourceTree = "<group>"; };
@@ -1061,7 +985,6 @@
 		E1C1480F5CACB1F1B3D6EBFCD507CA35 /* ServiceHapValve.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapValve.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapValve.swift; sourceTree = "<group>"; };
 		E34A21E2A69557D12C8DBBC563328EE4 /* ServiceTexasInstrumentsSensorTagMagnetometer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceTexasInstrumentsSensorTagMagnetometer.swift; path = Sources/BluetoothMessageProtocol/Service/Custom/TexasInstruments/ServiceTexasInstrumentsSensorTagMagnetometer.swift; sourceTree = "<group>"; };
 		E3ED74EAA38842E85346524730B91153 /* CharacteristicRainfall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicRainfall.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicRainfall.swift; sourceTree = "<group>"; };
-		E45AA990262A5FF97B87507939D05C35 /* UserConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserConfig.swift; path = ScoscheSDK24/UserConfig.swift; sourceTree = "<group>"; };
 		E47586D527AF6423C1FBC596D18E6AFA /* ServiceHapHumiditySensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapHumiditySensor.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapHumiditySensor.swift; sourceTree = "<group>"; };
 		E4C61F3E631EC6468FFF8881D473531D /* ServiceNextDSTChange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceNextDSTChange.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceNextDSTChange.swift; sourceTree = "<group>"; };
 		E57796CCB9A1C792AA498452C4CE50F1 /* ZeroPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZeroPadding.swift; path = Sources/CryptoSwift/ZeroPadding.swift; sourceTree = "<group>"; };
@@ -1078,7 +1001,6 @@
 		E95EC4ED7E9FFCE37554E80E0704FFFF /* ManufacturerDataAppleHomeKitEncryptedNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManufacturerDataAppleHomeKitEncryptedNotification.swift; path = Sources/BluetoothMessageProtocol/ManufacturerData/ManufacturerDataAppleHomeKitEncryptedNotification.swift; sourceTree = "<group>"; };
 		E9A194633A4E38FAFFA8833747F0812C /* ServiceMyoClassifierEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceMyoClassifierEvent.swift; path = Sources/BluetoothMessageProtocol/Service/Custom/ServiceMyoClassifierEvent.swift; sourceTree = "<group>"; };
 		E9B2DD58B3492CF9D4F3C8BABFE8F1AA /* ServiceHapGarageDoorOpener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapGarageDoorOpener.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapGarageDoorOpener.swift; sourceTree = "<group>"; };
-		EACF49BF521E2D5DA54DD64357D8FB53 /* SportModeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SportModeExtension.swift; path = ScoscheSDK24/SportModeExtension.swift; sourceTree = "<group>"; };
 		EB1C95DFDD66B1C157A884BB8AE31E08 /* ServiceInternetProtocolSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceInternetProtocolSupport.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceInternetProtocolSupport.swift; sourceTree = "<group>"; };
 		EB5AC5884D342007E94731FE4DA5691B /* CharacteristicSportTypeForAerobicAndAnaerobicThresholds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicSportTypeForAerobicAndAnaerobicThresholds.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicSportTypeForAerobicAndAnaerobicThresholds.swift; sourceTree = "<group>"; };
 		EBF915F10E8E5A52DD18719098D9BA6B /* CharacteristicSupportedHeartRateRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicSupportedHeartRateRange.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicSupportedHeartRateRange.swift; sourceTree = "<group>"; };
@@ -1088,17 +1010,16 @@
 		ED73DDA24C8B08A50A6BE5F4F130EA90 /* CharacteristicAnalogOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicAnalogOutput.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicAnalogOutput.swift; sourceTree = "<group>"; };
 		EDA6A30DE9182D3355FD4761060BB493 /* ServiceHealthThermometer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHealthThermometer.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceHealthThermometer.swift; sourceTree = "<group>"; };
 		EDAAA568CE85F47C2C6DB02F6601B602 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		F0EAB507E2C16774462D7854C25EAAB5 /* UInt8Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UInt8Extension.swift; path = ScoscheSDK24/UInt8Extension.swift; sourceTree = "<group>"; };
 		F107A8525615BBAF9503CB3262BA437F /* Blowfish+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Blowfish+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Blowfish+Foundation.swift"; sourceTree = "<group>"; };
 		F11D74F401E7CBCDB201C41CED2AA065 /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/CryptoSwift/AES.swift; sourceTree = "<group>"; };
 		F1899045308C47BCD3735E45906694B4 /* CharacteristicHTTPStatusCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicHTTPStatusCode.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicHTTPStatusCode.swift; sourceTree = "<group>"; };
 		F1C7F0B0B840FDDD1B393D548B147F5B /* PKCS7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7.swift; path = Sources/CryptoSwift/PKCS/PKCS7.swift; sourceTree = "<group>"; };
-		F2138F426D5BA592AD3DBCB5C604DD49 /* ScoscheMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScoscheMonitor.swift; path = ScoscheSDK24/ScoscheMonitor.swift; sourceTree = "<group>"; };
 		F21BF65342B05CFA08C2CF1B2989BC22 /* ServiceTexasInstrumentsSensorTagTemperature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceTexasInstrumentsSensorTagTemperature.swift; path = Sources/BluetoothMessageProtocol/Service/Custom/TexasInstruments/ServiceTexasInstrumentsSensorTagTemperature.swift; sourceTree = "<group>"; };
 		F2211A503DE1FC6D725C9CE7B7EF7796 /* ServiceCyclingSpeedAndCadence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceCyclingSpeedAndCadence.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceCyclingSpeedAndCadence.swift; sourceTree = "<group>"; };
 		F304A6D195B6BF5E023EA766BB804B67 /* CharacteristicAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicAppearance.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicAppearance.swift; sourceTree = "<group>"; };
 		F36D69C444DC6B390A173592770AEF75 /* BluetoothMessageProtocol.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BluetoothMessageProtocol.xcconfig; sourceTree = "<group>"; };
 		F38A10BEE04912444776663572725F15 /* DataExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataExtension.swift; path = Sources/DataDecoder/Extensions/DataExtension.swift; sourceTree = "<group>"; };
+		F3EFF4A29158EBE2B8C8B4664267A5C2 /* ScoscheSDK24-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScoscheSDK24-Info.plist"; sourceTree = "<group>"; };
 		F411216999E8FBEDF42730D6ADBB3647 /* CharacteristicPosition3D.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicPosition3D.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicPosition3D.swift; sourceTree = "<group>"; };
 		F418E5817248192C053D9923A1191D11 /* Cryptors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptors.swift; path = Sources/CryptoSwift/Cryptors.swift; sourceTree = "<group>"; };
 		F4523480220A5479639CF500F4CC39E9 /* PairingTlvType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PairingTlvType.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Types/PairingTlvType.swift; sourceTree = "<group>"; };
@@ -1110,6 +1031,7 @@
 		F6B9F2B01DDAEF1093A7D877313769CA /* CharacteristicSupportedInclinationRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicSupportedInclinationRange.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicSupportedInclinationRange.swift; sourceTree = "<group>"; };
 		F6FDD09E1E0677565E6C5194102CB90D /* CompactMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompactMap.swift; path = Sources/CryptoSwift/CompactMap.swift; sourceTree = "<group>"; };
 		F700A5C9017430E6E3A1025FBF5386C8 /* AES+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AES+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/AES+Foundation.swift"; sourceTree = "<group>"; };
+		F80610D6C2D56709280D086D3E7ECE67 /* ScoscheSDK24.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScoscheSDK24.modulemap; sourceTree = "<group>"; };
 		F9017ADDC76BE8A31449C35739731FC8 /* ServiceMyoControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceMyoControl.swift; path = Sources/BluetoothMessageProtocol/Service/Custom/ServiceMyoControl.swift; sourceTree = "<group>"; };
 		F963F4B7F9F37D28869D8CFC22446201 /* CharacteristicTimeUpdateState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicTimeUpdateState.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicTimeUpdateState.swift; sourceTree = "<group>"; };
 		F9F3236D117F459E80675A26FC057451 /* BlockEncryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockEncryptor.swift; path = Sources/CryptoSwift/BlockEncryptor.swift; sourceTree = "<group>"; };
@@ -1118,8 +1040,8 @@
 		FB3B479C57EBA18458DFA993CB137B0A /* FitnessUnits-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FitnessUnits-dummy.m"; sourceTree = "<group>"; };
 		FB566ACAEED78B4877D2177B588A7726 /* CharacteristicHTTPSSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicHTTPSSecurity.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicHTTPSSecurity.swift; sourceTree = "<group>"; };
 		FC0729C19D0038FBE45741348F85B24B /* ServiceHapHeaterCooler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapHeaterCooler.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapHeaterCooler.swift; sourceTree = "<group>"; };
+		FC7DAAEB41191BDC1106548D3D5E303D /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../ScoscheSDK24/Constants.swift; sourceTree = "<group>"; };
 		FCB8289AE04F322F1C374C440395CC9B /* ECB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ECB.swift; path = Sources/CryptoSwift/BlockMode/ECB.swift; sourceTree = "<group>"; };
-		FE163AD48A1F53511C09486C87A163EB /* DateExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = ScoscheSDK24/DateExtension.swift; sourceTree = "<group>"; };
 		FE444CCE5DBA5B420460F40D9F2486AD /* GBVersionTracking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GBVersionTracking.modulemap; sourceTree = "<group>"; };
 		FE547E8F8B8030D7EDD2B86EFAA474F0 /* CryptoSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoSwift.xcconfig; sourceTree = "<group>"; };
 		FE947E44175D274D477F75481B3D4C36 /* ANTToggleByte.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ANTToggleByte.swift; path = Sources/DataDecoder/Types/ANTToggleByte.swift; sourceTree = "<group>"; };
@@ -1203,14 +1125,6 @@
 			path = GBVersionTracking;
 			sourceTree = "<group>";
 		};
-		1CB10AFA6AB188F2722DFE6519A53349 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C0015BB55205C61DB78A7F945DB33402 /* ScoscheSDK24.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		21AF1B701383E56D67EE22CA2DA8A4DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1223,6 +1137,19 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
+		};
+		23975E27DBB2E58C678F8B9EB74F2F64 /* ScoscheSDK24 */ = {
+			isa = PBXGroup;
+			children = (
+				D2AD5CFD5CE533A3025C992A2367ADDC /* ScoscheSDK24.swift */,
+				C084F4E262556824426569A6EBEB8126 /* ScoscheViewController.swift */,
+				9847EEF52236BD5200698004 /* Core */,
+				3A4C604846E147D44AF027C976EEB909 /* Pod */,
+				CA6414A45ECBE3EC5BFEA02FE8D92FE7 /* Support Files */,
+			);
+			name = ScoscheSDK24;
+			path = /Users/fox/GIT/SDK24/SDK24;
+			sourceTree = "<absolute>";
 		};
 		3167BB8291B937032F9D9924EE81E6AD /* Support Files */ = {
 			isa = PBXGroup;
@@ -1252,18 +1179,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B889E8DD79D1C9D3B63D40645721AF8 /* Support Files */ = {
+		3A4C604846E147D44AF027C976EEB909 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B713D0531852D9AC01F3D3E18B5647CF /* ScoscheSDK24.modulemap */,
-				A0C8BF1FB12AAEB5E99B642C265289DA /* ScoscheSDK24.xcconfig */,
-				389E4F1FB660119FF8442F6D6C0FC4C1 /* ScoscheSDK24-dummy.m */,
-				DF6912A797F1EEAF4BC6DAEE628BAECC /* ScoscheSDK24-Info.plist */,
-				81E3B10C47D4275CD5CD854EC3058A1D /* ScoscheSDK24-prefix.pch */,
-				DB3152E6621E53993DCE6DEEBFBE7A5D /* ScoscheSDK24-umbrella.h */,
+				7AC750E919F4A07F72FD59E3F3DCC633 /* ScoscheSDK24.podspec */,
 			);
-			name = "Support Files";
-			path = "../../DEMOSDK24/DemoSDK24/Demo/Pods/Target Support Files/ScoscheSDK24";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		633571AEFDBD18698E1BE4794F9340FE /* Support Files */ = {
@@ -1369,6 +1290,20 @@
 				203FEFEC700D110E5F314978869E850A /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		9847EEF52236BD5200698004 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				500E4B713DD4B7963880E5241F774ADB /* ScoscheMonitor.swift */,
+				9847EEF12236B9DF00698004 /* Service.swift */,
+				9847EEF32236B9F600698004 /* Characteristics.swift */,
+				6E8AB5B4DA76E1A7CEE09F8D1197C281 /* CentralManager.swift */,
+				03F4D6C6C8E88D08DD41C2AA1B762C8F /* BluetoothServices.swift */,
+				9847EEEF2236B86900698004 /* Base.swift */,
+				FC7DAAEB41191BDC1106548D3D5E303D /* Constants.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 		9F84F1710F40A52AB3F7F9E0286F49A6 /* Support Files */ = {
@@ -1715,6 +1650,20 @@
 			path = BluetoothMessageProtocol;
 			sourceTree = "<group>";
 		};
+		CA6414A45ECBE3EC5BFEA02FE8D92FE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F80610D6C2D56709280D086D3E7ECE67 /* ScoscheSDK24.modulemap */,
+				15504FE491B6206CE040EC2BC0C9CB8B /* ScoscheSDK24.xcconfig */,
+				21710F0E6BB590F035DB73302AAFD441 /* ScoscheSDK24-dummy.m */,
+				F3EFF4A29158EBE2B8C8B4664267A5C2 /* ScoscheSDK24-Info.plist */,
+				1C8708882F58AD937134DBB215001926 /* ScoscheSDK24-prefix.pch */,
+				3DC38D87C6F62387D642F26EB032E11B /* ScoscheSDK24-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../DEMOSDK24/DemoSDK24/Demo/Pods/Target Support Files/ScoscheSDK24";
+			sourceTree = "<group>";
+		};
 		D01E9C49AAA1EA90F73D17237078D540 /* Pods-Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -1732,64 +1681,6 @@
 			path = "Target Support Files/Pods-Demo";
 			sourceTree = "<group>";
 		};
-		D0DC0D1C89DD92C8E0125891278BF71F /* ScoscheSDK24 */ = {
-			isa = PBXGroup;
-			children = (
-				984A1DF82217474A00FDCCC8 /* ScoscheSDK24.swift */,
-				984A1DFF221B270900FDCCC8 /* ScoscheViewController.swift */,
-				F2138F426D5BA592AD3DBCB5C604DD49 /* ScoscheMonitor.swift */,
-				914BFA51CC68902635F647944A5DED4A /* ArrayExtension.swift */,
-				4B3EAB8BA0F2CBD6F4E47CB5557DB5E2 /* BluetoothServices.swift */,
-				09D352F21AEFC242D2356E66924E6054 /* CentralManager.swift */,
-				8F6C54719667D9217C5316EAF040A3A4 /* CharacteristicScoscheRhythm24FitDirectory.swift */,
-				492F216B79A82DD5EBA0A2D8B1FEE854 /* CharacteristicScoscheRhythm24FitFileInfo.swift */,
-				A531EB684DDE99373334D2DBF07D8D20 /* CharacteristicScoscheRhythm24FiveZoneHr.swift */,
-				7C208EFA2E2AFF08721B0A3CFDABDB30 /* CharacteristicScoscheRhythm24SportMode.swift */,
-				10E50E65728F83D0C464FFB4C6B0D005 /* CharacteristicScoscheRhythm24UserSettings.swift */,
-				28DA9C610C56456842F6D9365BA49E3A /* CharacteristicScoscheRhythmPlusBurnRate.swift */,
-				09749C2BC4D31DA9B8F823FB85FA1054 /* CharacteristicScoscheRhythmPlusHeartRateFilter.swift */,
-				08F229FFC65142EF94875838D30AAAE8 /* CharacteristicScoscheRhythmPlusKiloCalories.swift */,
-				0E86150C6C9F0BD0AA56F542DA9512D1 /* CharacteristicScoscheRhythmPlusLegacyDfuCtrlPoint.swift */,
-				C505D718B0B7407D6D552E296B48F740 /* CharacteristicScoscheRhythmPlusParametricData.swift */,
-				45FA22EE59B48B1FCA3285734195A125 /* CharacteristicScoscheRhythmPlusSerialData.swift */,
-				1D23120A4929FD5880D63405066B4E75 /* CharacteristicScoscheRhythmPlusSignalQuality.swift */,
-				BB5A49C183CA001EE583A0DCCFEB7463 /* CharacteristicScoscheRhythmPlusStepRateData.swift */,
-				864C2C104FA0BB9B334154109D66F01C /* CharacteristicScoscheRhythmPlusThreeZone.swift */,
-				74495B61FB0ADAC8FD6899232C6AF9AB /* CharacteristicScoscheRhythmPlusTotalDistance.swift */,
-				A4245F9406197811939365580B1442F4 /* Constants.swift */,
-				67E8FBE595BA3A8B0E228DE0BFF257D9 /* DataExtention.swift */,
-				FE163AD48A1F53511C09486C87A163EB /* DateExtension.swift */,
-				75F375675D3A88573C01B1E9D388502D /* Diagnostics.swift */,
-				623C2172DF741375E6443B1D08904012 /* FirmwareBundle.swift */,
-				9C1FE430400D10198875E1644B9CB5D9 /* FitDirectory.swift */,
-				0DA922287CF4F725350AE722FE925CD3 /* HeartRateZone.swift */,
-				C11E58D0151FF01F3AC1277C9CB5326E /* PermissionsManager.swift */,
-				C2A87725E720E019B08BE0AE88FB4342 /* RemoteConfig.swift */,
-				980EE5EC221F337D008DC83F /* FitFileMetaData.swift */,
-				980EE5F0221F56B2008DC83F /* FITFileMetaDataExtension.swift */,
-				81910FC25E5FFCB5D53CEE6D9A37B5D1 /* ServiceScoscheRhythm24FitFile.swift */,
-				31041F448853B0DE22FB6E105774DB77 /* ServiceScoscheRhythm24UserData.swift */,
-				B560BE044A7E797C9C1F57A1C888389E /* ServiceScoscheRhythm24ValencellFirmware.swift */,
-				7888344B9F333023CDAA1914FC0B233A /* ServiceScoscheRhythmPlusArmband.swift */,
-				4DFA83297A35A56F1240E73488BF9829 /* ServiceScoscheRhythmPlusData.swift */,
-				265EC500FD6EFD9EED8AFA3A8E8D76E0 /* ServiceScoscheRhythmPlusSerialData.swift */,
-				EACF49BF521E2D5DA54DD64357D8FB53 /* SportModeExtension.swift */,
-				B0FF1F02B891A3833D40F16651A7542D /* StringExtension.swift */,
-				8CD6F01F4CCC0387037EB61FB94BC243 /* SystemState.swift */,
-				96396BF1704DC8B6AC8DBEAEE3F067D9 /* TimeIntervalExtension.swift */,
-				2B99ADF83D393C450764B5E93ED501D2 /* Timer.swift */,
-				C6E11135CEC6D0504F529196DA376C61 /* Types.swift */,
-				2743FA89435A533B25CAF1645B1D49E0 /* UIColorExtension.swift */,
-				F0EAB507E2C16774462D7854C25EAAB5 /* UInt8Extension.swift */,
-				E45AA990262A5FF97B87507939D05C35 /* UserConfig.swift */,
-				7CFC6028D25F76B0BD703914E08174CE /* UserConfigurable.swift */,
-				1CB10AFA6AB188F2722DFE6519A53349 /* Pod */,
-				4B889E8DD79D1C9D3B63D40645721AF8 /* Support Files */,
-			);
-			name = ScoscheSDK24;
-			path = /Users/fox/GIT/SDK24/SDK24;
-			sourceTree = "<absolute>";
-		};
 		DE475D408C48BAB3F843F2A073131436 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1801,7 +1692,7 @@
 		E5CD29F5E70055089B775156DD483D95 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D0DC0D1C89DD92C8E0125891278BF71F /* ScoscheSDK24 */,
+				23975E27DBB2E58C678F8B9EB74F2F64 /* ScoscheSDK24 */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -1914,6 +1805,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5FAA26156A77D4B252F565E6124BBAA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D53E4C5D01A452DBF30EFF84DF9B0F /* ScoscheSDK24-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		72C2E26CF0BD2C5B2D34C9F1429EAD31 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1951,14 +1850,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				92CEAA59FDE886F1CD9E209BBE0F7E9D /* BluetoothMessageProtocol-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8F36969EE76A651FE8F7DDE2AA85278 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DC1B36C0CC57E492B1F79E85D50792A /* ScoscheSDK24-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2044,8 +1935,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 934C37662FD857112461D68602D3B224 /* Build configuration list for PBXNativeTarget "ScoscheSDK24" */;
 			buildPhases = (
-				E8F36969EE76A651FE8F7DDE2AA85278 /* Headers */,
-				B4EA7C9EE6F7BB1B1376EE07C10000F2 /* Sources */,
+				5FAA26156A77D4B252F565E6124BBAA3 /* Headers */,
+				2987B1DF8BC9D5F15994BE8E235999C7 /* Sources */,
 				6A5BEA4CEA53C0BDAF27C787A06DA178 /* Frameworks */,
 				C4512503E09D54934CCA7ADF2578FECB /* Resources */,
 			);
@@ -2517,6 +2408,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2987B1DF8BC9D5F15994BE8E235999C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98CC60F732BD1E439BF5BC031AAAA87 /* BluetoothServices.swift in Sources */,
+				FA43343AE91224F75DCFDD539BE8D937 /* CentralManager.swift in Sources */,
+				6E2A43756FC1EF12F5C8A48517943FEA /* Constants.swift in Sources */,
+				9847EEF22236B9DF00698004 /* Service.swift in Sources */,
+				0B63514D275E1EDC48EB4E8E02A7AD01 /* ScoscheMonitor.swift in Sources */,
+				B8BC8033A5516882E19546C68AF2D62D /* ScoscheSDK24-dummy.m in Sources */,
+				A00B1715E712D354CE86BD753823A90F /* ScoscheSDK24.swift in Sources */,
+				9847EEF02236B86900698004 /* Base.swift in Sources */,
+				193D7A2A510AB8563E6D37D53CB4C5C0 /* ScoscheViewController.swift in Sources */,
+				9847EEF42236B9F600698004 /* Characteristics.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		489AB03A3E7C2EEA0CEA10690CA03A83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2644,62 +2552,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E7480D16CFC143E64E8FAF054E00999 /* Pods-Demo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4EA7C9EE6F7BB1B1376EE07C10000F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				480277D2AABB50B00172829EF9500CAB /* ArrayExtension.swift in Sources */,
-				1399766A4A58CA8F16AD8383B4781060 /* BluetoothServices.swift in Sources */,
-				DEE7A71979D348AF64B14931B95B74A8 /* CentralManager.swift in Sources */,
-				1F74E5A45E4B61FDA745CD8A204F07C5 /* CharacteristicScoscheRhythm24FitDirectory.swift in Sources */,
-				FCD68589E5EE6DA08B76A4257B8863DD /* CharacteristicScoscheRhythm24FitFileInfo.swift in Sources */,
-				8C71B4BA609DA9FEFD1A3EB09EA08DD8 /* CharacteristicScoscheRhythm24FiveZoneHr.swift in Sources */,
-				13EBAE90CF4A969366D58D24994D9584 /* CharacteristicScoscheRhythm24SportMode.swift in Sources */,
-				3A552ED070C2889DACD7C59B6E2F9852 /* CharacteristicScoscheRhythm24UserSettings.swift in Sources */,
-				55F1F2EEC0238B5CFBD9E862F6B06846 /* CharacteristicScoscheRhythmPlusBurnRate.swift in Sources */,
-				BF15A33A13BD5B628A8B50945B0AE179 /* CharacteristicScoscheRhythmPlusHeartRateFilter.swift in Sources */,
-				1B3107405E68801C72DA1C58506A7C91 /* CharacteristicScoscheRhythmPlusKiloCalories.swift in Sources */,
-				CE5B76B32343C6BF6E51767774C51D4A /* CharacteristicScoscheRhythmPlusLegacyDfuCtrlPoint.swift in Sources */,
-				984A1DF92217474A00FDCCC8 /* ScoscheSDK24.swift in Sources */,
-				A833471A751A2FF19DBFA65C0191B52F /* CharacteristicScoscheRhythmPlusParametricData.swift in Sources */,
-				CCC3DA56CC5B29DD4D9FB4E7F370C380 /* CharacteristicScoscheRhythmPlusSerialData.swift in Sources */,
-				07C65CB6B8E49825030C516CFDA3DAB1 /* CharacteristicScoscheRhythmPlusSignalQuality.swift in Sources */,
-				DBBAFAA10065A54922525F91A5742473 /* CharacteristicScoscheRhythmPlusStepRateData.swift in Sources */,
-				984A1E00221B270900FDCCC8 /* ScoscheViewController.swift in Sources */,
-				BEA4EC42B52EC7C1ECB37CAD5F01D66F /* CharacteristicScoscheRhythmPlusThreeZone.swift in Sources */,
-				705698D5CD4DBAB156F0CD5EF72AC2E3 /* CharacteristicScoscheRhythmPlusTotalDistance.swift in Sources */,
-				B52D851E79E1718B76BF53D668ED060C /* Constants.swift in Sources */,
-				F2C25DDBDDE79725A31A10E297B51A3E /* DataExtention.swift in Sources */,
-				A51331F2ACE14E1691F7F3658450841F /* DateExtension.swift in Sources */,
-				ED5AE9A724DC3D165F4ED9FD4D222CF0 /* Diagnostics.swift in Sources */,
-				EC470560AA33BC403D3A0A8AEA54960D /* FirmwareBundle.swift in Sources */,
-				239788255DD52A86790F775D8630718D /* FitDirectory.swift in Sources */,
-				FEA1157BF6369786540B2AFE89026695 /* HeartRateZone.swift in Sources */,
-				4F4A0751FC3D2D39C484F7E37DC880BF /* PermissionsManager.swift in Sources */,
-				F93006D5F3B79B3FEB3A94B6A9593F54 /* RemoteConfig.swift in Sources */,
-				0C4FC458E7FE5B25A8FFE1284CFB2462 /* ScoscheMonitor.swift in Sources */,
-				980EE5F1221F56B2008DC83F /* FITFileMetaDataExtension.swift in Sources */,
-				3016A4E0AC9D43C4A81D6CB16E8D8E33 /* ScoscheSDK24-dummy.m in Sources */,
-				8C058B80C39EF81CB17A15EE1DAD3F74 /* ServiceScoscheRhythm24FitFile.swift in Sources */,
-				980EE5ED221F337D008DC83F /* FitFileMetaData.swift in Sources */,
-				EB25FFA73F66CD36860CE6B570684E76 /* ServiceScoscheRhythm24UserData.swift in Sources */,
-				4C1278EB52482153A4FD71016A15B041 /* ServiceScoscheRhythm24ValencellFirmware.swift in Sources */,
-				0D7235823C9DCB52F2CE3BBB5600D187 /* ServiceScoscheRhythmPlusArmband.swift in Sources */,
-				B1D75DC518B5D2B9048C38D278426082 /* ServiceScoscheRhythmPlusData.swift in Sources */,
-				0A11B18469A86D9B2BDC5A05DF8EEA86 /* ServiceScoscheRhythmPlusSerialData.swift in Sources */,
-				35FE4D247EB852FD379350CE5832545E /* SportModeExtension.swift in Sources */,
-				7CAACC1B19FC2747895191AA91CE4C60 /* StringExtension.swift in Sources */,
-				1F1A41D19ACF41FFE23B781A5B5BC569 /* SystemState.swift in Sources */,
-				77EB2C31E28E0EC69313A83DCF1E1FF2 /* TimeIntervalExtension.swift in Sources */,
-				E831880B342856174F03784E93703975 /* Timer.swift in Sources */,
-				DF445176D385E3E57C1134D445577991 /* Types.swift in Sources */,
-				B22259CCEA1C2AE51137799925C84158 /* UIColorExtension.swift in Sources */,
-				AA62A760C51185CAA8D2303398FC9B59 /* UInt8Extension.swift in Sources */,
-				F23D60730B47A30247B3DE1404C7BEC0 /* UserConfig.swift in Sources */,
-				020A5D74F27E9F6C2BED379D03C8F0E6 /* UserConfigurable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3017,7 +2869,7 @@
 		};
 		8F0FCFDDAE155D2CE062213FDA75C91E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0C8BF1FB12AAEB5E99B642C265289DA /* ScoscheSDK24.xcconfig */;
+			baseConfigurationReference = 15504FE491B6206CE040EC2BC0C9CB8B /* ScoscheSDK24.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3086,7 +2938,7 @@
 		};
 		C255324FF4B534625E0068A447C8B066 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0C8BF1FB12AAEB5E99B642C265289DA /* ScoscheSDK24.xcconfig */;
+			baseConfigurationReference = 15504FE491B6206CE040EC2BC0C9CB8B /* ScoscheSDK24.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;

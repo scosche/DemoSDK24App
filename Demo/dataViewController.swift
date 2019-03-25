@@ -71,6 +71,13 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
             listData.append(cellRow(type: .fit, value: "FitFile Count: \(fitFileList.count)"))
         }
         
+        listData.append(cellRow(type: .normal, value: "VDC Signal: \(vdcSignal)"))
+        listData.append(cellRow(type: .normal, value: "VDC Optical: \(vdcOptical)"))
+        listData.append(cellRow(type: .normal, value: "VDC Heart Rate: \(vdcHeartRate)"))
+        listData.append(cellRow(type: .normal, value: "VDC Step Rate: \(vdcStepRate)"))
+        listData.append(cellRow(type: .normal, value: "VDC Stride Rate: \(vdcStrideRate)"))
+        listData.append(cellRow(type: .normal, value: "VDC Distance: \(vdcDistance)"))
+        listData.append(cellRow(type: .normal, value: "VDC Calories: \(vdcTotalCalories)"))
         tableview.reloadData()
 
     }

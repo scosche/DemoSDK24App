@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -578,8 +578,8 @@
 		0FC4E0A7B2A5F79B29151377E92951B2 /* ServiceWeightScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceWeightScale.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceWeightScale.swift; sourceTree = "<group>"; };
 		0FD43D2C60ADC227EDCD5C92B85B9435 /* FitnessMachineStatusCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FitnessMachineStatusCode.swift; path = Sources/BluetoothMessageProtocol/Types/FitnessMachineStatus/FitnessMachineStatusCode.swift; sourceTree = "<group>"; };
 		108648E8C3F3F4E599ACABBE04C97945 /* ServiceHapSecuritySystem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapSecuritySystem.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapSecuritySystem.swift; sourceTree = "<group>"; };
-		10E48BA0A9B34FCC3C8E1DA9D163AF5B /* FitnessUnits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FitnessUnits.framework; path = FitnessUnits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		111C6A71CB935527845C9026078C14F5 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo.framework; path = "Pods-Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E48BA0A9B34FCC3C8E1DA9D163AF5B /* FitnessUnits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FitnessUnits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		111C6A71CB935527845C9026078C14F5 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1147CC88EF7D0D1EE354912FFCF1C9C8 /* Cipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cipher.swift; path = Sources/CryptoSwift/Cipher.swift; sourceTree = "<group>"; };
 		11D6D890C8663849A7075FE107C13E6D /* CharacteristicSupportedResistanceLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicSupportedResistanceLevel.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicSupportedResistanceLevel.swift; sourceTree = "<group>"; };
 		11EE2FC08C80ED0C49FB3CCDB5C16160 /* UserType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserType.swift; path = Sources/BluetoothMessageProtocol/Types/UserType.swift; sourceTree = "<group>"; };
@@ -608,7 +608,7 @@
 		1C2CF4AE679E3E7F0E637A35BABBEC29 /* SHA2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA2.swift; path = Sources/CryptoSwift/SHA2.swift; sourceTree = "<group>"; };
 		1C3257763E6D49E2B1B52616C36F537B /* ServiceCurrentTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceCurrentTime.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceCurrentTime.swift; sourceTree = "<group>"; };
 		1C670993739521F46F5AE276EF77BECF /* MACAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MACAddress.swift; path = Sources/DataDecoder/Types/MACAddress.swift; sourceTree = "<group>"; };
-		1D77ADD4F2A8D778250CAD467F9BD851 /* ScoscheSDK24.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ScoscheSDK24.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D77ADD4F2A8D778250CAD467F9BD851 /* ScoscheSDK24.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ScoscheSDK24.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1DFF22CAD63D9D66571EBA76BC501CD0 /* Bit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bit.swift; path = Sources/CryptoSwift/Bit.swift; sourceTree = "<group>"; };
 		1E16ABADE6B393780585084949552FAE /* NoPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoPadding.swift; path = Sources/CryptoSwift/NoPadding.swift; sourceTree = "<group>"; };
 		1E99664B853DA37D961E426D0FEC9097 /* ServiceHapContactSensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapContactSensor.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapContactSensor.swift; sourceTree = "<group>"; };
@@ -777,7 +777,7 @@
 		771017E6F5B455BFCFC048DB7DDA8083 /* UnitRadioactivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnitRadioactivity.swift; path = Sources/FitnessUnits/Dimensional/UnitRadioactivity.swift; sourceTree = "<group>"; };
 		772FE0D15DAF6B7B5800B2B42019727F /* ServiceTxPower.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceTxPower.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceTxPower.swift; sourceTree = "<group>"; };
 		77408A9363AEB99690CCA8364E3B76C7 /* CharacteristicUserIndex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicUserIndex.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicUserIndex.swift; sourceTree = "<group>"; };
-		77F39D3DDD8632BBA345800CF55995B8 /* BluetoothMessageProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BluetoothMessageProtocol.framework; path = BluetoothMessageProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F39D3DDD8632BBA345800CF55995B8 /* BluetoothMessageProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BluetoothMessageProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		782FAB80BF99EEE4E5D849FD8ED1B219 /* ProvisioningDataUnitType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProvisioningDataUnitType.swift; path = Sources/BluetoothMessageProtocol/Mesh/Provisioning/ProvisioningDataUnitType.swift; sourceTree = "<group>"; };
 		787857CF02BF94F964832A6980BE435E /* MeasurementZone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MeasurementZone.swift; path = Sources/FitnessUnits/MeasurementZone.swift; sourceTree = "<group>"; };
 		78EE9208D20B66F1B97C9C1EA0C33DAA /* MeshMessageGenericDelta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MeshMessageGenericDelta.swift; path = Sources/BluetoothMessageProtocol/Mesh/Types/Message/MeshMessageGenericDelta.swift; sourceTree = "<group>"; };
@@ -787,7 +787,7 @@
 		7CBFD0DDEE9E95BA7FF5014BDBFB819E /* CharacteristicGymConnectEquipmentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicGymConnectEquipmentType.swift; path = Sources/BluetoothMessageProtocol/Characteristic/Custom/CharacteristicGymConnectEquipmentType.swift; sourceTree = "<group>"; };
 		7DA7BF1755ABF259A32EEC921BA16FDE /* CharacteristicWaistCircumference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicWaistCircumference.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicWaistCircumference.swift; sourceTree = "<group>"; };
 		7E2C116AAE06007FD02AEB72B9EB7757 /* ServiceUserData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceUserData.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceUserData.swift; sourceTree = "<group>"; };
-		7E2D96F9F647997FDCC2FBCB605EBD1D /* GBVersionTracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GBVersionTracking.framework; path = GBVersionTracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2D96F9F647997FDCC2FBCB605EBD1D /* GBVersionTracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBVersionTracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FD6A1F3E586D3AD0BD6BB4A81E72A4E /* CharacteristicFitnessMachineFeature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicFitnessMachineFeature.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicFitnessMachineFeature.swift; sourceTree = "<group>"; };
 		7FE4E3740A50BF422FB3E80EA385A5CE /* ServiceHapSlat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapSlat.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapSlat.swift; sourceTree = "<group>"; };
 		804FB5CA3D3D9478EB1E47E46C99B69C /* Data+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extension.swift"; path = "Sources/CryptoSwift/Foundation/Data+Extension.swift"; sourceTree = "<group>"; };
@@ -829,7 +829,7 @@
 		934852134778C0ACCC434556A7C1AFEB /* FitnessMachineStatusValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FitnessMachineStatusValue.swift; path = Sources/BluetoothMessageProtocol/Types/FitnessMachineStatus/FitnessMachineStatusValue.swift; sourceTree = "<group>"; };
 		939450001059F2EE680403550F9F144A /* ServiceHeartRate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHeartRate.swift; path = Sources/BluetoothMessageProtocol/Service/SIG/ServiceHeartRate.swift; sourceTree = "<group>"; };
 		93A158EB75E31513955924331F30A1DC /* ServiceGoogleGlass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceGoogleGlass.swift; path = Sources/BluetoothMessageProtocol/Service/Custom/ServiceGoogleGlass.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93DEDE6755A3DD4875716B33BEE75FB6 /* BlockMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockMode.swift; path = Sources/CryptoSwift/BlockMode/BlockMode.swift; sourceTree = "<group>"; };
 		94DB7E5C4F61FB8B7189545CE6723688 /* ServiceHapStatelessProgrammableSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapStatelessProgrammableSwitch.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapStatelessProgrammableSwitch.swift; sourceTree = "<group>"; };
 		953A796AECAD97913873D691195EDFB6 /* ServiceTexasInstrumentsSensorTagGyroscope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceTexasInstrumentsSensorTagGyroscope.swift; path = Sources/BluetoothMessageProtocol/Service/Custom/TexasInstruments/ServiceTexasInstrumentsSensorTagGyroscope.swift; sourceTree = "<group>"; };
@@ -864,7 +864,7 @@
 		9FF454BFD31F566BFB30B9A33847CA30 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A084674939F2E66F60DF164B6132FDC4 /* FitnessUnits-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FitnessUnits-prefix.pch"; sourceTree = "<group>"; };
 		A0ABD0418821AAB5667B41A5D770962D /* CharacteristicFirmwareRevisionString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicFirmwareRevisionString.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicFirmwareRevisionString.swift; sourceTree = "<group>"; };
-		A0CB7205980EF573E98CADA2FD39AF6A /* ScoscheSDK24.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScoscheSDK24.framework; path = ScoscheSDK24.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CB7205980EF573E98CADA2FD39AF6A /* ScoscheSDK24.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScoscheSDK24.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FC4B4B1CB911102D066E4448EF6601 /* CharacteristicSensorLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicSensorLocation.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicSensorLocation.swift; sourceTree = "<group>"; };
 		A2FC7EC027C8B2B29274EFD60E3C2260 /* CompanyIdentifierExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompanyIdentifierExtension.swift; path = Sources/BluetoothMessageProtocol/CompanyIdentifier/CompanyIdentifierExtension.swift; sourceTree = "<group>"; };
 		A470F532201865BF8F653C2DF4761E9D /* CharacteristicMeshProxyDataOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicMeshProxyDataOut.swift; path = Sources/BluetoothMessageProtocol/Mesh/Characteristic/CharacteristicMeshProxyDataOut.swift; sourceTree = "<group>"; };
@@ -932,7 +932,7 @@
 		C4EBF2BEDDC23D2303D4588A72C59EF1 /* GBVersionTracking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBVersionTracking-dummy.m"; sourceTree = "<group>"; };
 		C6ABF3D8650B5847E8BD381E44AE3686 /* CharacteristicMeshProvisioningDataIn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicMeshProvisioningDataIn.swift; path = Sources/BluetoothMessageProtocol/Mesh/Characteristic/CharacteristicMeshProvisioningDataIn.swift; sourceTree = "<group>"; };
 		C7525336E2658293F3F251E2A4ECDE67 /* Collection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+Extension.swift"; path = "Sources/CryptoSwift/Collection+Extension.swift"; sourceTree = "<group>"; };
-		C764134E74D11B2102C8C3B069BF0777 /* DataDecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DataDecoder.framework; path = DataDecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C764134E74D11B2102C8C3B069BF0777 /* DataDecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataDecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DEA2123196E3D0475ABC3CA6E4E5A2 /* UnitMass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnitMass.swift; path = Sources/FitnessUnits/Dimensional/UnitMass.swift; sourceTree = "<group>"; };
 		C8907823E0522B65AB234D7D30D1F24F /* CharacteristicSupportedSpeedRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicSupportedSpeedRange.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicSupportedSpeedRange.swift; sourceTree = "<group>"; };
 		C8E40EE18FC54C7DC9D7B517C4E1BFFF /* CharacteristicBodySensorLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicBodySensorLocation.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicBodySensorLocation.swift; sourceTree = "<group>"; };
@@ -1028,7 +1028,7 @@
 		F4580610FACA60921110B20CC4AE05CF /* UInt64+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt64+Extension.swift"; path = "Sources/CryptoSwift/UInt64+Extension.swift"; sourceTree = "<group>"; };
 		F57D185EF3A47A9F9768200BF92314CD /* BluetoothGender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BluetoothGender.swift; path = Sources/BluetoothMessageProtocol/Types/BluetoothGender.swift; sourceTree = "<group>"; };
 		F59D54C042FFDE28AEC691C50A621C93 /* CharacteristicThreeZoneHeartRateLimits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicThreeZoneHeartRateLimits.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicThreeZoneHeartRateLimits.swift; sourceTree = "<group>"; };
-		F6542C912EEB646C3480E69975AD2A06 /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CryptoSwift.framework; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6542C912EEB646C3480E69975AD2A06 /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6906B158EF435427657A628057F68ED /* ServiceHapLeakSensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceHapLeakSensor.swift; path = Sources/BluetoothMessageProtocol/HomeKit/Service/ServiceHapLeakSensor.swift; sourceTree = "<group>"; };
 		F6B9F2B01DDAEF1093A7D877313769CA /* CharacteristicSupportedInclinationRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicSupportedInclinationRange.swift; path = Sources/BluetoothMessageProtocol/Characteristic/SIG/CharacteristicSupportedInclinationRange.swift; sourceTree = "<group>"; };
 		F6FDD09E1E0677565E6C5194102CB90D /* CompactMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompactMap.swift; path = Sources/CryptoSwift/CompactMap.swift; sourceTree = "<group>"; };
@@ -1122,7 +1122,6 @@
 				247300E647D79816952A51546DB411C0 /* GBVersionTracking.m */,
 				8BCD94881D67024C514D23BE31E4B1FB /* Support Files */,
 			);
-			name = GBVersionTracking;
 			path = GBVersionTracking;
 			sourceTree = "<group>";
 		};
@@ -1265,7 +1264,6 @@
 				75621C2FC8277EE196C1073D6472DBE6 /* ValidatedMeasurement.swift */,
 				633571AEFDBD18698E1BE4794F9340FE /* Support Files */,
 			);
-			name = FitnessUnits;
 			path = FitnessUnits;
 			sourceTree = "<group>";
 		};
@@ -1644,7 +1642,6 @@
 				11EE2FC08C80ED0C49FB3CCDB5C16160 /* UserType.swift */,
 				702EB0EDD2F8331928D5B984310BE09F /* Support Files */,
 			);
-			name = BluetoothMessageProtocol;
 			path = BluetoothMessageProtocol;
 			sourceTree = "<group>";
 		};
@@ -1692,9 +1689,9 @@
 				F1F7E4E9D5FC07548DDEAE70CADB82B7 /* Base.swift */,
 				017EE94C9886949388591D310AE930EE /* BluetoothServices.swift */,
 				EDF1D1AFEABA073BE26D3B3687DC7DB2 /* CentralManager.swift */,
-				4AE461E31C8F0F2A9233DCF127E42B38 /* Characteristics.swift */,
 				9FF454BFD31F566BFB30B9A33847CA30 /* Constants.swift */,
 				008EB68F7F02D2C0A0131FEEF42354B4 /* ScoscheMonitor.swift */,
+				4AE461E31C8F0F2A9233DCF127E42B38 /* Characteristics.swift */,
 				172E932A4023D2B40A22FE5A14FF6E27 /* Service.swift */,
 			);
 			name = Core;
@@ -1712,7 +1709,6 @@
 				894799C87EA7AB11F89A2AF4CD7245F0 /* Nibble.swift */,
 				3167BB8291B937032F9D9924EE81E6AD /* Support Files */,
 			);
-			name = DataDecoder;
 			path = DataDecoder;
 			sourceTree = "<group>";
 		};
@@ -1795,7 +1791,6 @@
 				E57796CCB9A1C792AA498452C4CE50F1 /* ZeroPadding.swift */,
 				9F84F1710F40A52AB3F7F9E0286F49A6 /* Support Files */,
 			);
-			name = CryptoSwift;
 			path = CryptoSwift;
 			sourceTree = "<group>";
 		};
@@ -2665,11 +2660,7 @@
 				INFOPLIST_FILE = "Target Support Files/GBVersionTracking/GBVersionTracking-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GBVersionTracking/GBVersionTracking.modulemap";
 				PRODUCT_MODULE_NAME = GBVersionTracking;
 				PRODUCT_NAME = GBVersionTracking;
@@ -2703,11 +2694,7 @@
 				INFOPLIST_FILE = "Target Support Files/FitnessUnits/FitnessUnits-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FitnessUnits/FitnessUnits.modulemap";
 				PRODUCT_MODULE_NAME = FitnessUnits;
 				PRODUCT_NAME = FitnessUnits;
@@ -2741,19 +2728,14 @@
 				INFOPLIST_FILE = "Target Support Files/BluetoothMessageProtocol/BluetoothMessageProtocol-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BluetoothMessageProtocol/BluetoothMessageProtocol.modulemap";
 				PRODUCT_MODULE_NAME = BluetoothMessageProtocol;
 				PRODUCT_NAME = BluetoothMessageProtocol;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2781,19 +2763,14 @@
 				INFOPLIST_FILE = "Target Support Files/FitnessUnits/FitnessUnits-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FitnessUnits/FitnessUnits.modulemap";
 				PRODUCT_MODULE_NAME = FitnessUnits;
 				PRODUCT_NAME = FitnessUnits;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2820,11 +2797,7 @@
 				INFOPLIST_FILE = "Target Support Files/GBVersionTracking/GBVersionTracking-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GBVersionTracking/GBVersionTracking.modulemap";
 				PRODUCT_MODULE_NAME = GBVersionTracking;
 				PRODUCT_NAME = GBVersionTracking;
@@ -2914,19 +2887,14 @@
 				INFOPLIST_FILE = "Target Support Files/ScoscheSDK24/ScoscheSDK24-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ScoscheSDK24/ScoscheSDK24.modulemap";
 				PRODUCT_MODULE_NAME = ScoscheSDK24;
 				PRODUCT_NAME = ScoscheSDK24;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2954,11 +2922,7 @@
 				INFOPLIST_FILE = "Target Support Files/BluetoothMessageProtocol/BluetoothMessageProtocol-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BluetoothMessageProtocol/BluetoothMessageProtocol.modulemap";
 				PRODUCT_MODULE_NAME = BluetoothMessageProtocol;
 				PRODUCT_NAME = BluetoothMessageProtocol;
@@ -2992,11 +2956,7 @@
 				INFOPLIST_FILE = "Target Support Files/ScoscheSDK24/ScoscheSDK24-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ScoscheSDK24/ScoscheSDK24.modulemap";
 				PRODUCT_MODULE_NAME = ScoscheSDK24;
 				PRODUCT_NAME = ScoscheSDK24;
@@ -3030,11 +2990,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Pods-Demo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
 				OTHER_LDFLAGS = "";
@@ -3070,11 +3026,7 @@
 				INFOPLIST_FILE = "Target Support Files/CryptoSwift/CryptoSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
 				PRODUCT_MODULE_NAME = CryptoSwift;
 				PRODUCT_NAME = CryptoSwift;
@@ -3107,11 +3059,7 @@
 				INFOPLIST_FILE = "Target Support Files/DataDecoder/DataDecoder-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DataDecoder/DataDecoder.modulemap";
 				PRODUCT_MODULE_NAME = DataDecoder;
 				PRODUCT_NAME = DataDecoder;
@@ -3145,11 +3093,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Pods-Demo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
 				OTHER_LDFLAGS = "";
@@ -3159,8 +3103,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -3186,19 +3129,14 @@
 				INFOPLIST_FILE = "Target Support Files/CryptoSwift/CryptoSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
 				PRODUCT_MODULE_NAME = CryptoSwift;
 				PRODUCT_NAME = CryptoSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3225,19 +3163,14 @@
 				INFOPLIST_FILE = "Target Support Files/DataDecoder/DataDecoder-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DataDecoder/DataDecoder.modulemap";
 				PRODUCT_MODULE_NAME = DataDecoder;
 				PRODUCT_NAME = DataDecoder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

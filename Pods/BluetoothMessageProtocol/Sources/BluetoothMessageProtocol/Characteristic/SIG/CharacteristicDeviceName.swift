@@ -42,7 +42,7 @@ open class CharacteristicDeviceName: Characteristic {
     }
 
     /// Device Name
-    public var deviceName: String
+    private(set) public var deviceName: String
 
     /// Creates Device Name Characteristic
     ///

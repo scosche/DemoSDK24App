@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "470D1D17A582D945DEA7897FE92BCF3C"
+               BlueprintIdentifier = "423F00E3F1B957FA0B4DA8F58BC07B7B"
+               BuildableName = "DataDecoder.framework"
                BlueprintName = "DataDecoder"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "DataDecoder.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

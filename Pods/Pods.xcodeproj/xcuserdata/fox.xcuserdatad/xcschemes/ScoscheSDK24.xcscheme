@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BB86C636FFE4AFAD00C69ECC4F234A7E"
+               BlueprintIdentifier = "049DCA96F0603AF5CADEAE7EA10C46DB"
+               BuildableName = "ScoscheSDK24"
                BlueprintName = "ScoscheSDK24"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "ScoscheSDK24.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

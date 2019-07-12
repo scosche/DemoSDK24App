@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1BA8C39BB0F5DC61F612F1B8A6274D54"
+               BlueprintIdentifier = "04938995BE3B6539FE2F66FDB4350D3F"
+               BuildableName = "FitnessUnits.framework"
                BlueprintName = "FitnessUnits"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "FitnessUnits.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

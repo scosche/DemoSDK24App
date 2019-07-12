@@ -288,8 +288,7 @@ private extension CharacteristicRowerData {
     /// Decode Duration Data
     ///
     /// - Parameters:
-    ///   - supported: Supported Flags
-    ///   - flag: Flags contained
+    ///   - flag: Flags
     ///   - unit: Duration Unit
     ///   - data: Sensor Data
     ///   - decoder: Decoder
@@ -301,11 +300,11 @@ private extension CharacteristicRowerData {
                                       data: Data,
                                       decoder: inout DecodeData) throws -> Measurement<UnitDuration>? {
 
-        var durationData: Measurement<UnitDuration>?
+        var durationDat: Measurement<UnitDuration>?
         if supported.contains(flag) {
             let value = Double(decoder.decodeUInt16(data))
-            durationData = Measurement(value: value, unit: unit)
+            durationDat = Measurement(value: value, unit: unit)
         }
-        return durationData
+        return durationDat
     }
 }

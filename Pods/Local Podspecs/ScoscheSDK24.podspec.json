@@ -1,30 +1,21 @@
 {
   "name": "ScoscheSDK24",
-  "version": "0.0.6",
-  "summary": "Scosche 24 SDK",
-  "description": "Framework for comunicating with Scosche Rythmn 24",
+  "version": "0.1.6",
+  "summary": "Framework for communicating with Scosche Rythmn 24",
+  "description": "Framework for communicating with Scosche Rythmn 24.",
   "homepage": "https://www.scosche.com",
   "license": "MIT",
   "authors": {
-    "NPE": "info@npe-inc.com"
+    "NPE": "scosche@npe-inc.com"
   },
+  "source": {
+    "git": "scosche/ScoscheSDK24.git",
+    "tag": "0.1.6"
+  },
+  "vendored_frameworks": "ScoscheSDK24.framework",
   "platforms": {
     "ios": "12.0"
   },
-  "source": {
-    "path": "."
-  },
-  "swift_version": "4.2",
-  "source_files": [
-    "ScoscheSDK24/*.swift",
-    "ScoscheSDK24/Core/*.swift"
-  ],
-  "dependencies": {
-    "BluetoothMessageProtocol": [
-
-    ],
-    "GBVersionTracking": [
-
-    ]
-  }
+  "swift_versions": "4.2",
+  "swift_version": "4.2"
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E6483C32CE0359BDB2DBB501419D2692"
+               BlueprintIdentifier = "4DB23740E1B865A1AA45925E043476C6"
+               BuildableName = "GBVersionTracking.framework"
                BlueprintName = "GBVersionTracking"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "GBVersionTracking.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

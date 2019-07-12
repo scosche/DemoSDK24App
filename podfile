@@ -3,7 +3,10 @@ platform :ios, '12.0'
 target 'Demo' do
   use_frameworks!
 
-  pod 'ScoscheSDK24', :path => '/Users/fox/GIT/SDK24/SDK24/'
+  pod 'ScoscheSDK24', :git => 'https://github.com/scosche/ScoscheSDK24.git'
+  pod 'BluetoothMessageProtocol', '0.18.0'
+  pod 'DataDecoder', '4.3'
+  pod 'GBVersionTracking'
 
 end
 

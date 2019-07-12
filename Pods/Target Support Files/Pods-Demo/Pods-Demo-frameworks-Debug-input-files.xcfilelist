@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BluetoothMessageProtocol/BluetoothMessageProtocol.framework
+${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework
+${BUILT_PRODUCTS_DIR}/DataDecoder/DataDecoder.framework
+${BUILT_PRODUCTS_DIR}/FitnessUnits/FitnessUnits.framework
+${BUILT_PRODUCTS_DIR}/GBVersionTracking/GBVersionTracking.framework
+${PODS_ROOT}/ScoscheSDK24/ScoscheSDK24.framework

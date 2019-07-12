@@ -1,8 +1,8 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BluetoothMessageProtocol" "${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift" "${PODS_CONFIGURATION_BUILD_DIR}/DataDecoder" "${PODS_CONFIGURATION_BUILD_DIR}/FitnessUnits" "${PODS_CONFIGURATION_BUILD_DIR}/GBVersionTracking" "${PODS_CONFIGURATION_BUILD_DIR}/ScoscheSDK24"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BluetoothMessageProtocol" "${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift" "${PODS_CONFIGURATION_BUILD_DIR}/DataDecoder" "${PODS_CONFIGURATION_BUILD_DIR}/FitnessUnits" "${PODS_CONFIGURATION_BUILD_DIR}/GBVersionTracking" "${PODS_ROOT}/ScoscheSDK24"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BluetoothMessageProtocol/BluetoothMessageProtocol.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift/CryptoSwift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/DataDecoder/DataDecoder.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/FitnessUnits/FitnessUnits.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/GBVersionTracking/GBVersionTracking.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/BluetoothMessageProtocol/BluetoothMessageProtocol.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift/CryptoSwift.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/DataDecoder/DataDecoder.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/FitnessUnits/FitnessUnits.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/GBVersionTracking/GBVersionTracking.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/ScoscheSDK24/ScoscheSDK24.framework/Headers"
 OTHER_LDFLAGS = $(inherited) -framework "BluetoothMessageProtocol" -framework "CryptoSwift" -framework "DataDecoder" -framework "FitnessUnits" -framework "GBVersionTracking" -framework "ScoscheSDK24"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}

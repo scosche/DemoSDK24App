@@ -2,8 +2,8 @@
 //  scanTableViewCell.swift
 //  Demo
 //
-//  Created by Steffin Fox Griswold on 2/19/19.
-//  Copyright © 2019 NPE INC. All rights reserved.
+//  Created by Scosche on 2/19/19.
+//  Copyright © 2019 Scosche. All rights reserved.
 //
 
 import Foundation

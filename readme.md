@@ -2,7 +2,6 @@
 
 This SDK and Demo app will help integrate the Rhythm series sensors and the detailed fitness data into your own app.
 
-
 ### Rhythm+ And Rhythm 24 Sensors
 
 Rhythm24™ optically measures blood flow and body movement to ensure the most accurate data possible. With its dual-mode radio you can simultaneously transmit your heart rate to multiple ANT+ displays (Garmin® watches, cycling computers, fitness equipment and more) and to your favorite Bluetooth® Smart enabled watch or smartphone app. [More Info](https://www.scosche.com/rhythm24)
@@ -11,7 +10,7 @@ Rhythm24™ optically measures blood flow and body movement to ensure the most a
 Great for use with smartphones, tablets, smart and sport watches, exercise equipment and many other devices that support Bluetooth® Smart or ANT+ heart rate data.
 
 # Getting Started
-This repositorty contains the demo app source code as well as a local cocoapod for the Scosche Framework. 
+This repositorty contains the ScoscheSDK24 Framework. This framework may be used to integrate Scosche Rhythm 24 and Rhythm+ activity sensor data into iOS apps.
 
 ### Build dependancies
 * Xcode 10.1 and above
@@ -20,27 +19,17 @@ This repositorty contains the demo app source code as well as a local cocoapod f
 * Scosche Rhythm+ or Rhythm 24 sensor
 
 
-### Setting up local CocoaPod SDK
-* Download the Scosche SDK24 Cocoapod. 
-* If need be, unzip the packaged file
-* Move to a directory of your choosing
-
-
-### Setting up Demo File for testing
-* Download the Scosche DEMOSDK24 Zip
-* If need be, unzip the packaged file
-* Move to a directory of your choosing
-* modify the podfile in the DEMOSDK24 directory to connect it to the SDK24 cocoapod folder/
-
 ### PodFile
-In the DEMOSDK24 folder you will find a file called `podfile`. Open this file and change the path to the directory where you downloaded the SDK24 to. Note this can be inside of a GIT repository or outside depending on your methods.
 ```
 platform :ios, '12.0'
 
-target 'Demo' do
+target 'YourAppNameHere' do
   use_frameworks!
 
-  pod 'ScoscheSDK24', :path => '/Users/Your_Unique_Path/SDK24/'
+  pod 'ScoscheSDK24', :git => 'https://github.com/scosche/ScoscheSDK24.git'
+  pod 'BluetoothMessageProtocol', '0.18.0'
+  pod 'DataDecoder', '4.3'
+  pod 'GBVersionTracking'
 
 end
 
@@ -51,8 +40,10 @@ post_install do |installer|
     end
 end
 ```
-After modifying the podfile. Open Terminal and type the following into the command line.
-* __cd__ to the DEMOSDK24 folder where the podfile is located (Note: you can drag and drop the podfile into terminal to generate the path. You will just need to remove the `/podfile` from the path after it appears)
+After modifying the podfile. Open Terminal and type the following commands into Terminal.
+
+* __cd__ /User/You/Development/Path/ (Note: you can drag and drop the podfile into terminal to generate the path. You will just need to remove the `/podfile` from the path after it appears)
+
 * pod install
 
 

@@ -15,7 +15,7 @@ This repositorty contains the ScoscheSDK24 Framework. This framework may be used
 ### Build dependancies
 * Xcode 10.1 and above
 * Cocoapods 1.0 and above
-* Physical iOS device with BLE to test (Note: Simulator does not have a BLE radio)
+* Physical iOS 11.0 & above device with Bluetooth to test (Note: Simulator does not have a BLE radio, and can not be used to test communication)
 * Scosche Rhythm+ or Rhythm 24 sensor
 
 
@@ -57,15 +57,15 @@ The demo is broken up into 5 views to show the different parts of the SDK.
 * userViewController
 * workoutViewController
 
-First is the `scanViewController`  BLE scanner view. This view scans for Scosche Rhythm sensors with Apple's CoreBlueTooth. If the BLE advertising packet matches a Scosche Sensor type, the view will display the name of the sensor. 
+The first view is the `scanViewController`  BLE scanner view. This view scans for Scosche Rhythm sensors with Apple's CoreBlueTooth. If the BLE advertising packet matches a Scosche Sensor type, then the view will display the name of the sensor. 
 
 Once a sensor is connected, the SDK24 starts listing for BLE advertisements and routes this data to any `ScoscheViewController`. The BLE data is collected and available as public vars within this view type. The `ScoscheViewController` view is an extension of UIViewController and can be used to create anyveiws needed to display sensor data. 
 
-The second view is `dataViewController` and this is an example of a connected `ScoscheViewController`. The data is displayed in the demo as simple UITableView rows. This data can however be used as your UI needs dictate. Whether an intricate dashboard or a single large heart rate display. The data is at your fingertips and updates as the sensor updates. 
+The second view is `dataViewController`, and this is an example of a connected `ScoscheViewController`. The data is displayed in the demo as simple UITableView rows. However this data can be used as your UI needs dictate. Whether an intricate dashboard or a single large heart rate display, the data is at your fingertips and updates as the sensor updates. 
 
-The third and fourth example views modify the `SportModeType` modes and the `ScoscheUserInfo` data. 
+The third and fourth example views, `modeViewController & userViewController`, modify the `SportModeType` modes and the `ScoscheUserInfo` data. 
 
-The fifth view `workoutViewController` example list all recorded workouts on the sensor (Rhythm 24 only).
+The fifth example view `workoutViewController` example list all recorded workouts on the sensor (Rhythm 24 only).
 
 ### ScoscheViewController
 Below is a list of data that can be used in any ScoscheView Controller Simply by passing in `monitor: ScoscheMonitor = chosen sensor`. Monitor is a shared object and can be set internally or globally as needed.

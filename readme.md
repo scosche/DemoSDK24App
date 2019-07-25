@@ -65,7 +65,7 @@ The second view is `dataViewController`, and this is an example of a connected `
 
 The third and fourth example views, `modeViewController & userViewController`, modify the `SportModeType` modes and the `ScoscheUserInfo` data. 
 
-The fifth example view `workoutViewController` example list all recorded workouts on the sensor (Rhythm 24 only).
+The fifth example view `workoutViewController` lists all recorded workouts on the sensor (Rhythm 24 only).
 
 ### ScoscheViewController
 Below is a list of data that can be used in any ScoscheView Controller Simply by passing in `monitor: ScoscheMonitor = chosen sensor`. Monitor is a shared object and can be set internally or globally as needed.

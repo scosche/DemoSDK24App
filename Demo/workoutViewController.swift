@@ -10,14 +10,14 @@ import Foundation
 import ScoscheSDK24
 
 
-class workoutViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class workoutViewController: SchoscheViewController, UITableViewDelegate, UITableViewDataSource {
 
     //MARK:- IB Refs
     @IBOutlet var tableview: UITableView!
+    @IBOutlet var downloadLabel: UILabel!
     
     
     //MARK:- Local Vars
-    var fitFileList: [FitFileMetaData] = []
     
     //MARK:- Functions
     override func viewDidLoad() {
@@ -34,5 +34,17 @@ class workoutViewController: UIViewController, UITableViewDelegate, UITableViewD
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath as IndexPath) as! dataTableViewCell
         cell.header.text = row.localModificationDate
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //Download and get Progress
+        let file = fitFileList[indexPath.row]
+        let df = DateFormatter()
+        df.dateFormat = "yyyy_MM_dd_hh_mm"
+        let now = df.string(from: file.modificationDate ?? Date())
+        let num = "\(file.fileIndex)_\(file.fileNumber)"
+        let fileName = "\(now)_\(num)"
+        ScoscheDownloadFitFile(fitMetaData: file, fileName: fileName, label: downloadLabel)
+        
     }
 }

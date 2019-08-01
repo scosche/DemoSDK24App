@@ -264,8 +264,11 @@ public func ScoscheUserInfoWrite(userInfo: ScoscheUserInfo)
 /// - Parameter fitMetaData: FitFileMetaData
 /// - Parameter fileName: String
 /// - Parameter label: UILabel
+///
+/// Callback
+/// - Parameter result: Bool
 /// FIT files are downloaded to Documents folder.
-public func ScoscheDownloadFitFile(fitMetaData: FitFileMetaData, fileName: String, label: UILabel)
+public func ScoscheDownloadFitFile(fitMetaData: FitFileMetaData, fileName: String, label: UILabel, completion: @escaping (_ result: Bool)->())
 
 
 ```

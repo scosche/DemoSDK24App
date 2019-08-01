@@ -229,6 +229,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <action selector="cancel" destination="HHD-lq-SMS" eventType="touchUpInside" id="6ss-9G-HpC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workouts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WE6-fr-OiS">
                                 <rect key="frame" x="0.0" y="40" width="375" height="21"/>
@@ -297,13 +300,16 @@
                                     <action selector="save" destination="kHD-68-wKa" eventType="touchUpInside" id="2Re-PN-ayG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l6E-ot-7Mo">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l6E-ot-7Mo">
                                 <rect key="frame" x="16" y="62" width="72" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="LVT-Ua-ad4"/>
+                                    <constraint firstAttribute="width" constant="72" id="QJN-mU-Wof"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Cancel"/>
                                 <connections>
-                                    <action selector="cancel" destination="kHD-68-wKa" eventType="touchUpInside" id="bW0-eK-rIs"/>
+                                    <action selector="cancel" destination="kHD-68-wKa" eventType="touchUpInside" id="fr8-9X-WLz"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Update User Info" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkV-Mj-kFB">
@@ -448,6 +454,8 @@
                             <constraint firstItem="pH3-8Y-eBI" firstAttribute="top" secondItem="fkV-Mj-kFB" secondAttribute="bottom" constant="1" id="ICn-re-mau"/>
                             <constraint firstItem="fkV-Mj-kFB" firstAttribute="leading" secondItem="vlc-5X-D5i" secondAttribute="leading" id="Met-xC-Nbc"/>
                             <constraint firstItem="pH3-8Y-eBI" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vlc-5X-D5i" secondAttribute="leading" symbolic="YES" id="QD8-bP-amU"/>
+                            <constraint firstItem="l6E-ot-7Mo" firstAttribute="leading" secondItem="vlc-5X-D5i" secondAttribute="leading" constant="16" id="XqX-H0-sr6"/>
+                            <constraint firstItem="l6E-ot-7Mo" firstAttribute="top" secondItem="fkV-Mj-kFB" secondAttribute="bottom" constant="1" id="p0Q-jf-FeD"/>
                             <constraint firstItem="fkV-Mj-kFB" firstAttribute="trailing" secondItem="vlc-5X-D5i" secondAttribute="trailing" id="yh9-7V-uLE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vlc-5X-D5i"/>

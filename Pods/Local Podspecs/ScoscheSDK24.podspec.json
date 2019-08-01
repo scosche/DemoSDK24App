@@ -1,6 +1,6 @@
 {
   "name": "ScoscheSDK24",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "summary": "Framework for communicating with Scosche Rythmn 24",
   "description": "Framework for communicating with Scosche Rythmn 24.",
   "homepage": "https://www.scosche.com",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "scosche/ScoscheSDK24.git",
-    "tag": "0.1.9"
+    "tag": "0.2.0"
   },
   "vendored_frameworks": "ScoscheSDK24.framework",
   "platforms": {

@@ -25,6 +25,14 @@ class workoutViewController: SchoscheViewController, UITableViewDelegate, UITabl
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    func back(){
+        self.performSegue(withIdentifier: "unwind", sender: nil)
+    }
+    
+    @IBAction func cancel() {
+        back()
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return fitFileList.count
     }
@@ -37,14 +45,24 @@ class workoutViewController: SchoscheViewController, UITableViewDelegate, UITabl
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //Download and get Progress
+        // Download and get Progress
         let file = fitFileList[indexPath.row]
+        
+        // Set File Name
         let df = DateFormatter()
         df.dateFormat = "yyyy_MM_dd_hh_mm"
         let now = df.string(from: file.modificationDate ?? Date())
         let num = "\(file.fileIndex)_\(file.fileNumber)"
         let fileName = "\(now)_\(num)"
-        ScoscheDownloadFitFile(fitMetaData: file, fileName: fileName, label: downloadLabel)
         
+        // Start download and callback options
+        ScoscheDownloadFitFile(fitMetaData: file, fileName: fileName, label: downloadLabel) { (success) in
+            switch success {
+            case true:
+                print("download successful")
+            case false:
+                print("download unsuccessful")
+            }
+        }
     }
 }

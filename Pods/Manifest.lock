@@ -7,7 +7,7 @@ PODS:
   - DataDecoder (4.3.0)
   - FitnessUnits (3.0.0)
   - GBVersionTracking (1.3.2)
-  - ScoscheSDK24 (0.1.9)
+  - ScoscheSDK24 (0.2.0)
 
 DEPENDENCIES:
   - BluetoothMessageProtocol (= 0.18.0)
@@ -29,7 +29,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ScoscheSDK24:
-    :commit: cfe9420e3e700a8d8beeed113e9b09967d609b2a
+    :commit: 3347ddc1b7c3a9577c77add52960b8366aa55071
     :git: https://github.com/scosche/ScoscheSDK24.git
 
 SPEC CHECKSUMS:
@@ -38,7 +38,7 @@ SPEC CHECKSUMS:
   DataDecoder: 46c84996080ab9e9854904bfa59c541f8778e86d
   FitnessUnits: 784b78dbd612d3bd86746b0e3c17598fa965c261
   GBVersionTracking: c9b5eb256a234e01b5b44731fda86a3488760c49
-  ScoscheSDK24: a36721b07ed8c27f73ea26846ef4d00ac3b40c0b
+  ScoscheSDK24: 0b6e58538287a49e8fcf7ea0c10e60e5e4cfe259
 
 PODFILE CHECKSUM: 2e4c339b0a89c1bb6a9e685b8f9d2c5418184ab2
 

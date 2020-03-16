@@ -1,6 +1,0 @@
-framework module FitnessUnits {
-  umbrella header "FitnessUnits-umbrella.h"
-
-  export *
-  module * { export * }
-}

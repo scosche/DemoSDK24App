@@ -43,5 +43,7 @@
 	</array>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>Read Heart Rate Data from Monitor</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Read Heart Rate Data from Monitor</string>
 </dict>
 </plist>

@@ -8,7 +8,7 @@
 
 import Foundation
 import ScoscheSDK24
-
+import UIKit
 
 class userViewController: UIViewController {
     //MARK:- IB Refs

@@ -9,6 +9,7 @@
 import Foundation
 import ScoscheSDK24
 import CoreBluetooth
+import UIKit
 
 /// dataViewController: Demo of connecting to a Scosche devices with BLE interface. View uses ScoscheViewController to extend a standard UIViewController with services that report monitor activity.
 ///
@@ -47,7 +48,7 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
         listData = []
         listData.append(cellRow(type: .normal, value: "Sensor Name: \(monitor.deviceName ?? "Unknown")"))
         if monitor.r24SportMode != nil {
-            listData.append(cellRow(type: .mode, value: "Sport Mode: \(sportMode.stringValue)"))
+            listData.append(cellRow(type: .mode, value: "Sport Mode: \(sportMode)"))
         }
         listData.append(cellRow(type: .normal, value: "Connection Status: \(connected)"))
         listData.append(cellRow(type: .normal, value: "Heart Rate: \(heartRate)"))

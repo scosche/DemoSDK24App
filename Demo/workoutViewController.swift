@@ -8,6 +8,7 @@
 
 import Foundation
 import ScoscheSDK24
+import UIKit
 
 
 class workoutViewController: SchoscheViewController, UITableViewDelegate, UITableViewDataSource {
@@ -40,7 +41,10 @@ class workoutViewController: SchoscheViewController, UITableViewDelegate, UITabl
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let row = fitFileList[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath as IndexPath) as! dataTableViewCell
-        cell.header.text = row.localModificationDate
+        if row.modificationDate != nil {
+            cell.header.text = row.modificationDate?.description
+        }
+        
         return cell
     }
     

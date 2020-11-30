@@ -8,6 +8,14 @@
 
 import UIKit
 import ScoscheSDK24
+import UIKit
+
+//DELAY
+func delay(_ seconds: Double, completion: @escaping () -> ()) {
+    DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
+        completion()
+    }
+}
 
 /// scanViewController: Demo of scanning for known Scosche devices with BLE interface. View uses ScoscheViewController to extend a standard UIViewController with services that report monitor activity.
 ///

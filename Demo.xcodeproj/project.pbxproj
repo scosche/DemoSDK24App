@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,10 +18,21 @@
 		984A1DF722172F1700FDCCC8 /* workoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984A1DF622172F1700FDCCC8 /* workoutViewController.swift */; };
 		985EA2202565E0340095C78D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985EA21F2565E0340095C78D /* CoreBluetooth.framework */; };
 		987268D8222458CD00E99EF9 /* modeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987268D7222458CD00E99EF9 /* modeViewController.swift */; };
-		9881E0F2ACCA7EA87FEFD5DE /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE8BCC243ED88C95143F9C2 /* libPods-Demo.a */; };
+		98BC69052575804D0090DD2A /* ScoscheSDK24.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BC6902257580250090DD2A /* ScoscheSDK24.framework */; };
+		98BC69062575804D0090DD2A /* ScoscheSDK24.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98BC6902257580250090DD2A /* ScoscheSDK24.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		98C1C408221C8A650025E53F /* scanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C1C407221C8A650025E53F /* scanTableViewCell.swift */; };
 		98D6152822C1646F005BD277 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 98D6152722C1646F005BD277 /* readme.md */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98BC6901257580250090DD2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98BC68FD257580250090DD2A /* ScoscheSDK24.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98CC269C256839FD00368F5B;
+			remoteInfo = ScoscheSDK24;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		986392FA2565EE5B00222C26 /* Embed Frameworks */ = {
@@ -30,6 +41,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				98BC69062575804D0090DD2A /* ScoscheSDK24.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -37,9 +49,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3FE8BCC243ED88C95143F9C2 /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AB8C1A3FE68736664AB1C1F /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		81CECC740D08C119DDC030FE /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		980EE5EE221F495A008DC83F /* dataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataTableViewCell.swift; sourceTree = "<group>"; };
 		980EE5F3222093F4008DC83F /* userViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userViewController.swift; sourceTree = "<group>"; };
 		984A1DDF221601A000FDCCC8 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +62,7 @@
 		984A1DF622172F1700FDCCC8 /* workoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutViewController.swift; sourceTree = "<group>"; };
 		985EA21F2565E0340095C78D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		987268D7222458CD00E99EF9 /* modeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modeViewController.swift; sourceTree = "<group>"; };
+		98BC68FD257580250090DD2A /* ScoscheSDK24.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ScoscheSDK24.xcodeproj; path = ../ScoscheSDK_master_source/SDK24_framework_master/ScoscheSDK24.xcodeproj; sourceTree = "<group>"; };
 		98C1C407221C8A650025E53F /* scanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scanTableViewCell.swift; sourceTree = "<group>"; };
 		98D6152722C1646F005BD277 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,28 +72,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98BC69052575804D0090DD2A /* ScoscheSDK24.framework in Frameworks */,
 				985EA2202565E0340095C78D /* CoreBluetooth.framework in Frameworks */,
-				9881E0F2ACCA7EA87FEFD5DE /* libPods-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4DC74952F487788D98730994 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5AB8C1A3FE68736664AB1C1F /* Pods-Demo.debug.xcconfig */,
-				81CECC740D08C119DDC030FE /* Pods-Demo.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		7DF2BD49B090CEE01F7F087F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				98BC68FD257580250090DD2A /* ScoscheSDK24.xcodeproj */,
 				985EA21F2565E0340095C78D /* CoreBluetooth.framework */,
-				3FE8BCC243ED88C95143F9C2 /* libPods-Demo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -93,7 +94,6 @@
 			children = (
 				984A1DE1221601A000FDCCC8 /* Demo */,
 				984A1DE0221601A000FDCCC8 /* Products */,
-				4DC74952F487788D98730994 /* Pods */,
 				98D6152722C1646F005BD277 /* readme.md */,
 				7DF2BD49B090CEE01F7F087F /* Frameworks */,
 			);
@@ -126,6 +126,14 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		98BC68FE257580250090DD2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98BC6902257580250090DD2A /* ScoscheSDK24.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,11 +141,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 984A1DF1221601A100FDCCC8 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
-				23B87F4E9993E7313896FBCA /* [CP] Check Pods Manifest.lock */,
 				984A1DDB221601A000FDCCC8 /* Sources */,
 				984A1DDC221601A000FDCCC8 /* Frameworks */,
 				984A1DDD221601A000FDCCC8 /* Resources */,
-				11AF1770DA7E3A4A85FECE90 /* [CP] Embed Pods Frameworks */,
 				986392FA2565EE5B00222C26 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -176,12 +182,28 @@
 			mainGroup = 984A1DD6221601A000FDCCC8;
 			productRefGroup = 984A1DE0221601A000FDCCC8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 98BC68FE257580250090DD2A /* Products */;
+					ProjectRef = 98BC68FD257580250090DD2A /* ScoscheSDK24.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				984A1DDE221601A000FDCCC8 /* Demo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		98BC6902257580250090DD2A /* ScoscheSDK24.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ScoscheSDK24.framework;
+			remoteRef = 98BC6901257580250090DD2A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		984A1DDD221601A000FDCCC8 /* Resources */ = {
@@ -196,48 +218,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		11AF1770DA7E3A4A85FECE90 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		23B87F4E9993E7313896FBCA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Demo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		984A1DDB221601A000FDCCC8 /* Sources */ = {
@@ -397,7 +377,6 @@
 		};
 		984A1DF2221601A100FDCCC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AB8C1A3FE68736664AB1C1F /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -405,7 +384,6 @@
 				DEVELOPMENT_TEAM = K82A2U6DU4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/ScoscheSDK24",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
@@ -424,7 +402,6 @@
 		};
 		984A1DF3221601A100FDCCC8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81CECC740D08C119DDC030FE /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -432,7 +409,6 @@
 				DEVELOPMENT_TEAM = K82A2U6DU4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/ScoscheSDK24",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;

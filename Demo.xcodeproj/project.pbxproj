@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CC2BF0DFEB05F0DD9FE5815 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331EA2E97D565B9A3A0A6389 /* Pods_Demo.framework */; };
 		980EE5EF221F495A008DC83F /* dataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980EE5EE221F495A008DC83F /* dataTableViewCell.swift */; };
 		980EE5F4222093F5008DC83F /* userViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980EE5F3222093F4008DC83F /* userViewController.swift */; };
 		984A1DE3221601A000FDCCC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984A1DE2221601A000FDCCC8 /* AppDelegate.swift */; };
@@ -17,13 +16,28 @@
 		984A1DED221601A100FDCCC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984A1DEB221601A100FDCCC8 /* LaunchScreen.storyboard */; };
 		984A1DF522172ED600FDCCC8 /* dataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984A1DF422172ED600FDCCC8 /* dataViewController.swift */; };
 		984A1DF722172F1700FDCCC8 /* workoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984A1DF622172F1700FDCCC8 /* workoutViewController.swift */; };
+		985EA2202565E0340095C78D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985EA21F2565E0340095C78D /* CoreBluetooth.framework */; };
 		987268D8222458CD00E99EF9 /* modeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987268D7222458CD00E99EF9 /* modeViewController.swift */; };
+		9881E0F2ACCA7EA87FEFD5DE /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE8BCC243ED88C95143F9C2 /* libPods-Demo.a */; };
 		98C1C408221C8A650025E53F /* scanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C1C407221C8A650025E53F /* scanTableViewCell.swift */; };
 		98D6152822C1646F005BD277 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 98D6152722C1646F005BD277 /* readme.md */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		986392FA2565EE5B00222C26 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		331EA2E97D565B9A3A0A6389 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE8BCC243ED88C95143F9C2 /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB8C1A3FE68736664AB1C1F /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		81CECC740D08C119DDC030FE /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		980EE5EE221F495A008DC83F /* dataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataTableViewCell.swift; sourceTree = "<group>"; };
@@ -37,6 +51,7 @@
 		984A1DEE221601A100FDCCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		984A1DF422172ED600FDCCC8 /* dataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataViewController.swift; sourceTree = "<group>"; };
 		984A1DF622172F1700FDCCC8 /* workoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutViewController.swift; sourceTree = "<group>"; };
+		985EA21F2565E0340095C78D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		987268D7222458CD00E99EF9 /* modeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modeViewController.swift; sourceTree = "<group>"; };
 		98C1C407221C8A650025E53F /* scanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scanTableViewCell.swift; sourceTree = "<group>"; };
 		98D6152722C1646F005BD277 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
@@ -47,7 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CC2BF0DFEB05F0DD9FE5815 /* Pods_Demo.framework in Frameworks */,
+				985EA2202565E0340095C78D /* CoreBluetooth.framework in Frameworks */,
+				9881E0F2ACCA7EA87FEFD5DE /* libPods-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +82,8 @@
 		7DF2BD49B090CEE01F7F087F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				331EA2E97D565B9A3A0A6389 /* Pods_Demo.framework */,
+				985EA21F2565E0340095C78D /* CoreBluetooth.framework */,
+				3FE8BCC243ED88C95143F9C2 /* libPods-Demo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -74,10 +91,10 @@
 		984A1DD6221601A000FDCCC8 = {
 			isa = PBXGroup;
 			children = (
-				98D6152722C1646F005BD277 /* readme.md */,
 				984A1DE1221601A000FDCCC8 /* Demo */,
 				984A1DE0221601A000FDCCC8 /* Products */,
 				4DC74952F487788D98730994 /* Pods */,
+				98D6152722C1646F005BD277 /* readme.md */,
 				7DF2BD49B090CEE01F7F087F /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -121,6 +138,7 @@
 				984A1DDC221601A000FDCCC8 /* Frameworks */,
 				984A1DDD221601A000FDCCC8 /* Resources */,
 				11AF1770DA7E3A4A85FECE90 /* [CP] Embed Pods Frameworks */,
+				986392FA2565EE5B00222C26 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,11 +156,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = "NPE INC";
 				TargetAttributes = {
 					984A1DDE221601A000FDCCC8 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1210;
 					};
 				};
 			};
@@ -284,6 +303,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -345,6 +365,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -379,10 +400,16 @@
 			baseConfigurationReference = 5AB8C1A3FE68736664AB1C1F /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = K82A2U6DU4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/ScoscheSDK24",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,7 +417,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.npe-inc.DemoSdk24";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "SDK24 Demo DEV";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -400,10 +427,16 @@
 			baseConfigurationReference = 81CECC740D08C119DDC030FE /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = K82A2U6DU4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/ScoscheSDK24",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,7 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.npe-inc.DemoSdk24";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "SDK24 Demo DEV";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -28,11 +28,15 @@ class scanViewController: SchoscheViewController, UITableViewDelegate, UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print("Scan View")
+        delay(30) {
+            print("Scan Start")
+            // this delay is only here because App is scanning too close to app launch
+            self.discoveredMonitors.removeAll()
+            ScoscheDeviceReset()
+            ScoscheDeviceScan(monitorView: self)
+        }
         
-        //Lets make sure we nil things out
-        discoveredMonitors.removeAll()
-        ScoscheDeviceReset()
-        ScoscheDeviceScan(monitorView: self)
         
     }
     override func reloadTableData(){

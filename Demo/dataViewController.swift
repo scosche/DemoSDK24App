@@ -52,7 +52,7 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
         }
         listData.append(cellRow(type: .normal, value: "Connection Status: \(connected)"))
         listData.append(cellRow(type: .normal, value: "Heart Rate: \(heartRate)"))
-        
+        listData.append(cellRow(type: .normal, value: "RR Interval: \(rrInterval)"))
         listData.append(cellRow(type: .normal, value: "Signal Quality: \(signalQuality)"))
         listData.append(cellRow(type: .normal, value: "Battery Level: \(batteryLevel)"))
         listData.append(cellRow(type: .user, value: "User Name: \(userInfo.name)"))

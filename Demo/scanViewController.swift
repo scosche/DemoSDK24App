@@ -37,7 +37,7 @@ class scanViewController: SchoscheViewController, UITableViewDelegate, UITableVi
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("Scan View")
-        delay(30) {
+        delay(1) {
             print("Scan Start")
             // this delay is only here because App is scanning too close to app launch
             self.discoveredMonitors.removeAll()

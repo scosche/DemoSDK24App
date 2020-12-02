@@ -9,13 +9,22 @@ Rhythm24™ optically measures blood flow and body movement to ensure the most a
 ### Bluetooth® Smart and ANT+
 Great for use with smartphones, tablets, smart and sport watches, exercise equipment and many other devices that support Bluetooth® Smart or ANT+ heart rate data.
 
+## November 2020 Update:
+ScoscheSDK24 Framework no longer has 3rd Party Dependencies. The SDK can included with only CoreBluetooth Library provided by Apple. Also added is HRV (Heart Rate Variability). Note that Sport Mode needs to be in HRV mode to populate RRInterval. 
+
 # Getting Started
 This repositorty contains the ScoscheSDK24 Framework. This framework may be used to integrate Scosche Rhythm 24 and Rhythm+ activity sensor data into iOS apps.
 
+There are 2 methods to include ScoscheSDK24 Framework.
+## Local SDK
+This demo app now includes the framework directly in the frameworks folder.
+Updates to this framework can be found [here](https://github.com/scosche/ScoscheSDK24)
+## CocoaPods
+
 ### Build dependancies
-* Xcode 10.1 and above
+* Xcode 12.0 and above
 * Cocoapods 1.0 and above
-* Physical iOS 11.0 & above device with Bluetooth to test (Note: Simulator does not have a BLE radio, and can not be used to test communication)
+* Physical iOS 12.0 & above device with Bluetooth to test (Note: Simulator does not have a BLE radio, and can not be used to test communication)
 * Scosche Rhythm+ or Rhythm 24 sensor
 
 
@@ -27,17 +36,7 @@ target 'YourAppNameHere' do
   use_frameworks!
 
   pod 'ScoscheSDK24', :git => 'https://github.com/scosche/ScoscheSDK24.git'
-  pod 'BluetoothMessageProtocol', '0.18.0'
-  pod 'DataDecoder', '4.3'
-  pod 'GBVersionTracking'
 
-end
-
-post_install do |installer|
-    installer.pods_project.build_configurations.each do |config|
-        config.build_settings.delete('CODE_SIGNING_ALLOWED')
-        config.build_settings.delete('CODE_SIGNING_REQUIRED')
-    end
 end
 ```
 After modifying the podfile. Open Terminal and type the following commands into Terminal.
@@ -78,6 +77,9 @@ public var heartRate: Int
     
 /// Resting Heart Rate
 public var restingHeartRate: Double
+
+/// RRInterval
+public var RRInterval: Double
 
 /// Is signal quality acceptable?
 public var signalQuality: Bool

@@ -477,9 +477,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sport Modes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfB-t6-7VD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Sport Modes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfB-t6-7VD">
                                 <rect key="frame" x="0.0" y="40" width="375" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -493,63 +492,114 @@
                                     <action selector="cancel" destination="4hH-51-VxK" eventType="touchUpInside" id="CL2-bG-pot"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYK-Mp-bFu">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYK-Mp-bFu">
                                 <rect key="frame" x="93" y="158" width="189" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="edb-e2-tpt"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Heart Rate Mode"/>
                                 <connections>
                                     <action selector="hr" destination="4hH-51-VxK" eventType="touchUpInside" id="XNg-Cz-XZx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHW-Yo-vi2">
-                                <rect key="frame" x="106" y="225" width="163" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHW-Yo-vi2">
+                                <rect key="frame" x="106" y="210" width="163" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="163" id="MuR-jH-ZYS"/>
+                                    <constraint firstAttribute="height" constant="44" id="QvM-bc-18v"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Running Mode"/>
                                 <connections>
                                     <action selector="run" destination="4hH-51-VxK" eventType="touchUpInside" id="58J-dD-Yap"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zO6-Ik-Ljg">
-                                <rect key="frame" x="110" y="292" width="155" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zO6-Ik-Ljg">
+                                <rect key="frame" x="110" y="262" width="155" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="7WR-CO-tNc"/>
+                                    <constraint firstAttribute="width" constant="155" id="gAk-cp-ffU"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Cycling Mode"/>
                                 <connections>
                                     <action selector="cycle" destination="4hH-51-VxK" eventType="touchUpInside" id="LTk-eM-W8e"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvn-g7-DUM">
-                                <rect key="frame" x="130" y="356" width="118" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvn-g7-DUM">
+                                <rect key="frame" x="128.5" y="314" width="118" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="118" id="KCf-Qr-z75"/>
+                                    <constraint firstAttribute="height" constant="44" id="mBe-vD-4hT"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Swimming"/>
                                 <connections>
                                     <action selector="swim" destination="4hH-51-VxK" eventType="touchUpInside" id="5vs-Ya-o9o"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjO-tU-UF2">
-                                <rect key="frame" x="140" y="419" width="97" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="Duathon"/>
-                                <connections>
-                                    <action selector="dua" destination="4hH-51-VxK" eventType="touchUpInside" id="JhM-iL-XsG"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iyo-64-unk">
-                                <rect key="frame" x="140" y="483" width="97" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iyo-64-unk">
+                                <rect key="frame" x="139" y="418" width="97" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="gvs-2y-eoi"/>
+                                    <constraint firstAttribute="width" constant="97" id="xXv-D2-8sd"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Triathlon"/>
                                 <connections>
                                     <action selector="tri" destination="4hH-51-VxK" eventType="touchUpInside" id="L1m-4p-Fn8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjO-tU-UF2">
+                                <rect key="frame" x="139" y="366" width="97" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="nAx-XY-gTV"/>
+                                    <constraint firstAttribute="height" constant="44" id="yE0-iW-Hnq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Duathon"/>
+                                <connections>
+                                    <action selector="dua" destination="4hH-51-VxK" eventType="touchUpInside" id="JhM-iL-XsG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65a-Oq-CZL">
+                                <rect key="frame" x="161.5" y="470" width="52" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ckU-iZ-Xzm"/>
+                                    <constraint firstAttribute="width" constant="52" id="lxz-qg-rge"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="HRV"/>
+                                <connections>
+                                    <action selector="hrv" destination="4hH-51-VxK" eventType="touchUpInside" id="kPe-8q-M7L"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="v9p-iz-nvU"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zO6-Ik-Ljg" firstAttribute="top" secondItem="AHW-Yo-vi2" secondAttribute="bottom" constant="10" id="2tu-v2-JfV"/>
+                            <constraint firstItem="Iyo-64-unk" firstAttribute="top" secondItem="xjO-tU-UF2" secondAttribute="bottom" constant="10" id="4ae-z5-Xup"/>
+                            <constraint firstItem="AHW-Yo-vi2" firstAttribute="top" secondItem="dYK-Mp-bFu" secondAttribute="bottom" constant="10" id="8Rf-Bf-fOw"/>
+                            <constraint firstItem="xvn-g7-DUM" firstAttribute="centerX" secondItem="zpu-D8-UKA" secondAttribute="centerX" id="9xV-H8-iAk"/>
+                            <constraint firstItem="zO6-Ik-Ljg" firstAttribute="top" secondItem="AHW-Yo-vi2" secondAttribute="bottom" constant="10" id="CSc-TD-ldU"/>
+                            <constraint firstItem="65a-Oq-CZL" firstAttribute="centerX" secondItem="zpu-D8-UKA" secondAttribute="centerX" id="GCu-lg-g1U"/>
+                            <constraint firstItem="AHW-Yo-vi2" firstAttribute="top" secondItem="dYK-Mp-bFu" secondAttribute="bottom" constant="10" id="MgH-yY-Rbl"/>
+                            <constraint firstItem="xjO-tU-UF2" firstAttribute="centerX" secondItem="zpu-D8-UKA" secondAttribute="centerX" id="W2h-QD-fAz"/>
+                            <constraint firstItem="65a-Oq-CZL" firstAttribute="top" secondItem="Iyo-64-unk" secondAttribute="bottom" constant="10" id="Wa4-8I-n7p"/>
+                            <constraint firstItem="65a-Oq-CZL" firstAttribute="top" secondItem="Iyo-64-unk" secondAttribute="bottom" constant="10" id="XJW-N1-PML"/>
+                            <constraint firstItem="dYK-Mp-bFu" firstAttribute="top" secondItem="GfB-t6-7VD" secondAttribute="bottom" constant="97" id="cDp-0U-QB6"/>
+                            <constraint firstItem="Iyo-64-unk" firstAttribute="top" secondItem="xjO-tU-UF2" secondAttribute="bottom" constant="10" id="cdY-tF-tav"/>
+                            <constraint firstItem="zO6-Ik-Ljg" firstAttribute="centerX" secondItem="zpu-D8-UKA" secondAttribute="centerX" id="f2J-9i-pVn"/>
+                            <constraint firstItem="Iyo-64-unk" firstAttribute="centerX" secondItem="zpu-D8-UKA" secondAttribute="centerX" id="iC5-9I-dgE"/>
+                            <constraint firstItem="AHW-Yo-vi2" firstAttribute="centerX" secondItem="zpu-D8-UKA" secondAttribute="centerX" id="jn5-X2-PUO"/>
+                            <constraint firstItem="dYK-Mp-bFu" firstAttribute="centerX" secondItem="zpu-D8-UKA" secondAttribute="centerX" id="lOn-Uv-Ien"/>
+                            <constraint firstItem="xjO-tU-UF2" firstAttribute="top" secondItem="xvn-g7-DUM" secondAttribute="bottom" constant="10" id="oHx-ue-eZe"/>
+                            <constraint firstItem="xvn-g7-DUM" firstAttribute="top" secondItem="zO6-Ik-Ljg" secondAttribute="bottom" constant="10" id="vK4-F7-vGC"/>
+                            <constraint firstItem="xjO-tU-UF2" firstAttribute="top" secondItem="xvn-g7-DUM" secondAttribute="bottom" constant="10" id="x0i-tf-eLi"/>
+                            <constraint firstItem="xvn-g7-DUM" firstAttribute="top" secondItem="zO6-Ik-Ljg" secondAttribute="bottom" constant="10" id="yHQ-M4-78H"/>
+                        </constraints>
                     </view>
                     <connections>
                         <segue destination="aVb-TT-shW" kind="unwind" identifier="unwind" unwindAction="unwindToData:" id="9uM-jH-Xxb"/>

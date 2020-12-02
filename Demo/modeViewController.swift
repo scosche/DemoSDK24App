@@ -70,5 +70,9 @@ class modeViewController: UIViewController {
         back()
     }
     
+    @IBAction func hrv() {
+        tempMode = CharacteristicScoscheRhythm24SportMode.SportModeType.hrv
+        back()
+    }
     
 }

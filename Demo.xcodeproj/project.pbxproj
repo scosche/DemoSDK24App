@@ -18,21 +18,11 @@
 		984A1DF722172F1700FDCCC8 /* workoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984A1DF622172F1700FDCCC8 /* workoutViewController.swift */; };
 		985EA2202565E0340095C78D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985EA21F2565E0340095C78D /* CoreBluetooth.framework */; };
 		987268D8222458CD00E99EF9 /* modeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987268D7222458CD00E99EF9 /* modeViewController.swift */; };
-		98BC69052575804D0090DD2A /* ScoscheSDK24.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BC6902257580250090DD2A /* ScoscheSDK24.framework */; };
-		98BC69062575804D0090DD2A /* ScoscheSDK24.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98BC6902257580250090DD2A /* ScoscheSDK24.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		98BC690E257802A20090DD2A /* ScoscheSDK24.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BC690C257802920090DD2A /* ScoscheSDK24.framework */; };
+		98BC690F257802A20090DD2A /* ScoscheSDK24.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98BC690C257802920090DD2A /* ScoscheSDK24.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		98C1C408221C8A650025E53F /* scanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C1C407221C8A650025E53F /* scanTableViewCell.swift */; };
 		98D6152822C1646F005BD277 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 98D6152722C1646F005BD277 /* readme.md */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		98BC6901257580250090DD2A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 98BC68FD257580250090DD2A /* ScoscheSDK24.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 98CC269C256839FD00368F5B;
-			remoteInfo = ScoscheSDK24;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		986392FA2565EE5B00222C26 /* Embed Frameworks */ = {
@@ -41,7 +31,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				98BC69062575804D0090DD2A /* ScoscheSDK24.framework in Embed Frameworks */,
+				98BC690F257802A20090DD2A /* ScoscheSDK24.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,7 +52,7 @@
 		984A1DF622172F1700FDCCC8 /* workoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutViewController.swift; sourceTree = "<group>"; };
 		985EA21F2565E0340095C78D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		987268D7222458CD00E99EF9 /* modeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modeViewController.swift; sourceTree = "<group>"; };
-		98BC68FD257580250090DD2A /* ScoscheSDK24.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ScoscheSDK24.xcodeproj; path = ../ScoscheSDK_master_source/SDK24_framework_master/ScoscheSDK24.xcodeproj; sourceTree = "<group>"; };
+		98BC690C257802920090DD2A /* ScoscheSDK24.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScoscheSDK24.framework; sourceTree = "<group>"; };
 		98C1C407221C8A650025E53F /* scanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scanTableViewCell.swift; sourceTree = "<group>"; };
 		98D6152722C1646F005BD277 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98BC69052575804D0090DD2A /* ScoscheSDK24.framework in Frameworks */,
+				98BC690E257802A20090DD2A /* ScoscheSDK24.framework in Frameworks */,
 				985EA2202565E0340095C78D /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,7 +73,7 @@
 		7DF2BD49B090CEE01F7F087F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				98BC68FD257580250090DD2A /* ScoscheSDK24.xcodeproj */,
+				98BC690C257802920090DD2A /* ScoscheSDK24.framework */,
 				985EA21F2565E0340095C78D /* CoreBluetooth.framework */,
 			);
 			name = Frameworks;
@@ -124,14 +114,6 @@
 				984A1DEE221601A100FDCCC8 /* Info.plist */,
 			);
 			path = Demo;
-			sourceTree = "<group>";
-		};
-		98BC68FE257580250090DD2A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				98BC6902257580250090DD2A /* ScoscheSDK24.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,28 +164,12 @@
 			mainGroup = 984A1DD6221601A000FDCCC8;
 			productRefGroup = 984A1DE0221601A000FDCCC8 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 98BC68FE257580250090DD2A /* Products */;
-					ProjectRef = 98BC68FD257580250090DD2A /* ScoscheSDK24.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				984A1DDE221601A000FDCCC8 /* Demo */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		98BC6902257580250090DD2A /* ScoscheSDK24.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ScoscheSDK24.framework;
-			remoteRef = 98BC6901257580250090DD2A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		984A1DDD221601A000FDCCC8 /* Resources */ = {

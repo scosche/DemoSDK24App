@@ -9,17 +9,24 @@ Rhythm24™ optically measures blood flow and body movement to ensure the most a
 ### Bluetooth® Smart and ANT+
 Great for use with smartphones, tablets, smart and sport watches, exercise equipment and many other devices that support Bluetooth® Smart or ANT+ heart rate data.
 
-## November 2020 Update:
-ScoscheSDK24 Framework no longer has 3rd Party Dependencies. The SDK can included with only CoreBluetooth Library provided by Apple. Also added is HRV (Heart Rate Variability). Note that Sport Mode needs to be in HRV mode to populate RRInterval. 
-
 # Getting Started
 This repositorty contains the ScoscheSDK24 Framework. This framework may be used to integrate Scosche Rhythm 24 and Rhythm+ activity sensor data into iOS apps.
 
-There are 2 methods to include ScoscheSDK24 Framework.
-## Local SDK
+
+# November 2020 Update:
+ScoscheSDK24 Framework no longer has 3rd Party Dependencies. The SDK can included with only CoreBluetooth Library provided by Apple. Also added is HRV (Heart Rate Variability). Note that Sport Mode needs to be in HRV mode to populate RRInterval. 
+
+The SDK now works as a Local Framework, Swift Package, and CocoaPod 
+
+## Local Framework:
 This demo app now includes the framework directly in the frameworks folder.
 Updates to this framework can be found [here](https://github.com/scosche/ScoscheSDK24)
-## CocoaPods
+
+## Swift Package:
+This demo app now can use swift package instead of local. Remove the local framework and use the link below to connect via Swift Packages
+[Swift Package:](https://github.com/scosche/ScoscheSDK24_Swift_Package)
+
+## CocoaPods:
 
 ### Build dependancies
 * Xcode 12.0 and above

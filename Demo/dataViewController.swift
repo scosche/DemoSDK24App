@@ -79,6 +79,13 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
         listData.append(cellRow(type: .normal, value: "VDC Stride Rate: \(vdcStrideRate)"))
         listData.append(cellRow(type: .normal, value: "VDC Distance: \(vdcDistance)"))
         listData.append(cellRow(type: .normal, value: "VDC Calories: \(vdcTotalCalories)"))
+        listData.append(cellRow(type: .normal, value: "VDC Data 1: \(vdcRRIDataRegister1)"))
+        listData.append(cellRow(type: .normal, value: "VDC Data 2: \(vdcRRIDataRegister2)"))
+        listData.append(cellRow(type: .normal, value: "VDC Data 3: \(vdcRRIDataRegister3)"))
+        listData.append(cellRow(type: .normal, value: "VDC Data 4: \(vdcRRIDataRegister4)"))
+        listData.append(cellRow(type: .normal, value: "VDC Data 5: \(vdcRRIDataRegister5)"))
+        listData.append(cellRow(type: .normal, value: "VDC Data Timestamp: \(vdcRRITimestamp)"))
+        listData.append(cellRow(type: .normal, value: "VDC Data Status: \(vdcRRIStatus)"))
         tableview.reloadData()
 
     }
@@ -144,5 +151,4 @@ class dataViewController: SchoscheViewController, UITableViewDelegate, UITableVi
             self.performSegue(withIdentifier: "gotoMode", sender: nil)
         }
     }
-    
 }

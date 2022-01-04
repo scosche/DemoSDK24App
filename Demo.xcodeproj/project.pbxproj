@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,10 +18,10 @@
 		984A1DF722172F1700FDCCC8 /* workoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984A1DF622172F1700FDCCC8 /* workoutViewController.swift */; };
 		985EA2202565E0340095C78D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985EA21F2565E0340095C78D /* CoreBluetooth.framework */; };
 		987268D8222458CD00E99EF9 /* modeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987268D7222458CD00E99EF9 /* modeViewController.swift */; };
-		98BC690E257802A20090DD2A /* ScoscheSDK24.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BC690C257802920090DD2A /* ScoscheSDK24.framework */; };
-		98BC690F257802A20090DD2A /* ScoscheSDK24.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98BC690C257802920090DD2A /* ScoscheSDK24.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		98C1C408221C8A650025E53F /* scanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C1C407221C8A650025E53F /* scanTableViewCell.swift */; };
 		98D6152822C1646F005BD277 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 98D6152722C1646F005BD277 /* readme.md */; };
+		98E8E3B82784FB2B008F53F8 /* ScoscheSDK24.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E8E3B62784FB23008F53F8 /* ScoscheSDK24.xcframework */; };
+		98E8E3B92784FB2B008F53F8 /* ScoscheSDK24.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98E8E3B62784FB23008F53F8 /* ScoscheSDK24.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,7 +31,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				98BC690F257802A20090DD2A /* ScoscheSDK24.framework in Embed Frameworks */,
+				98E8E3B92784FB2B008F53F8 /* ScoscheSDK24.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,9 +52,9 @@
 		984A1DF622172F1700FDCCC8 /* workoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutViewController.swift; sourceTree = "<group>"; };
 		985EA21F2565E0340095C78D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		987268D7222458CD00E99EF9 /* modeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modeViewController.swift; sourceTree = "<group>"; };
-		98BC690C257802920090DD2A /* ScoscheSDK24.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScoscheSDK24.framework; sourceTree = "<group>"; };
 		98C1C407221C8A650025E53F /* scanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scanTableViewCell.swift; sourceTree = "<group>"; };
 		98D6152722C1646F005BD277 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		98E8E3B62784FB23008F53F8 /* ScoscheSDK24.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ScoscheSDK24.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98BC690E257802A20090DD2A /* ScoscheSDK24.framework in Frameworks */,
 				985EA2202565E0340095C78D /* CoreBluetooth.framework in Frameworks */,
+				98E8E3B82784FB2B008F53F8 /* ScoscheSDK24.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,8 +73,8 @@
 		7DF2BD49B090CEE01F7F087F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				98BC690C257802920090DD2A /* ScoscheSDK24.framework */,
 				985EA21F2565E0340095C78D /* CoreBluetooth.framework */,
+				98E8E3B62784FB23008F53F8 /* ScoscheSDK24.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -370,8 +370,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K82A2U6DU4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -385,7 +385,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.npe-inc.DemoSdk24";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "SDK24 Demo DEV";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

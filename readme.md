@@ -16,15 +16,11 @@ This repositorty contains the ScoscheSDK24 Framework. This framework may be used
 # November 2020 Update:
 ScoscheSDK24 Framework no longer has 3rd Party Dependencies. The SDK can included with only CoreBluetooth Library provided by Apple. Also added is HRV (Heart Rate Variability). Note that Sport Mode needs to be in HRV mode to populate RRInterval. 
 
-The SDK now works as a Local Framework, Swift Package, and CocoaPod 
+The SDK now works as a Local Framework and CocoaPod 
 
 ## Local Framework:
 This demo app now includes the framework directly in the frameworks folder.
 Updates to this framework can be found [here](https://github.com/scosche/ScoscheSDK24)
-
-## Swift Package:
-This demo app now can use swift package instead of local. Remove the local framework and use the link below to connect via Swift Packages
-[Swift Package:](https://github.com/scosche/ScoscheSDK24_Swift_Package)
 
 ## CocoaPods:
 

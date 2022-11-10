@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9802FE72291D4883000F391A /* ScoscheSDK24.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9802FE70291D4878000F391A /* ScoscheSDK24.xcframework */; };
+		9802FE73291D4883000F391A /* ScoscheSDK24.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9802FE70291D4878000F391A /* ScoscheSDK24.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		980EE5EF221F495A008DC83F /* dataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980EE5EE221F495A008DC83F /* dataTableViewCell.swift */; };
 		980EE5F4222093F5008DC83F /* userViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980EE5F3222093F4008DC83F /* userViewController.swift */; };
 		984A1DE3221601A000FDCCC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984A1DE2221601A000FDCCC8 /* AppDelegate.swift */; };
@@ -20,8 +22,6 @@
 		987268D8222458CD00E99EF9 /* modeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987268D7222458CD00E99EF9 /* modeViewController.swift */; };
 		98C1C408221C8A650025E53F /* scanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C1C407221C8A650025E53F /* scanTableViewCell.swift */; };
 		98D6152822C1646F005BD277 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 98D6152722C1646F005BD277 /* readme.md */; };
-		98E8E3B82784FB2B008F53F8 /* ScoscheSDK24.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E8E3B62784FB23008F53F8 /* ScoscheSDK24.xcframework */; };
-		98E8E3B92784FB2B008F53F8 /* ScoscheSDK24.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 98E8E3B62784FB23008F53F8 /* ScoscheSDK24.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,7 +31,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				98E8E3B92784FB2B008F53F8 /* ScoscheSDK24.xcframework in Embed Frameworks */,
+				9802FE73291D4883000F391A /* ScoscheSDK24.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9802FE70291D4878000F391A /* ScoscheSDK24.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ScoscheSDK24.xcframework; sourceTree = "<group>"; };
 		980EE5EE221F495A008DC83F /* dataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataTableViewCell.swift; sourceTree = "<group>"; };
 		980EE5F3222093F4008DC83F /* userViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userViewController.swift; sourceTree = "<group>"; };
 		984A1DDF221601A000FDCCC8 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,7 +55,6 @@
 		987268D7222458CD00E99EF9 /* modeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modeViewController.swift; sourceTree = "<group>"; };
 		98C1C407221C8A650025E53F /* scanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scanTableViewCell.swift; sourceTree = "<group>"; };
 		98D6152722C1646F005BD277 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
-		98E8E3B62784FB23008F53F8 /* ScoscheSDK24.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ScoscheSDK24.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				985EA2202565E0340095C78D /* CoreBluetooth.framework in Frameworks */,
-				98E8E3B82784FB2B008F53F8 /* ScoscheSDK24.xcframework in Frameworks */,
+				9802FE72291D4883000F391A /* ScoscheSDK24.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				985EA21F2565E0340095C78D /* CoreBluetooth.framework */,
-				98E8E3B62784FB23008F53F8 /* ScoscheSDK24.xcframework */,
+				9802FE70291D4878000F391A /* ScoscheSDK24.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -347,17 +347,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K82A2U6DU4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.npe-inc.DemoSdk24";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "SDK24 Demo DEV";
@@ -372,17 +375,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K82A2U6DU4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.npe-inc.DemoSdk24";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
